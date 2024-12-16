@@ -1,0 +1,35 @@
+.lets-do-work-together {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: #093890CC; 
+  border-radius: 1rem;
+  color: white; /* White text color */
+  text-align: center;
+  margin: 3rem 10rem 3rem 10rem ;
+
+  h2 {
+    
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .contact-us-btn {
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    background-color: white; /* White button background */
+    color: black; /* Black button text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+    &:hover {
+      background-color: #0056b3; /* Darker blue background on hover */
+      color: white; /* White text color on hover */
+    }
+  }
+}

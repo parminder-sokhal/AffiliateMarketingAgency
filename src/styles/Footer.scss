@@ -1,0 +1,109 @@
+.footer {
+  background-color: #f6f9ff;
+  background: url("./images/Rectangle10.png"), url("./images/Vector2.png"),
+    url("./images/Vector1.png");
+
+  background-position: top right, top right, bottom left;
+  background-size: 70vws 70vh, auto 20vh, auto 20vh;
+
+  background-repeat: no-repeat, no-repeat, no-repeat;
+
+  color: black;
+  padding: 40px 20px;
+  text-align: center;
+
+  &__logo img {
+    width: 5vw;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    margin-bottom: 30px;
+    font-size: 14px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 40px;
+    flex-wrap: wrap;
+
+    .footer__links-column {
+      h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+
+        li {
+          margin: 10px 0;
+          display: flex;
+          align-items: flex-start;
+
+          a {
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: #f5a623;
+            }
+          }
+        }
+      }
+    }
+
+    .footer__subscribe {
+      h4 {
+        font-size: 18px;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+
+      .footer__subscribe-form {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        p .footer__subscribe-input {
+          padding: 8px;
+          font-size: 14px;
+          width: 200px;
+          border: none;
+          border-radius: 4px;
+        }
+
+        .footer__subscribe-btn {
+          padding: 8px 15px;
+          font-size: 14px;
+          background-color: #f5a623;
+          color: black;
+          border: none;
+          border-radius: 4px;
+          cursor: pointer;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #d88a1e;
+          }
+        }
+      }
+    }
+  }
+}
+.copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

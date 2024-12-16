@@ -1,0 +1,64 @@
+/* Styling for AboutUsBanner */
+.aboutus-banner {
+  background: url("./images/Vector.png"), url("./images/Vector22.png"),
+    url("./images/Vector3.png"), url("./images/Vector4.png"),
+    url("./images/vector55.png");
+
+  background-position: bottom right, bottom center, top center, left bottom,
+    left bottom;
+  background-size: auto 100%, auto 100%, auto 35%, auto 100%, auto 100%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px; /* Adjust the height as per requirement */
+  background-color: #08378f; /* Background color for the banner */
+  position: relative;
+  text-align: center;
+}
+
+/* Centering content inside the banner */
+.aboutus-banner__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Title - 'About Us' */
+.aboutus-banner__title {
+  font-size: 3rem;
+  color: white;
+  margin-bottom: 20px;
+}
+
+/* Link for 'Home' and the arrow */
+.aboutus-banner__link {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.aboutus-banner__link:hover {
+  color: #f24e1e; /* Orange color for hover */
+}
+
+/* Text for 'Home' */
+.aboutus-banner__text {
+  margin-right: 10px;
+}
+
+/* Arrow styling */
+.aboutus-banner__arrow {
+  color: #f24e1e; /* Orange color for the arrow */
+  font-size: 1.8rem;
+  transition: transform 0.3s ease;
+}
+
+.aboutus-banner__link:hover {
+  transform: translatex(5px); /* Add a small animation when hovering */
+}

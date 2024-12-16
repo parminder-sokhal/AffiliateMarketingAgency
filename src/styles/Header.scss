@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.header {
+  background: url("./images/Group98.png"), url("./images/Ellipse6.png"),
+    url("./images/Ellipse6.png"), url("./images/Ellipse7.png"),
+    url("./images/Ellipse8.png"), url("./images/Ellipse12.png"),
+    url("./images/Ellipse13.png"), url("./images/Ellipse11.png"),
+    url("./images/Vector5.png"), url("./images/Group33.png"),
+    url("./images/Ellipse5.png");
+
+  background-position: 28% 100%, 58% 70%, 12% 95%, 10% 87%, 0% 35%, 3% 42%,
+    5% 35%, 3% 31%, bottom left, top right, 26% 0%;
+  background-size: auto 70%, auto 8%, auto 8%, auto 5%, auto 100%, auto 5%,
+    auto 3%, auto 3%, 100% 100%, auto 45%, auto 8%;
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+    no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #08378f;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.header__logo img {
+  width: 5vw;
+  margin-left: 3rem;
+}
+
+.header__nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header__nav a:hover {
+  color: #f24e1e;
+}
+
+.header__contact button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header__contact button:hover {
+  background-color: #f24e1e;
+}
+
+.header__info {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 6rem 5rem 6rem;
+}
+
+.header__info-left {
+  flex: 1;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 130%;
+  h3 {
+    color: #ff7e0d;
+  }
+  h1,
+  h5 {
+    color: white;
+  }
+}
+
+.header__info-left h2,
+.header__info-left h1 {
+  margin: 10px 0;
+}
+
+.header__info-btn {
+  background-color: #093890;
+  color: white;
+  border: none;
+  border: 1px solid white;
+  border-radius: 0.4rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  //margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.header__info-btn:hover {
+  background-color: #f24e1e;
+}
+
+.header__info-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  // .headeroverimg{
+  //   width: auto;
+  //   height: 10%;
+  //   position: absolute;     // Position the image absolutely within the container
+  //   top: 65%;              // Position from the top
+  //   left: 85%;
+  // }
+}
+
+.header__circle-img {
+  width: 21vw;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}

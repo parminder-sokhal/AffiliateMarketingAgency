@@ -1,0 +1,104 @@
+.how-it-works {
+  text-align: center;
+  padding: 50px 20px;
+
+  .heading {
+    text-align: center;
+    margin-bottom: 30px;
+
+    h2 {
+      font-size: 2.5rem;
+      color: #08378F;
+    }
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: center; // Align buttons horizontally and center them
+    gap: 20px; // Space between buttons
+    margin-bottom: 30px;
+
+    .work-button {
+      background-color: white;
+      color: black;
+      border: 2px solid black;
+      padding: 12px 20px; // Adjust padding to give the text more space
+      font-size: 1.2rem;
+      border-radius: 10px;
+      cursor: pointer;
+      min-width: 180px; // Ensure enough space for text to fit inside button
+      text-align: center; // Center text horizontally
+      white-space: nowrap; // Prevent text from wrapping onto multiple lines
+      transition: all 0.3s ease;
+
+      &.selected {
+        background-color: #093890;
+        color: white;
+        border-color: #0056b3;
+      }
+
+      &:hover {
+        color: white;
+        background-color: #093890;
+      }
+    }
+  }
+
+  .description-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    max-width: 900px;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #fff;
+
+    .left-side {
+      width: 45%;
+      text-align: left;
+
+      h3 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+      }
+
+      p {
+        font-size: 1.1rem;
+        color: #000000;
+        margin-bottom: 20px;
+      }
+
+      .contact-btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        color: white;
+        background-color: #093890;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: #0056b3;
+        }
+      }
+    }
+
+    .right-side {
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        max-width: 100%;
+        max-height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    }
+  }
+}

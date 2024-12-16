@@ -1,0 +1,44 @@
+.aboutus-link-pro__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5rem;
+  background-color: white;
+  border-radius: 10px;
+  //box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus-link-pro__left {
+  width: 34%;
+  padding: 0 12rem 0 0;
+}
+
+.aboutus-link-pro__heading {
+  font-size: 2rem;
+  color: #08378f;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.aboutus-link-pro__description {
+  font-size: 1rem;
+  color: black;
+  line-height: 1.6;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.aboutus-link-pro__right {
+  //flex: 1;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutus-link-pro__image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}

@@ -1,0 +1,62 @@
+.uncover-latest-blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding: 4rem;
+  background-color: white;
+
+  .left-side {
+    flex: 1;
+    //display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    //text-align: center;
+    margin-left: 10rem;
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 15px;
+      color: #08378f;
+    }
+
+    .description {
+      font-size: 1rem;
+      color: black;
+      margin-bottom: 20px;
+      max-width: 500px;
+    }
+
+    .read-more-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      background-color: white;
+      color: black;
+      border: 1px solid black;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        color: white;
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .right-side {
+    flex: 0 0 40%; /* Take up 40% of the div width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-width: 400px; /* You can adjust the max width to suit your design */
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
+}

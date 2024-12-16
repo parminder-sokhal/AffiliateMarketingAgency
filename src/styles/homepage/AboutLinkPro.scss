@@ -1,0 +1,61 @@
+.about-link-pro {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 5rem 1rem 5rem 1rem;
+  font-family: "Nunito", serif;
+  //gap: 50px;
+
+  .left-side {
+    //margin-top:10% ;
+    width: 45%;
+    //display: block;
+    flex-direction: column;
+
+    h3 {
+      font-size: 1.2rem;
+      color: #f24e1e;
+    }
+
+    h2 {
+      font-size: 2rem;
+      font-weight: bold;
+      color: #08378f;
+    }
+
+    h5 {
+      font-size: 1rem;
+      color: black;
+    }
+
+    .know-more-btn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      color: black;
+      background-color: white;
+      border: 1px solid black;
+      cursor: pointer;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        color: white;
+        background-color: #0056b3;
+      }
+    }
+  }
+
+  .right-side {
+    width: 45%; // Control the width of the right side
+    display: flex;
+    justify-content: center; // Center the image horizontally
+    align-items: center; // Center the image vertically
+    height: 100%; // Ensure the right div takes up the full height of the container
+
+    img {
+      max-width: 100%; // Make sure the image is responsive
+      max-height: 400px; // Limit the height of the image
+      object-fit: cover; // Maintain aspect ratio and cover the div area
+    }
+  }
+}

@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+.header-default {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  position: relative;
+  flex-wrap: wrap;
+}
+
+.header-default__logo img {
+  width: 5vw; 
+  margin-left: 3rem;
+  
+}
+
+.header-default__nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header-default__nav a {
+  text-decoration: none;
+  color: black; 
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.header-default__nav a:hover {
+  color: #f24e1e; 
+}
+
+
+.header-default__contact button {
+  background-color: #093890;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-right: 3rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.header-default__contact button:hover {
+  background-color: #f24e1e;
+}

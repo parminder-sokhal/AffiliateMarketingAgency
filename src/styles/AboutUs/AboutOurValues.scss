@@ -1,0 +1,77 @@
+.about-our-values-container {
+    display: flex;
+    justify-content: space-evenly;
+    //align-items: center;
+    padding: 3rem 0rem;
+    gap: 40px;
+    flex-wrap: wrap;
+    background-color: #F6F9FF;
+    //border: 1px solid black;
+  }
+  
+  .left-div {
+    width: 40%;
+    text-align: left;
+  }
+  
+  .values-heading {
+    font-size: 32px;
+    font-weight: 700;
+    color: #08378F;
+    margin-bottom: 20px;
+  }
+  
+  .values-description {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+    line-height: 1.6;
+  }
+  
+  
+  
+  .value-point {
+    span{
+      font-weight: bold;
+    }
+    font-size: 1.1rem;
+    color: black;
+    margin: 10px 0;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .right-div {
+    max-width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .values-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    //box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  @media (max-width: 768px) {
+    .about-our-values-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .left-div {
+      max-width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .right-div {
+      max-width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  
