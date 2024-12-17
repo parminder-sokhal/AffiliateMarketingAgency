@@ -4,11 +4,11 @@ import '../styles/HeaderDefault.scss';  // Import the styles
 const HeaderDefault = () => {
   return (
     <header className="header-default">
-      {/* Logo on the left */}
       <div className="header-default__logo">
-        <img src="./images/logo_transparent.png" alt="Logo" />
+        <a href='/'>
+        <img src="./images/linkproblue.png" alt="Logo" />
+        </a>
       </div>
-      {/* Navigation links in the center */}
       <nav className="header-default__nav">
         <ul>
           <li>

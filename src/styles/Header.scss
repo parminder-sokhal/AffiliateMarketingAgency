@@ -17,15 +17,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 3rem; 
   background-color: #08378f;
   position: relative;
   flex-wrap: wrap;
 }
 
 .header__logo img {
-  width: 5vw;
-  margin-left: 3rem;
+  width: auto;
+  height: 3rem;
+ 
 }
 
 .header__nav ul {
@@ -53,7 +54,6 @@
   color: black;
   border: none;
   padding: 10px 20px;
-  margin-right: 3rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;

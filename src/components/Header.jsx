@@ -6,7 +6,9 @@ const Header = () => {
     <header className="header">
       {/* Logo on the left */}
       <div className="header__logo">
-        <img src="./images/logo_transparent.png" alt="Logo" />
+        <a href="/">
+          <img a href="/" src="./images/linkprowhite.png" alt="Logo" />
+        </a> 
       </div>
 
       {/* Navigation links in the center */}
@@ -51,7 +53,6 @@ const Header = () => {
           <img
             className="header__circle-img"
             src="./images/malefemaleofficeworkers.png"
-           
           />
         </div>
       </div>

@@ -5,13 +5,14 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
+  padding: 1rem 3rem;
   position: relative;
   flex-wrap: wrap;
 }
 
 .header-default__logo img {
-  width: 5vw; 
-  margin-left: 3rem;
+  width: auto; 
+  height: 3rem;
   
 }
 
@@ -41,7 +42,6 @@
   color: white;
   border: none;
   padding: 10px 20px;
-  margin-right: 3rem;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease;
