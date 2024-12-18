@@ -7,7 +7,7 @@ const Footer = () => {
       <footer className="footer">
         {/* Logo Section */}
         <div className="footer__logo">
-          <img src="./images/logohere.jpg" alt="Logo" />
+          <img src="./images/linkproblue.png" alt="Logo" />
         </div>
 
         {/* Description Section */}
