@@ -1,10 +1,10 @@
-import React from 'react';
-import { Link } from 'react-router-dom';  // Import Link for navigation
-import '../styles/defaultBanner.scss';  // Import the SCSS file for styling
+import React from "react";
+import { Link } from "react-router-dom";
+import "../styles/DefaultBanner.scss";
 
-const defaultBanner = ({ componentName }) => {
+const DefaultBanner = ({ componentName, ...props }) => {
   return (
-    <div className="aboutus-banner">
+    <div className="aboutus-banner" {...props}>
       <div className="aboutus-banner__content">
         <h1 className="aboutus-banner__title">{componentName}</h1>
         <Link to="/" className="aboutus-banner__link">
@@ -15,6 +15,6 @@ const defaultBanner = ({ componentName }) => {
       </div>
     </div>
   );
-}
+};
 
-export default defaultBanner;
+export default DefaultBanner;

@@ -15,7 +15,9 @@ const AboutLinkPro = () => {
           to performance tracking and ongoing optimization. We handle the
           complexities, so you can focus on running your business.
         </h5>
-        <button className="know-more-btn">Know More</button>
+        <a href="/aboutus">
+          <button className="know-more-btn">Know More</button>
+        </a>
       </div>
 
       <div className="right-side">

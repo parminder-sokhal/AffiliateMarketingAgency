@@ -12,14 +12,14 @@
 
 .header-default__logo img {
   width: auto; 
-  height: 3rem;
+  height: 4rem;
   
 }
 
 .header-default__nav ul {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -41,10 +41,14 @@
   background-color: #093890;
   color: white;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.313rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  a{
+    color: white;
+    text-decoration: none;
+  }
 }
 
 .header-default__contact button:hover {

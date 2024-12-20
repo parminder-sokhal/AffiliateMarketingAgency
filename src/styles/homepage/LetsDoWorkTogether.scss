@@ -4,32 +4,37 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #093890CC; 
+  background-color: #093890cc;
   border-radius: 1rem;
   color: white; /* White text color */
   text-align: center;
-  margin: 3rem 10rem 3rem 10rem ;
+  margin: 3rem 10rem 3rem 10rem;
 
   h2 {
-    
+    margin: 0;
     font-size: 2.5rem;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
 
   .contact-us-btn {
-    padding: 12px 30px;
+    padding: 0.75rem  1.875rem;
     font-size: 1.1rem;
-    background-color: white; /* White button background */
-    color: black; /* Black button text color */
+    background-color: white; 
+    color: black; 
     border: none;
-    border-radius: 5px;
+    border-radius: 0.313rem;
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
-
-    &:hover {
-      background-color: #0056b3; /* Darker blue background on hover */
-      color: white; /* White text color on hover */
+    margin: 1rem;
+    a {
+      text-decoration: none;
+    }
+    &:hover{
+      
+      background-color: #0056b3; 
+      color: white;
+      
     }
   }
 }

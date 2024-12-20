@@ -5,7 +5,6 @@ import WhatWeOffer from './WhatWeOffer'
 import HowItWorks from './HowItWorks'
 import WhyChooseLink from './WhyChooseLink'
 import UncoverLatestBlog from './UncoverLatestBlog'
-import defaultBanner from '../../components/defaultBanner'
 
 function HomePage() {
   return (

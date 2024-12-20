@@ -1,5 +1,5 @@
 import React from 'react'
-import DefaultBanner from '../../components/defaultBanner'
+import DefaultBanner from '../../components/DefaultBanner'
 import AboutusLinkPro from './AboutusLinkPro'
 import AboutusWhyChoose from './AboutusWhyChoose'
 import AboutUsWhatWeDo from './AboutUsWhatWeDo'

@@ -1,0 +1,28 @@
+.TermCondition {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.TermCondition_heading {
+  text-align: left;
+  width: 50%;
+  flex-direction: column;
+  align-items: center;
+  
+  h,
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: #08378f;
+  }
+  a {
+    text-decoration: none !important;
+
+    display: block !important;
+  }
+}
+

@@ -7,7 +7,7 @@ const Header = () => {
       {/* Logo on the left */}
       <div className="header__logo">
         <a href="/">
-          <img a href="/" src="./images/linkprowhite.png" alt="Logo" />
+          <img src="./images/linkprowhite.png" alt="Logo" />
         </a> 
       </div>
 
@@ -31,7 +31,7 @@ const Header = () => {
 
       {/* Contact Us button on the right */}
       <div className="header__contact">
-        <button>Contact Us</button>
+        <a href="/contactus"> <button>Contact Us</button></a>
       </div>
 
       {/* Section below navigation links */}
@@ -43,7 +43,9 @@ const Header = () => {
             We lead affiliate and partner management for the world's most
             renowned brands.
           </h5>
+          <a href="/services">
           <button className="header__info-btn">Read More</button>
+          </a>
         </div>
         <div className="header__info-right">
           {/* <img 

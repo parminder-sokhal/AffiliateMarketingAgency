@@ -1,23 +1,23 @@
 .testimonials-container {
   text-align: center;
-  padding: 40px 20px;
+  padding: 2.5rem 1.25rem;
   background-color: white;
 }
 
 .testimonials-header {
-  margin-bottom: 40px;
+  margin-bottom: 2.5rem;
   text-align: center;
 }
 
 .testimonials-header h2 {
-  font-size: 32px;
+  font-size: 2rem;
   font-weight: 700;
   color: #08378f;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
 }
 
 .testimonials-header p {
-  font-size: 18px;
+  font-size: 1.125rem;
   color: black;
   margin-top: 0;
   width: 44%;
@@ -27,46 +27,46 @@
 .testimonials-boxes {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 1.875rem;
   flex-wrap: wrap;
 }
 
 .testimonial-box {
-  width: 370px;
-  height: 322px;
-  border: 1px solid black;
-  padding: 15px;
+  width: 23.125rem;
+  height: 20.125rem;
+  border: 0.063rem solid black;
+  padding: 0.938rem;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   text-align: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
   background-color: #fff;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .testimonial-box:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-0.313rem);
+  box-shadow: 0 0.375rem 0.75rem rgba(0, 0, 0, 0.15);
 }
 
 .testimonial-header {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 0.625rem;
   text-align: left; 
 }
 
 .testimonial-image {
-  width: 70px;
-  height: 70px;
+  width: 4.375rem;
+  height: 4.375rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 10px; 
+  margin-right: 0.625rem; 
 }
 
 .testimonial-header h3 {
-  font-size: 20px;
+  font-size: 1.25rem;
   color: #08378F;
   font-weight: 600;
   margin: 0; 
@@ -75,7 +75,7 @@
 .testimonial-description {
   font-size: 1.2rem;
   color: black;
-  //margin-bottom: 15px;
+  //margin-bottom: 0.938rem;
   text-align: left;
 }
 
@@ -104,7 +104,7 @@
   }
 
   .testimonial-box {
-    width: 200px;
-    height: 200px;
+    width: 12.5rem;
+    height: 12.5rem;
   }
 }

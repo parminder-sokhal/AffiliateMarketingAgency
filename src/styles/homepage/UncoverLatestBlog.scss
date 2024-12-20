@@ -18,24 +18,24 @@
     h2 {
       font-size: 2rem;
       font-weight: bold;
-      margin-bottom: 15px;
+      margin-bottom: 0.938rem;
       color: #08378f;
     }
 
     .description {
       font-size: 1rem;
       color: black;
-      margin-bottom: 20px;
-      max-width: 500px;
+      margin-bottom: 1.25rem;
+      max-width: 31.25rem;
     }
 
     .read-more-btn {
-      padding: 10px 20px;
+      padding: 0.625rem 1.25rem;
       font-size: 1rem;
       background-color: white;
       color: black;
-      border: 1px solid black;
-      border-radius: 5px;
+      border: 0.063rem solid black;
+      border-radius: 0.313rem;
       cursor: pointer;
       transition: background-color 0.3s ease;
 
@@ -54,9 +54,9 @@
 
     img {
       width: 100%;
-      max-width: 400px; /* You can adjust the max width to suit your design */
+      max-width: 25rem; /* You can adjust the max width to suit your design */
       object-fit: cover;
-      border-radius: 8px;
+      border-radius: 0.5rem;
     }
   }
 }

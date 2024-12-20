@@ -5,8 +5,8 @@
   width: 100%;
   padding: 5rem;
   background-color: white;
-  border-radius: 10px;
-  //box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0.625rem;
+  //box-shadow: 0 4px 0.625rem rgba(0, 0, 0, 0.1);
 }
 
 .aboutus-link-pro__left {
@@ -17,7 +17,7 @@
 .aboutus-link-pro__heading {
   font-size: 2rem;
   color: #08378f;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   text-align: left;
 }
 
@@ -25,7 +25,7 @@
   font-size: 1rem;
   color: black;
   line-height: 1.6;
-  margin-bottom: 15px;
+  margin-bottom: 0.938rem;
   text-align: left;
 }
 
@@ -40,5 +40,5 @@
 .aboutus-link-pro__image {
   max-width: 100%;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }

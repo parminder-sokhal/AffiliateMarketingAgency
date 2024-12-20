@@ -10,7 +10,9 @@ const UncoverLatestBlog = () => {
           With our comprehensive blog on everything affiliate marketing, stay
           ahead of the curve in the digital world.
         </p>
-        <button className="read-more-btn">Read More</button>
+        <a href="/blog">
+          <button className="read-more-btn">Read More</button>
+        </a>
       </div>
       <div className="right-side">
         <img src="./images/cuate2.png" alt="Latest Blog" />

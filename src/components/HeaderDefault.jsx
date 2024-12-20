@@ -28,7 +28,7 @@ const HeaderDefault = () => {
 
       {/* Contact Us button on the right */}
       <div className="header-default__contact">
-        <button>Contact Us</button>
+      <a href="/contactus"> <button>Contact Us</button></a>
       </div>
     </header>
   );

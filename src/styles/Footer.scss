@@ -9,7 +9,7 @@
   background-repeat: no-repeat, no-repeat, no-repeat;
 
   color: black;
-  padding: 40px 20px;
+  padding: 2.5rem 1.25rem;
   text-align: center;
 
   &__logo img {
@@ -18,9 +18,9 @@
   }
 
   &__description {
-    margin-bottom: 30px;
-    font-size: 14px;
-    max-width: 600px;
+    margin-bottom: 1.875rem;
+    font-size: 0.875rem;
+    max-width: 37.5rem;
     margin-left: auto;
     margin-right: auto;
   }
@@ -28,13 +28,13 @@
   &__links {
     display: flex;
     justify-content: space-evenly;
-    gap: 40px;
+    gap: 2.5rem;
     flex-wrap: wrap;
 
     .footer__links-column {
       h4 {
-        font-size: 18px;
-        margin-bottom: 15px;
+        font-size: 1.125rem;
+        margin-bottom: 0.938rem;
         text-transform: uppercase;
         font-weight: bold;
       }
@@ -44,7 +44,7 @@
         padding: 0;
 
         li {
-          margin: 10px 0;
+          margin: 0.625rem 0;
           display: flex;
           align-items: flex-start;
 
@@ -63,33 +63,34 @@
 
     .footer__subscribe {
       h4 {
-        font-size: 18px;
-        margin-bottom: 15px;
+        text-align: left;
+        font-size: 1.125rem;
+        margin-bottom: 0.938rem;
         text-transform: uppercase;
         font-weight: bold;
       }
 
       .footer__subscribe-form {
         display: flex;
-        gap: 10px;
+        gap: 0.625rem;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
-        p .footer__subscribe-input {
-          padding: 8px;
-          font-size: 14px;
-          width: 200px;
+        .footer__subscribe-input {
+          padding: 0.5rem;
+          font-size: 0.875rem;
+          width: 12.5rem;
           border: none;
-          border-radius: 4px;
+          border-radius: 0.25rem;
         }
 
         .footer__subscribe-btn {
-          padding: 8px 15px;
-          font-size: 14px;
+          padding: 0.5rem 0.938rem;
+          font-size: 0.875rem;
           background-color: #f5a623;
           color: black;
           border: none;
-          border-radius: 4px;
+          border-radius: 0.25rem;
           cursor: pointer;
           transition: background-color 0.3s ease;
 

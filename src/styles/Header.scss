@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
+/* Base Styles */
 .header {
   background: url("./images/Group98.png"), url("./images/Ellipse6.png"),
     url("./images/Ellipse6.png"), url("./images/Ellipse7.png"),
@@ -7,7 +8,6 @@
     url("./images/Ellipse13.png"), url("./images/Ellipse11.png"),
     url("./images/Vector5.png"), url("./images/Group33.png"),
     url("./images/Ellipse5.png");
-
   background-position: 28% 100%, 58% 70%, 12% 95%, 10% 87%, 0% 35%, 3% 42%,
     5% 35%, 3% 31%, bottom left, top right, 26% 0%;
   background-size: auto 70%, auto 8%, auto 8%, auto 5%, auto 100%, auto 5%,
@@ -17,7 +17,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 3rem; 
+  padding: 1rem 3rem;
   background-color: #08378f;
   position: relative;
   flex-wrap: wrap;
@@ -25,14 +25,13 @@
 
 .header__logo img {
   width: auto;
-  height: 3rem;
- 
+  height: 4rem;
 }
 
 .header__nav ul {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 1.25rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -53,8 +52,8 @@
   background-color: white;
   color: black;
   border: none;
-  padding: 10px 20px;
-  border-radius: 5px;
+  padding: 0.6rem 1.25rem;
+  border-radius: 0.313rem;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
@@ -76,29 +75,30 @@
   text-align: left;
   font-family: "Nunito", sans-serif;
   font-size: 130%;
-  h3 {
-    color: #ff7e0d;
-  }
-  h1,
-  h5 {
-    color: white;
-  }
+}
+
+.header__info-left h3 {
+  color: #ff7e0d;
+}
+
+.header__info-left h1,
+.header__info-left h5 {
+  color: white;
 }
 
 .header__info-left h2,
 .header__info-left h1 {
-  margin: 10px 0;
+  margin: 0.625rem 0;
 }
 
 .header__info-btn {
   background-color: #093890;
   color: white;
   border: none;
-  border: 1px solid white;
+  border: 0.063rem solid white;
   border-radius: 0.4rem;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   cursor: pointer;
-  //margin-top: 20px;
   transition: background-color 0.3s ease;
 }
 
@@ -110,13 +110,6 @@
   flex: 1;
   display: flex;
   justify-content: flex-end;
-  // .headeroverimg{
-  //   width: auto;
-  //   height: 10%;
-  //   position: absolute;     // Position the image absolutely within the container
-  //   top: 65%;              // Position from the top
-  //   left: 85%;
-  // }
 }
 
 .header__circle-img {
@@ -124,4 +117,37 @@
   height: auto;
   border-radius: 50%;
   object-fit: cover;
+}
+
+/* Mobile (Default) */
+@media (max-width: 480px) {
+  .header{
+    padding: 1rem;
+    justify-content: space-evenly;
+  }
+  .header__logo img {
+    width: auto;
+    height: 2rem;
+  }
+  .header__nav 
+  ul{
+    gap:1rem;
+  }
+  a{
+    gap: 0;
+    width: 1rem;
+    height: auto;
+  }
+  .header__contact a{
+    width: 1rem;
+    height: auto;
+  }
+  .header__circle-img {
+    width: 2rem;
+    height: auto;
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
 }

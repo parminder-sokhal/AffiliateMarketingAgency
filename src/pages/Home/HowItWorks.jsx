@@ -7,20 +7,24 @@ const HowItWorks = () => {
   // Data for each button (description and image)
   const content = {
     discovery: {
-      description: "This is the description for the discovery process. Here, we explain the discovery process in detail to help you understand how we approach discovery.",
+      description:
+        "This is the description for the discovery process. Here, we explain the discovery process in detail to help you understand how we approach discovery.",
       image: "./images/closeup.png", // Image for discovery
     },
     implementation: {
-      description: "This is the description for the implementation process. Here, we explain the implementation process in detail to help you understand how we approach implementation.",
-      image: "./images/closeup.png", // Image for implementation
+      description:
+        "This is the description for the implementation process. Here, we explain the implementation process in detail to help you understand how we approach implementation.",
+      image: "./images/implementation.jpg", // Image for implementation
     },
     optimization: {
-      description: "This is the description for the optimization process. Here, we explain the optimization process in detail to help you understand how we approach optimization.",
-      image: "./images/closeup.png", // Image for optimization
+      description:
+        "This is the description for the optimization process. Here, we explain the optimization process in detail to help you understand how we approach optimization.",
+      image: "./images/optimization.jpg", // Image for optimization
     },
     collaboration: {
-      description: "This is the description for the collaboration process. Here, we explain the collaboration process in detail to help you understand how we approach collaboration.",
-      image: "./images/closeup.png", // Image for collaboration
+      description:
+        "This is the description for the collaboration process. Here, we explain the collaboration process in detail to help you understand how we approach collaboration.",
+      image: "./images/collaboration.jpg", // Image for collaboration
     },
   };
 
@@ -42,6 +46,7 @@ const HowItWorks = () => {
               className={`work-button ${selected === button ? "selected" : ""}`}
               onClick={() => handleButtonClick(button)}
             >
+              <a href="/contactus"></a>
               {button.charAt(0).toUpperCase() + button.slice(1)}
             </button>
           )
@@ -51,7 +56,9 @@ const HowItWorks = () => {
       <div className="description-box">
         <div className="left-side">
           <p>{content[selected].description}</p>
-          <button className="contact-btn">Contact Us</button>
+          <a href="/contactus">
+            <button className="contact-btn">Contact Us</button>
+          </a>
         </div>
         <div className="right-side">
           <img src={content[selected].image} alt={selected} />

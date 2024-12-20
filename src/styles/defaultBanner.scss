@@ -1,4 +1,3 @@
-/* Styling for AboutUsBanner */
 .aboutus-banner {
   background: url("./images/Vector.png"), url("./images/Vector22.png"),
     url("./images/Vector3.png"), url("./images/Vector4.png"),
@@ -11,13 +10,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 300px; /* Adjust the height as per requirement */
-  background-color: #08378f; /* Background color for the banner */
+  height: 18.75rem; 
+  background-color: #08378f; 
   position: relative;
   text-align: center;
 }
 
-/* Centering content inside the banner */
 .aboutus-banner__content {
   display: flex;
   flex-direction: column;
@@ -25,14 +23,12 @@
   align-items: center;
 }
 
-/* Title - 'About Us' */
 .aboutus-banner__title {
   font-size: 3rem;
   color: white;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 
-/* Link for 'Home' and the arrow */
 .aboutus-banner__link {
   display: flex;
   align-items: center;
@@ -44,21 +40,18 @@
 }
 
 .aboutus-banner__link:hover {
-  color: #f24e1e; /* Orange color for hover */
+  color: #f24e1e; 
 }
 
-/* Text for 'Home' */
-.aboutus-banner__text {
-  margin-right: 10px;
-}
 
-/* Arrow styling */
+
 .aboutus-banner__arrow {
-  color: #f24e1e; /* Orange color for the arrow */
+  margin: 0.625rem;
+  color: #f24e1e; 
   font-size: 1.8rem;
   transition: transform 0.3s ease;
 }
 
 .aboutus-banner__link:hover {
-  transform: translatex(5px); /* Add a small animation when hovering */
+  transform: translatex(0.313rem); 
 }

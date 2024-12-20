@@ -23,13 +23,13 @@ const Footer = () => {
         {/* Footer Links */}
         <div className="footer__links">
           <div className="footer__links-column">
-            <h4>Quicklinks</h4>
+            <h4>Visit links</h4>
             <ul>
               <li>
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/about">About Us</a>
+                <a href="/aboutus">About Us</a>
               </li>
               <li>
                 <a href="/services">Services</a>
@@ -41,16 +41,16 @@ const Footer = () => {
           </div>
 
           <div className="footer__links-column">
-            <h4>Services</h4>
+            <h4>Quick links</h4>
             <ul>
               <li>
-                <a href="/service1">Service 1</a>
+                <a href="/privacypolicy">Privacy Policy</a>
               </li>
               <li>
-                <a href="/service2">Service 2</a>
+                <a href="/Disclaimer">Disclaimer</a>
               </li>
               <li>
-                <a href="/service3">Service 3</a>
+                <a href="/TermCondition">T&C</a>
               </li>
             </ul>
           </div>
@@ -59,10 +59,10 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <ul>
               <li>
-                <a href="/contact">Email</a>
+                <a href="/contactus">Email</a>
               </li>
               <li>
-                <a href="/contact">Phone</a>
+                <a href="/contactus">Phone</a>
               </li>
             </ul>
           </div>
@@ -70,11 +70,7 @@ const Footer = () => {
           <div className="footer__subscribe">
             <h4>Subscribe Now</h4>
             <div className="footer__subscribe-form">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="footer__subscribe-input"
-              />
+              <input type="email" className="footer__subscribe-input" />
               <button type="submit" className="footer__subscribe-btn">
                 Subscribe
               </button>

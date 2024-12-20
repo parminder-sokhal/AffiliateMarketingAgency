@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 2.5rem;
   background-color: #F6F9FF;
 
   .image-container {
@@ -11,7 +11,7 @@
 
     img {
       width: 100%;
-      max-width: 400px; // Adjust image size as needed
+      max-width: 25rem; // Adjust image size as needed
       object-fit: cover;
     }
   }
@@ -27,13 +27,13 @@
     h2 {
       font-size: 2rem;
       font-weight: bold;
-      margin-bottom: 10px;
+      margin-bottom: 0.625rem;
       color: #08378f;
     }
     .description {
       font-size: 1rem;
       color: black;
-      margin-bottom: 20px;
+      margin-bottom: 1.25rem;
     }
 
     .features {
@@ -44,7 +44,7 @@
         padding-right: 3rem;
         font-size: 1rem;
         color: black;
-        margin-bottom: 10px;
+        margin-bottom: 0.625rem;
 
         // &::before {
         //   content: "•";

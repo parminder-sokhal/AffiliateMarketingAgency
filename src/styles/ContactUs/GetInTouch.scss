@@ -1,0 +1,141 @@
+.get-in-touch-container {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 5% 10%;
+  position: relative;
+
+  .contact-info {
+    text-align: center;  /* Center the Contact Us text horizontally */
+    width: 24.688rem;
+    height: 33.688rem;
+    background-color: #003399;
+    color: white;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    position: absolute;
+    left: 8%;
+    z-index: 2;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding: 1.25rem;
+
+    h1 {
+      margin-bottom: 30px; /* Space between title and content */
+      text-align: center;  /* Center the Contact Us heading */
+    }
+
+    p {
+      color: white;
+      display: flex;
+      justify-content: flex-start;  /* Start the text from the left */
+      text-align: left;
+      width: 60%;  /* Set the width of each <p> to 60% */
+      margin: 3.125rem auto;  /* Add a larger gap between each <p> element */
+      padding: 0 0.625rem;  /* Padding for spacing inside each <p> */
+    }
+  }
+
+  .form-container {
+    width: auto;
+    height: 39.625rem;
+    background-color: white;
+    padding: 7vh 16vw 0vh 22vw;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    //border-radius: 0.313rem;
+
+    z-index: 1;
+    h1 {
+      margin-bottom: 1.25rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.938rem;
+      align-items: flex-start;
+
+      input,
+      textarea {
+        width: 32.188rem;
+        height: 3.25rem;
+
+        padding: 0.625rem;
+        border: 1px solid #ccc;
+        border-radius: 0.313rem;
+        font-size: 1rem;
+      }
+
+      textarea {
+        height: 6.25rem;
+        resize: none;
+      }
+
+      button {
+        background-color: #003399;
+        color: white;
+        padding: 0.625rem;
+        border: none;
+        border-radius: 0.313rem;
+        cursor: pointer;
+        font-size: 1rem;
+
+        &:hover {
+          background-color: #002266;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    padding: 1.25rem;
+
+    .contact-info {
+      position: relative;
+      width: 100%;
+      left: auto;
+      top: auto;
+      transform: none;
+      z-index: auto;
+      text-align: center;
+      margin-bottom: 1.25rem;
+    }
+
+    .form-container {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .form-container {
+      padding: 1.25rem;
+
+      form {
+        input,
+        textarea {
+          font-size: 14px;
+          padding: 0.5rem;
+        }
+
+        button {
+          font-size: 14px;
+          padding: 0.5rem;
+        }
+      }
+    }
+
+    .contact-info {
+      padding: 0.938rem;
+
+      h2 {
+        font-size: 18px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+}
