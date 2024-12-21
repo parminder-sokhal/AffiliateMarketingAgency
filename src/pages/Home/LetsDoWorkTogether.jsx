@@ -7,7 +7,7 @@ const LetsDoWorkTogether = () => {
       <h2>Let's Do Great Work Together</h2>
       <a href='/contactus'>
       <button className="contact-us-btn">
-        Contact me
+        Contact us
         
         </button>
         </a>

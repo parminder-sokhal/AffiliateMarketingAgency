@@ -14,7 +14,6 @@ function HomePage() {
     <HowItWorks/>
     <WhyChooseLink/>
     <UncoverLatestBlog/>
-    <defaultBanner componentName="Home Page"/>
     {/* <Footer/> */}
     </>
   )

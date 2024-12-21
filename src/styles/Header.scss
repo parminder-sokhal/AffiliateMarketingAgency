@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 
-/* Base Styles */
+
+.no-scroll {
+  overflow: hidden;
+}
 .header {
   background: url("./images/Group98.png"), url("./images/Ellipse6.png"),
     url("./images/Ellipse6.png"), url("./images/Ellipse7.png"),
@@ -31,7 +34,7 @@
 .header__nav ul {
   display: flex;
   justify-content: center;
-  gap: 1.25rem;
+  gap: 3rem;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -67,7 +70,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0rem 6rem 5rem 6rem;
+  margin:2rem 4rem 5rem 4rem;
 }
 
 .header__info-left {
@@ -119,35 +122,81 @@
   object-fit: cover;
 }
 
-/* Mobile (Default) */
+.hamburger,
+.hamburger-close {
+  display: none;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+}
+
+.hamburger .line,
+.hamburger-close .line {
+  margin: auto;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+
 @media (max-width: 480px) {
-  .header{
+  .header {
     padding: 1rem;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
+
+  .header__nav {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .header__nav.active {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #08378f;
+    width: 50%; 
+    height: 100vh;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+  }
+
+  .header__nav ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
   .header__logo img {
     width: auto;
-    height: 2rem;
+    height: 3rem;
   }
-  .header__nav 
-  ul{
-    gap:1rem;
-  }
-  a{
-    gap: 0;
+
+  .header__contact a {
     width: 1rem;
     height: auto;
   }
-  .header__contact a{
-    width: 1rem;
-    height: auto;
-  }
+
   .header__circle-img {
     width: 2rem;
     height: auto;
   }
-}
 
-/* Tablet */
-@media (min-width: 768px) and (max-width: 1023px) {
+  .hamburger-close {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 2rem;
+    cursor: pointer;
+  }
 }
