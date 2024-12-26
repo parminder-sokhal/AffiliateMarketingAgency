@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: center;
   padding: 2.5rem;
-  background-color: #F6F9FF;
+  background-color: #f6f9ff;
 
   .image-container {
     width: 45%;
@@ -51,6 +51,38 @@
         //   color: black;
         //   margin-right: 10px;
         // }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .why-choose-link {
+    padding: 1rem;
+    flex-direction: column;
+    .image-container {
+      width: 60%;
+      height: auto;
+      margin: 1px;
+      display: flex;
+      justify-content: center;
+      img {
+        width: 15rem;
+        height: auto;
+      }
+    }
+    .content {
+      width: 100%;
+      padding: 1rem;
+      margin: 0;
+      h2,
+      .description {
+        margin: 0.5rem;
+        font-size: 1rem;
+      }
+      .features li {
+        padding: 0;
+        font-size: 1rem;
       }
     }
   }

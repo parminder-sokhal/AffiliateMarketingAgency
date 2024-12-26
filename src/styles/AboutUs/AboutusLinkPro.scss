@@ -42,3 +42,30 @@
   height: auto;
   border-radius: 0.625rem;
 }
+
+@media (max-width: 480px) {
+  .aboutus-link-pro__content {
+    width: auto;
+    margin: 0;
+    padding: 1rem;
+    flex-direction: column-reverse;
+    .aboutus-link-pro__left {
+      display: flex;
+      width: 100%;
+      padding: 0.1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+      .aboutus-link-pro__heading,
+      .aboutus-link-pro__description {
+        margin: 0.3rem;
+        padding: 0;
+        
+      }
+      .aboutus-link-pro__heading{
+        font-size: 1.2rem;
+      }
+    }
+    .aboutus-link-pro__right {
+    }
+  }
+}

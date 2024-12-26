@@ -55,3 +55,21 @@
 .aboutus-banner__link:hover {
   transform: translatex(0.313rem); 
 }
+
+@media (max-width: 480px) {
+  .aboutus-banner{
+    height: auto;
+    .aboutus-banner__content{
+      h1{
+        font-size: 3rem;
+        margin:1rem;
+      }
+    }
+    .aboutus-banner__link{
+      margin: 0.5rem;
+      span{
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

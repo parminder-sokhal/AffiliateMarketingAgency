@@ -1,5 +1,5 @@
 .services-what-we-do {
-  background: linear-gradient(to bottom, #E1ECFF99 50%, white 50%);
+  background: linear-gradient(to bottom, #e1ecff99 50%, white 50%);
   text-align: center;
   padding: 50px 20px;
 
@@ -69,15 +69,27 @@
     }
   }
 
-  @media (max-width: 768px) {
-    .boxes {
-      grid-template-columns: 1fr 1fr;
-    }
-  }
+ 
+}
 
-  @media (max-width: 480px) {
-    .boxes {
-      grid-template-columns: 1fr;
+@media (max-width: 480px) {
+  .services-what-we-do {
+    margin: 0;
+    padding: 1rem;
+    .boxes{
+      grid-template-columns: auto;
+      //gap: 2rem;
+      padding: 1rem;
+      justify-content: center;
+      .box{
+        padding: 0.625rem;
+        margin: 0;
+  
+        p,span{
+          font-family: 1rem;
+        }
+        
+      }
     }
   }
 }

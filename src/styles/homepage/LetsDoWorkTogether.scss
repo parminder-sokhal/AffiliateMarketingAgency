@@ -4,7 +4,7 @@
   justify-content: center;
   align-items: center;
   padding: 2rem;
-  background-color: #093890cc;
+  background-color: #003399;
   border-radius: 1rem;
   color: white; /* White text color */
   text-align: center;
@@ -18,10 +18,10 @@
   }
 
   .contact-us-btn {
-    padding: 0.75rem  1.875rem;
+    padding: 0.75rem 1.875rem;
     font-size: 1.1rem;
-    background-color: white; 
-    color: black; 
+    background-color: white;
+    color: black;
     border: none;
     border-radius: 0.313rem;
     cursor: pointer;
@@ -30,11 +30,24 @@
     a {
       text-decoration: none;
     }
-    &:hover{
-      
-      background-color: #0056b3; 
+    &:hover {
+      background-color: #0056b3;
       color: white;
-      
     }
   }
+}
+
+@media (max-width: 480px) {
+  .lets-do-work-together {
+    margin: 1rem;
+    padding: 1rem;
+    h2{
+      font-size: 1.2rem;
+    }
+    .contact-us-btn{
+      padding: 0.4rem;
+      margin: 0;
+    }
+  }
+  
 }

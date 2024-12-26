@@ -10,7 +10,7 @@
     h2 {
       font-size: 2rem;
       color: #08378f;
-      margin:0;
+      margin: 0;
     }
 
     p {
@@ -63,17 +63,24 @@
       }
     }
   }
+}
+@media (max-width: 480px) {
+  .what-we-offer {
+  padding: 1rem;
+  .boxes{
+    grid-template-columns: auto;
+    //gap: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    .box{
+      padding: 0.625rem;
+      margin: 0;
 
-  // Responsiveness for mobile screens
-  @media (max-width: 48rem) {
-    .boxes {
-      grid-template-columns: 1fr 1fr; // 2 columns on smaller screens
+      p,span{
+        font-family: 1rem;
+      }
+      
     }
   }
-
-  @media (max-width: 30rem) {
-    .boxes {
-      grid-template-columns: 1fr; // 1 column on very small screens
-    }
-  }
+}
 }

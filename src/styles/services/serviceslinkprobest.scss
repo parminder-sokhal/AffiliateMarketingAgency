@@ -21,3 +21,18 @@
   color: black;
   width: 80%;
 }
+
+@media (max-width: 480px) {
+  .services-container {
+    padding: 1rem;
+    .heading{
+      margin: 0;
+      font-size: 1.4rem;
+    }
+    .description{
+      width: 100%;
+      font-size: 0.8rem;
+      margin: 0.5rem;
+    }
+  }
+}

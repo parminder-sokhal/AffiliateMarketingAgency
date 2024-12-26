@@ -147,9 +147,15 @@
     padding: 1rem;
     justify-content: space-between;
   }
+  .header__info{
+    margin: 0;
+  }
 
   .header__nav {
     display: none;
+  }
+  .header__info-left{
+    font-size: 85%;
   }
 
   .hamburger {
@@ -188,7 +194,7 @@
   }
 
   .header__circle-img {
-    width: 2rem;
+    width: 11rem;
     height: auto;
   }
 

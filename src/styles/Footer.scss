@@ -107,3 +107,42 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 1rem;
+    .footer__logo {
+      img {
+        width: auto;
+        height: 3rem;
+      }
+    }
+    .footer__description {
+      margin: 0.5rem;
+      p {
+        margin: 0;
+        font-size: 0.8rem;
+      }
+    }
+    .footer__links {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 0;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      .footer__subscribe {
+      h4{
+        margin: 0;
+      }
+      .footer__subscribe-form {
+        display: flex;
+        gap: 0.625rem;
+        flex-direction: row;
+      }
+    }
+    }
+  }
+  .copyright p{
+    font-size: 0.8rem;
+  }
+}

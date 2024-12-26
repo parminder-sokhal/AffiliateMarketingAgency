@@ -105,3 +105,15 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .how-it-works .buttons{
+    display: flex;
+    flex-wrap: wrap;
+    .work-button{
+      width: 10rem;
+      min-width: 0;
+      font-size: 1rem;
+    }
+  }
+}

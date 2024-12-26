@@ -60,3 +60,24 @@
     }
   }
 }
+
+@media (max-width: 480px) {
+  .uncover-latest-blog {
+    padding: 1rem;
+    flex-direction: column-reverse;
+    .left-side {
+      margin: 1rem;
+      h2, .description{
+        margin: 1rem;
+      }
+      .read-more-btn{
+        margin: 1rem;
+      }
+    }
+    .right-side {
+      img{
+        width: 80%;
+      }
+    }
+  }
+}
