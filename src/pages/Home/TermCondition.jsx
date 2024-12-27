@@ -6,29 +6,29 @@ function TermCondition() {
     <>
       <div className="TermCondition">
         <div className="TermCondition_heading">
-          <h2 class=" text-deep-gray">Terms and Conditions</h2>
-          <p class="text-gray">
+          <h2 >Terms and Conditions</h2>
+          <p >
             Please read these terms and conditions carefully before using Our
             Service.
           </p>
 
-          <p class="  text-deep-gray">Interpretation and Definitions</p>
+          <p >Interpretation and Definitions</p>
 
-          <h class=" text-deep-gray">Interpretation</h>
-          <p class="text-gray">
+          <h1>Interpretation</h1>
+          <p >
             The words of which the initial letter is capitalized have meanings
             defined under the following conditions. The following definitions
             shall have the same meaning regardless of whether they appear in
             singular or in plural.
           </p>
 
-          <h3 class=" text-deep-gray">Definitions</h3>
-          <p class="text-deep-gray">For the purposes of this Privacy Policy:</p>
-          <p class="text-deep-gray">
+          <h3 >Definitions</h3>
+          <p >For the purposes of this Privacy Policy:</p>
+          <p >
             Account means a unique account created for You to access our Service
             or parts of our Service.
           </p>
-          <p class="text-gray">
+          <p >
             Affiliate means an entity that controls, is controlled by or is
             under common control with a party, where "control" means ownership
             of 50% or more of the shares, equity interest or other securities
@@ -36,22 +36,22 @@ function TermCondition() {
             authority.
           </p>
 
-          <h3 class="text-deep-gray">
+          <h3 >
             Company (referred to as either "the Company", "We", "Us" or "Our" in
             this Agreement) refers to Linkpro.
           </h3>
 
-          <h4 class=" text-deep-gray">Country refers to: Delhi, India</h4>
+          <h4 >Country refers to: Delhi, India</h4>
 
-          <p class="text-gray">
+          <p >
             {" "}
             Device means any device that can access the Service such as a
             computer, a cellphone or a digital tablet.
           </p>
 
-          <h4 class=" text-deep-gray">Service refers to the Website.</h4>
+          <h4 >Service refers to the Website.</h4>
 
-          <p class="text-gray">
+          <p >
             Terms and Conditions (also referred as "Terms") mean these Terms and
             Conditions that form the entire agreement between You and the
             Company regarding the use of the Service. This Terms and Conditions
@@ -62,45 +62,45 @@ function TermCondition() {
             by the Service.
           </p>
 
-          <h3 class=" text-deep-gray">
+          <h3 >
             {" "}
             Website refers to Linkpro, accessible from linkpro.co.in
           </h3>
 
-          <p class="text-gray">
+          <p >
             {" "}
             You means the individual accessing or using the Service, or the
             company, or other legal entity on behalf of which such individual is
             accessing or using the Service, as applicable.
           </p>
-          <p class="text-deep-gray">Acknowledgment</p>
+          <p >Acknowledgment</p>
 
-          <p class="text-gray">
+          <p >
             These are the Terms and Conditions governing the use of this Service
             and the agreement that operates between You and the Company. These
             Terms and Conditions set out the rights and obligations of all users
             regarding the use of the Service.
           </p>
 
-          <p class="text-gray">
+          <p >
             Your access to and use of the Service is conditioned on Your
             acceptance of and compliance with these Terms and Conditions. These
             Terms and Conditions apply to all visitors, users and others who
             access or use the Service.
           </p>
 
-          <p class="text-gray">
+          <p >
             By accessing or using the Service You agree to be bound by these
             Terms and Conditions. If You disagree with any part of these Terms
             and Conditions then You may not access the Service.
           </p>
 
-          <p class="text-gray">
+          <p >
             You represent that you are over the age of 18. The Company does not
             permit those under 18 to use the Service.
           </p>
 
-          <p class="text-gray">
+          <p >
             Your access to and use of the Service is also conditioned on Your
             acceptance of and compliance with the Privacy Policy of the Company.
             Our Privacy Policy describes Our policies and procedures on the
@@ -109,14 +109,14 @@ function TermCondition() {
             rights and how the law protects You. Please read Our Privacy Policy
             carefully before using Our Service.
           </p>
-          <p class="text-gray">Links to Other Websites</p>
+          <p >Links to Other Websites</p>
 
-          <p class="text-gray">
+          <p >
             Our Service may contain links to third-party web sites or services
             that are not owned or controlled by the Company.
           </p>
 
-          <p class="text-gray">
+          <p >
             The Company has no control over, and assumes no responsibility for,
             the content, privacy policies, or practices of any third party web
             sites or services. You further acknowledge and agree that the
@@ -126,27 +126,27 @@ function TermCondition() {
             services available on or through any such web sites or services.
           </p>
 
-          <h4 class="text-gray">
+          <h4 >
             We strongly advise You to read the terms and conditions and privacy
             policies of any third-party web sites or services that You visit.
           </h4>
 
-          <p class="text-deep-gray">Termination</p>
+          <p >Termination</p>
 
-          <p class="text-gray">
+          <p >
             We may terminate or suspend Your access immediately, without prior
             notice or liability, for any reason whatsoever, including without
             limitation if You breach these Terms and Conditions.
           </p>
 
-          <p class="text-deep-gray">
+          <p >
             Upon termination, Your right to use the Service will cease
             immediately.
           </p>
 
-          <p class="text-deep-gray">Limitation of Liability</p>
+          <p >Limitation of Liability</p>
 
-          <p class="text-gray">
+          <p >
             Notwithstanding any damages that You might incur, the entire
             liability of the Company and any of its suppliers under any
             provision of this Terms and Your exclusive remedy for all of the
@@ -155,7 +155,7 @@ function TermCondition() {
             through the Service.
           </p>
 
-          <p class="text-gray">
+          <p >
             To the maximum extent permitted by applicable law, in no event shall
             the Company or its suppliers be liable for any special, incidental,
             indirect, or consequential damages whatsoever (including, but not
@@ -168,14 +168,14 @@ function TermCondition() {
             any supplier has been advised of the possibility of such damages and
             even if the remedy fails of its essential purpose.
           </p>
-          <p class="text-gray">
+          <p >
             Some states do not allow the exclusion of implied warranties or
             limitation of liability for incidental or consequential damages,
             which means that some of the above limitations may not apply. In
             these states, each party's liability will be limited to the greatest
             extent permitted by law.
           </p>
-          <p class="text-gray">
+          <p >
             "AS IS" and "AS AVAILABLE" Disclaimer The Service is provided to You
             "AS IS" and "AS AVAILABLE" and with all faults and defects without
             warranty of any kind. To the maximum extent permitted under
@@ -194,7 +194,7 @@ function TermCondition() {
             meet any performance or reliability standards or be error free or
             that any errors or defects can or will be corrected.
           </p>
-          <p class="text-gray">
+          <p >
             Without limiting the foregoing, neither the Company nor any of the
             company's provider makes any representation or warranty of any kind,
             express or implied: (i) as to the operation or availability of the
@@ -206,27 +206,27 @@ function TermCondition() {
             on behalf of the Company are free of viruses, scripts, trojan
             horses, worms, malware, timebombs or other harmful components.
           </p>
-          <p class="text-gray">
+          <p >
             Governing Law The laws of the Country, excluding its conflicts of
             law rules, shall govern this Terms and Your use of the Service. Your
             use of the Application may also be subject to other local, state,
             national, or international laws.
           </p>
 
-          <p class="text-gray">
+          <p >
             Disputes Resolution If You have any concern or dispute about the
             Service, You agree to first try to resolve the dispute informally by
             contacting the Company.
           </p>
-          <p class="text-gray">For European Union (EU) Users</p>
+          <p >For European Union (EU) Users</p>
 
-          <p class="text-gray">
+          <p >
             If You are a European Union consumer, you will benefit from any
             mandatory provisions of the law of the country in which You are
             resident.
           </p>
 
-          <p class="text-gray">
+          <p >
             United States Legal Compliance You represent and warrant that (i)
             You are not located in a country that is subject to the United
             States government embargo, or that has been designated by the United
@@ -234,26 +234,26 @@ function TermCondition() {
             are not listed on any United States government list of prohibited or
             restricted parties.
           </p>
-          <p class="text-gray">
+          <p >
             Severability and Waiver Severability If any provision of these Terms
             is held to be unenforceable or invalid, such provision will be
             changed and interpreted to accomplish the objectives of such
             provision to the greatest extent possible under applicable law and
             the remaining provisions will continue in full force and effect.
           </p>
-          <p class="text-gray">
+          <p >
             To manage Your Account: to manage Your registration as a user of the
             Service. The Personal Data You provide can give You access to
             different functionalities of the Service that are available to You
             as a registered user.
           </p>
-          <p class="text-gray">
+          <p >
             For the performance of a contract: the development, compliance and
             undertaking of the purchase contract for the products, items or
             services You have purchased or of any other contract with Us through
             the Service.
           </p>
-          <p class="text-gray">
+          <p >
             To contact You: To contact You by email, telephone calls, SMS, or
             other equivalent forms of electronic communication, such as a mobile
             application's push notifications regarding updates or informative
@@ -261,19 +261,19 @@ function TermCondition() {
             contracted services, including the security updates, when necessary
             or reasonable for their implementation.
           </p>
-          <p class="text-gray">
+          <p >
             To provide You with news, special offers and general information
             about other goods, services and events which we offer that are
             similar to those that you have already purchased or enquired about
             unless You have opted not to receive such information.
           </p>
-          <p class="text-deep-gray">
+          <p >
             To manage Your requests: To attend and manage Your requests to Us.
           </p>
-          <p class="text-deep-gray">
+          <p >
             To manage Your requests: To attend and manage Your requests to Us.
           </p>
-          <p class="text-gray">
+          <p >
             For business transfers: We may use Your information to evaluate or
             conduct a merger, divestiture, restructuring, reorganization,
             dissolution, or other sale or transfer of some or all of Our assets,
@@ -281,14 +281,14 @@ function TermCondition() {
             similar proceeding, in which Personal Data held by Us about our
             Service users is among the assets transferred.
           </p>
-          <p class="text-gray">
+          <p >
             For other purposes: We may use Your information for other purposes,
             such as data analysis, identifying usage trends, determining the
             effectiveness of our promotional campaigns and to evaluate and
             improve our Service, products, services, marketing and your
             experience.
           </p>
-          <p class="text-gray">
+          <p >
             With Service Providers: We may share Your personal information with
             Service Providers to monitor and analyze the use of our Service, to
             contact You. For business transfers: We may share or transfer Your
@@ -303,16 +303,16 @@ function TermCondition() {
             share Your information with Our business partners to offer You
             certain products, services or promotions.
           </p>
-          <p class="text-gray">
+          <p >
             With other users: when You share personal information or otherwise
             interact in the public areas with other users, such information may
             be viewed by all users and may be publicly distributed outside.
           </p>
-          <p class="text-gray">
+          <p >
             With Your consent: We may disclose Your personal information for any
             other purpose with Your consent.
           </p>
-          <p class="text-gray">
+          <p >
             Retention of Your Personal Data The Company will retain Your
             Personal Data only for as long as is necessary for the purposes set
             out in this Privacy Policy. We will retain and use Your Personal
@@ -321,7 +321,7 @@ function TermCondition() {
             applicable laws), resolve disputes, and enforce our legal agreements
             and policies.
           </p>
-          <p class="text-gray">
+          <p >
             The Company will also retain Usage Data for internal analysis
             purposes. Usage Data is generally retained for a shorter period of
             time, except when this data is used to strengthen the security or to
@@ -329,7 +329,7 @@ function TermCondition() {
             obligated to retain this data for longer time periods.
           </p>
 
-          <p class="text-gray">
+          <p >
             Transfer of Your Personal Data Your information, including Personal
             Data, is processed at the Company's operating offices and in any
             other places where the parties involved in the processing are
@@ -338,12 +338,12 @@ function TermCondition() {
             country or other governmental jurisdiction where the data protection
             laws may differ than those from Your jurisdiction.
           </p>
-          <p class="text-gray">
+          <p >
             Your consent to this Privacy Policy followed by Your submission of
             such information represents Your agreement to that transfer.
           </p>
 
-          <p class="text-gray">
+          <p >
             The Company will take all steps reasonably necessary to ensure that
             Your data is treated securely and in accordance with this Privacy
             Policy and no transfer of Your Personal Data will take place to an
@@ -351,75 +351,75 @@ function TermCondition() {
             place including the security of Your data and other personal
             information.
           </p>
-          <p class="text-gray">
+          <p >
             Our Service may give You the ability to delete certain information
             about You from within the Service.
           </p>
-          <p class="text-gray">
+          <p >
             You may update, amend, or delete Your information at any time by
             signing in to Your Account, if you have one, and visiting the
             account settings section that allows you to manage Your personal
             information. You may also contact Us to request access to, correct,
             or delete any personal information that You have provided to Us.
           </p>
-          <p class="text-gray">
+          <p >
             Please note, however, that We may need to retain certain information
             when we have a legal obligation or lawful basis to do so.
           </p>
 
-          <p class="text-deep-gray">Disclosure of Your Personal Data</p>
+          <p >Disclosure of Your Personal Data</p>
           <p>Business Transactions</p>
 
-          <p class="text-gray">
+          <p >
             If the Company is involved in a merger, acquisition or asset sale,
             Your Personal Data may be transferred. We will provide notice before
             Your Personal Data is transferred and becomes subject to a different
             Privacy Policy.
           </p>
-          <p class="text-deep-gray">Severability and Waiver</p>
+          <p >Severability and Waiver</p>
 
-          <p class="text-gray">
+          <p >
             Severability If any provision of these Terms is held to be
             unenforceable or invalid, such provision will be changed and
             interpreted to accomplish the objectives of such provision to the
             greatest extent possible under applicable law and the remaining
             provisions will continue in full force and effect.
           </p>
-          <p class="text-deep-gray">Waiver</p>
+          <p >Waiver</p>
 
-          <p class="text-gray">
+          <p >
             Except as provided herein, the failure to exercise a right or to
             require performance of an obligation under these Terms shall not
             affect a party's ability to exercise such right or require such
             performance at any time thereafter nor shall the waiver of a breach
             constitute a waiver of any subsequent breach.
           </p>
-          <p class="text-deep-gray">Translation Interpretation</p>
+          <p >Translation Interpretation</p>
 
-          <p class="text-gray">
+          <p >
             These Terms and Conditions may have been translated if We have made
             them available to You on our Service. You agree that the original
             English text shall prevail in the case of a dispute.
           </p>
-          <p class="text-deep-gray">Changes to These Terms and Conditions</p>
+          <p >Changes to These Terms and Conditions</p>
 
-          <p class="text-gray">
+          <p >
             By continuing to access or use Our Service after those revisions
             become effective, You agree to be bound by the revised terms. If You
             do not agree to the new terms, in whole or in part, please stop
             using the website and the Service.
           </p>
 
-          <p class="text-deep-gray">Contact Us</p>
+          <p >Contact Us</p>
 
-          <p class="text-deep-gray">
+          <p >
             If you have any questions about these Terms and Conditions, You can
             contact us:
           </p>
 
-          <p class="text-deep-gray">By email: info@linkpro.co.in</p>
+          <p >By email: info@linkpro.co.in</p>
 
-          <p class="text-deep-gray">
+          <p >
             By visiting this page on our website:
             <a href=" https://linkpro.co.in/pages/contact-us.html">
               https://linkpro.co.in/pages/contact-us.html

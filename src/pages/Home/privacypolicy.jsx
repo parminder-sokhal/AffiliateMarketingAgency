@@ -6,55 +6,55 @@ function privacypolicy() {
     <>
       <div className="privacy">
         <div className="privacy_heading">
-        <h2 class="fs-48 text-deep-gray">Privacy Policy</h2>
-                        <p class="text-gray">This Privacy Policy describes Our policies and procedures on the
+        <h2 >Privacy Policy</h2>
+                        <p >This Privacy Policy describes Our policies and procedures on the
                             collection, use and disclosure of Your information when You use the Service and tells You
                             about Your privacy rights and how the law protects You.</p>
 
-                        <p class="text-gray">We use Your Personal data to provide and improve the Service. By using the
+                        <p >We use Your Personal data to provide and improve the Service. By using the
                             Service, You agree to the collection and use of information in accordance with this Privacy
                             Policy. This Privacy Policy has been created with the help of the Privacy Policy Generator.
                         </p>
 
-                        <p class="fs-32  text-deep-gray">Interpretation and Definitions</p>
+                        <p >Interpretation and Definitions</p>
 
-                        <h class="fs-28 text-deep-gray">Interpretation</h>
-                        <p class="text-gray">The words of which the initial letter is capitalized have meanings defined
+                        <h1 >Interpretation</h1>
+                        <p >The words of which the initial letter is capitalized have meanings defined
                             under the following conditions. The following definitions shall have the same meaning
                             regardless of whether they appear in singular or in plural.
                         </p>
 
-                        <h3 class="fs-28 text-deep-gray">Definitions</h3>
-                        <p class="text-gray">For the purposes of this Privacy Policy:</p>
-                        <p class="text-gray">Account means a unique account created for You to access our Service or
+                        <h3 >Definitions</h3>
+                        <p >For the purposes of this Privacy Policy:</p>
+                        <p >Account means a unique account created for You to access our Service or
                             parts of our Service.</p>
-                        <p class="text-gray">Affiliate means an entity that controls, is controlled by or is under
+                        <p >Affiliate means an entity that controls, is controlled by or is under
                             common control with a party, where "control" means ownership of 50% or more of the shares,
                             equity interest or other securities entitled to vote for election of directors or other
                             managing authority.</p>
 
-                        <h3 class="text-deep-gray">Company (referred to as either "the Company", "We", "Us" or "Our" in
+                        <h3 >Company (referred to as either "the Company", "We", "Us" or "Our" in
                             this
                             Agreement) refers to Linkpro.
                         </h3>
-                        <p class="text-gray">Cookies are small files that are placed on Your computer, mobile device or
+                        <p >Cookies are small files that are placed on Your computer, mobile device or
                             any other device by a website, containing the details of Your browsing history on that
                             website among its many uses.</p>
 
-                        <h4 class="fs-28 text-deep-gray">Country refers to: Delhi, India
+                        <h4 >Country refers to: Delhi, India
                         </h4>
 
-                        <p class="text-gray"> Device means any device that can access the Service such as a computer, a
+                        <p > Device means any device that can access the Service such as a computer, a
                             cellphone or a digital tablet.</p>
 
 
-                        <p class="text-gray"> Personal Data is any information that relates to an identified or
+                        <p > Personal Data is any information that relates to an identified or
                             identifiable individual.
                         </p>
-                        <h4 class="fs-28 text-deep-gray">Service refers to the Website.
+                        <h4 >Service refers to the Website.
                         </h4>
 
-                        <p class="text-gray"> Service Provider means any natural or legal person who processes the data
+                        <p > Service Provider means any natural or legal person who processes the data
                             on behalf of the Company. It refers to third-party companies or individuals employed by the
                             Company to facilitate the Service, to provide the Service on behalf of the Company, to
                             perform services related to the Service or to assist the Company in analyzing how the
@@ -65,58 +65,58 @@ function privacypolicy() {
                             visit).
                         </p>
 
-                        <h3 class="fs-28 text-deep-gray"> Website refers to Linkpro, accessible from linkpro.co.in</h3>
+                        <h3 > Website refers to Linkpro, accessible from linkpro.co.in</h3>
 
-                        <p class="text-gray"> You means the individual accessing or using the Service, or the company,
+                        <p > You means the individual accessing or using the Service, or the company,
                             or other legal entity on behalf of which such individual is accessing or using the Service,
                             as applicable.</p>
-                        <p class="text-gray">Collecting and Using Your Personal Data</p>
-                        <p class="text-gray">Types of Data Collected</p>
+                        <p >Collecting and Using Your Personal Data</p>
+                        <p >Types of Data Collected</p>
 
-                        <p class="text-gray">Personal Data</p>
+                        <p >Personal Data</p>
 
-                        <p class="text-gray">While using Our Service, We may ask You to provide Us with certain
+                        <p >While using Our Service, We may ask You to provide Us with certain
                             personally identifiable information that can be used to contact or identify You. Personally
                             identifiable information may include, but is not limited to:</p>
 
-                        <p class="text-gray">Email address</p>
-                        <p class="text-gray">First name and last name</p>
+                        <p >Email address</p>
+                        <p >First name and last name</p>
 
 
-                        <p class="text-gray">Usage Data</p>
+                        <p >Usage Data</p>
 
-                        <p class="text-gray">Usage Data is collected automatically when using the Service.</p>
+                        <p >Usage Data is collected automatically when using the Service.</p>
 
-                        <p class="text-gray">Usage Data may include information such as Your Device's Internet Protocol
+                        <p >Usage Data may include information such as Your Device's Internet Protocol
                             address (e.g. IP address), browser type, browser version, the pages of our Service that You
                             visit, the time and date of Your visit, the time spent on those pages, unique device
                             identifiers and other diagnostic data.</p>
 
-                        <p class="text-gray">When You access the Service by or through a mobile device, We may collect
+                        <p >When You access the Service by or through a mobile device, We may collect
                             certain information automatically, including, but not limited to, the type of mobile device
                             You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile
                             operating system, the type of mobile Internet browser You use, unique device identifiers and
                             other diagnostic data.</p>
 
-                        <p class="text-gray">We may also collect information that Your browser sends whenever You visit
+                        <p >We may also collect information that Your browser sends whenever You visit
                             our Service or when You access the Service by or through a mobile device.</p>
 
-                        <p class="text-gray">Tracking Technologies and Cookies
+                        <p >Tracking Technologies and Cookies
                             We use Cookies and similar tracking technologies to track the activity on Our Service and
                             store certain information. Tracking technologies used are beacons, tags, and scripts to
                             collect and track information and to improve and analyze Our Service. The technologies We
                             use may include:
                         </p>
-                        <p class="text-gray">Cookies or Browser Cookies. A cookie is a small file placed on Your Device.
+                        <p >Cookies or Browser Cookies. A cookie is a small file placed on Your Device.
                             You can instruct Your browser to refuse all Cookies or to indicate when a Cookie is being
                             sent. However, if You do not accept Cookies, You may not be able to use some parts of our
                             Service. Unless </p>
 
-                        <p class="text-gray">you have adjusted Your browser setting so that it will refuse Cookies, our
+                        <p >you have adjusted Your browser setting so that it will refuse Cookies, our
                             Service may use Cookies.
                         </p>
 
-                        <p class="text-gray">Web Beacons. Certain sections of our Service and our emails may contain
+                        <p >Web Beacons. Certain sections of our Service and our emails may contain
                             small electronic files known as web beacons (also referred to as clear gifs, pixel tags, and
                             single-pixel gifs) that permit the Company, for example, to count users who have visited
                             those pages or opened an email and for other related website statistics (for example,
@@ -126,22 +126,22 @@ function privacypolicy() {
                             You close Your web browser. You can learn more about cookies on TermsFeed website article.
                         </p>
 
-                        <h4 class="text-gray">We use both Session and Persistent Cookies for the purposes set out below:
+                        <h4 >We use both Session and Persistent Cookies for the purposes set out below:
                         </h4>
 
-                        <p class="text-gray">Type: Session Cookies
+                        <p >Type: Session Cookies
 
                         </p>
 
-                        <p class="text-gray">Type: Session Cookies
+                        <p >Type: Session Cookies
 
                         </p>
 
-                        <p class="text-gray">Administered by: Us
+                        <p >Administered by: Us
 
                         </p>
 
-                        <p class="text-gray">Purpose: These Cookies are essential to provide You with services available
+                        <p >Purpose: These Cookies are essential to provide You with services available
                             through the Website and to enable You to use some of its features. They help to authenticate
                             users and prevent fraudulent use of user accounts. Without these Cookies, the services that
                             You have asked for cannot be provided, and We only use these Cookies to provide You with
@@ -149,27 +149,27 @@ function privacypolicy() {
 
                         </p>
 
-                        <p class="text-gray">Cookies Policy / Notice Acceptance Cookies
+                        <p >Cookies Policy / Notice Acceptance Cookies
 
                         </p>
 
-                        <p class="text-gray">Type: Persistent Cookies
+                        <p >Type: Persistent Cookies
 
                         </p>
-                        <p class="text-gray">Administered by: Us
+                        <p >Administered by: Us
 
                         </p>
-                        <p class="text-gray">Purpose: These Cookies identify if users have accepted the use of cookies
+                        <p >Purpose: These Cookies identify if users have accepted the use of cookies
                             on the Website.
 
                         </p>
-                        <p class="text-gray">Functionality Cookies
+                        <p >Functionality Cookies
                         </p>
-                        <p class="text-gray">Type: Persistent Cookies
+                        <p >Type: Persistent Cookies
 
                         </p>
 
-                        <p class="text-gray">
+                        <p >
 
                             Purpose: These Cookies allow us to remember choices You make when You use the Website, such
                             as remembering your login details or language preference. The purpose of these Cookies is to
@@ -177,38 +177,38 @@ function privacypolicy() {
                             preferences every time You use the Website.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             For more information about the cookies we use and your choices regarding cookies, please
                             visit our Cookies Policy or the Cookies section of our Privacy Policy.
 
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             Use of Your Personal Data
 
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             The Company may use Personal Data for the following purposes:
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             To provide and maintain our Service, including to monitor the usage of our Service.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             To manage Your Account: to manage Your registration as a user of the Service. The Personal
                             Data You provide can give You access to different functionalities of the Service that are
                             available to You as a registered user.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             For the performance of a contract: the development, compliance and undertaking of the
                             purchase contract for the products, items or services You have purchased or of any other
                             contract with Us through the Service.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             To contact You: To contact You by email, telephone calls, SMS, or other equivalent forms of
                             electronic communication, such as a mobile application's push notifications regarding
                             updates or informative communications related to the functionalities, products or contracted
@@ -216,35 +216,35 @@ function privacypolicy() {
                             implementation.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             To provide You with news, special offers and general information about other goods, services
                             and events which we offer that are similar to those that you have already purchased or
                             enquired about unless You have opted not to receive such information.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             To manage Your requests: To attend and manage Your requests to Us.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             To manage Your requests: To attend and manage Your requests to Us.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             For business transfers: We may use Your information to evaluate or conduct a merger,
                             divestiture, restructuring, reorganization, dissolution, or other sale or transfer of some
                             or all of Our assets, whether as a going concern or as part of bankruptcy, liquidation, or
                             similar proceeding, in which Personal Data held by Us about our Service users is among the
                             assets transferred.
                         </p>
-                        <p class="text-gray">
+                        <p >
 
                             For other purposes: We may use Your information for other purposes, such as data analysis,
                             identifying usage trends, determining the effectiveness of our promotional campaigns and to
                             evaluate and improve our Service, products, services, marketing and your experience.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             With Service Providers: We may share Your personal information with Service Providers to
                             monitor and analyze the use of our Service, to contact You.
                             For business transfers: We may share or transfer Your personal information in connection
@@ -258,16 +258,16 @@ function privacypolicy() {
                             You certain products, services or promotions.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             With other users: when You share personal information or otherwise interact in the public
                             areas with other users, such information may be viewed by all users and may be publicly
                             distributed outside.
                         </p>
-                        <p class="text-gray">
+                        <p >
                             With Your consent: We may disclose Your personal information for any other purpose with Your
                             consent.
                         </p>
-                        <p class="text-gray">
+                        <p >
                             Retention of Your Personal Data
                             The Company will retain Your Personal Data only for as long as is necessary for the purposes
                             set out in this Privacy Policy. We will retain and use Your Personal Data to the extent
@@ -276,14 +276,14 @@ function privacypolicy() {
                             agreements and policies.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             The Company will also retain Usage Data for internal analysis purposes. Usage Data is
                             generally retained for a shorter period of time, except when this data is used to strengthen
                             the security or to improve the functionality of Our Service, or We are legally obligated to
                             retain this data for longer time periods.
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             Transfer of Your Personal Data
                             Your information, including Personal Data, is processed at the Company's operating offices
                             and in any other places where the parties involved in the processing are located. It means
@@ -292,69 +292,69 @@ function privacypolicy() {
                             protection laws may differ than those from Your jurisdiction.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             Your consent to this Privacy Policy followed by Your submission of such information
                             represents Your agreement to that transfer.
 
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             The Company will take all steps reasonably necessary to ensure that Your data is treated
                             securely and in accordance with this Privacy Policy and no transfer of Your Personal Data
                             will take place to an organization or a country unless there are adequate controls in place
                             including the security of Your data and other personal information.
                         </p>
-                        <p class="text-gray">
+                        <p >
                             Our Service may give You the ability to delete certain information about You from within the
                             Service.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
                             You may update, amend, or delete Your information at any time by signing in to Your Account,
                             if you have one, and visiting the account settings section that allows you to manage Your
                             personal information. You may also contact Us to request access to, correct, or delete any
                             personal information that You have provided to Us.
 
                         </p>
-                        <p class="text-gray">
+                        <p >
 
                             Please note, however, that We may need to retain certain information when we have a legal
                             obligation or lawful basis to do so.
 
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             Disclosure of Your Personal Data
                         </p>
                         <p>
                         Business Transactions
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             If the Company is involved in a merger, acquisition or asset sale, Your Personal Data may be
                             transferred. We will provide notice before Your Personal Data is transferred and becomes
                             subject to a different Privacy Policy.
                         </p>
-                        <p class="text-gray">
+                        <p >
 
                             Law enforcement
 
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             Under certain circumstances, the Company may be required to disclose Your Personal Data if
                             required to do so by law or in response to valid requests by public authorities (e.g. a
                             court or a government agency).
                         </p>
-                        <p class="text-gray">
+                        <p >
                             Other legal requirements
                         </p>
 
-                        <p class="text-gray">
+                        <p >
                             The Company may disclose Your Personal Data in the good faith belief that such action is
                             necessary to:
                         </p>
-                        <p class="text-gray">
+                        <p >
                             Comply with a legal obligation
                             Protect and defend the rights or property of the Company
                             Prevent or investigate possible wrongdoing in connection with the Service
@@ -367,8 +367,8 @@ function privacypolicy() {
                             guarantee its absolute security.
                         </p>
 
-                        <p class="text-gray">Children's Privacy</p>
-                        <p class="text-gray">Our Service does not address anyone under the age of 13. We do not
+                        <p >Children's Privacy</p>
+                        <p >Our Service does not address anyone under the age of 13. We do not
                             knowingly collect personally identifiable information from anyone under the age of 13. If
                             You are a parent or guardian and You are aware that Your child has provided Us with Personal
                             Data, please contact Us. If We become aware that We have collected Personal Data from anyone
@@ -376,40 +376,40 @@ function privacypolicy() {
                             information from Our servers.
                         </p>
 
-                        <p class="text-gray">If We need to rely on consent as a legal basis for processing Your
+                        <p >If We need to rely on consent as a legal basis for processing Your
                             information and Your country requires consent from a parent, We may require Your parent's
                             consent before We collect and use that information.</p>
 
-                        <p class="text-gray">Links to Other Websites
+                        <p >Links to Other Websites
                         </p>
 
-                        <p class="text-gray">Our Service may contain links to other websites that are not operated by
+                        <p >Our Service may contain links to other websites that are not operated by
                             Us. If You click on a third party link, You will be directed to that third party's site. We
                             strongly advise You to review the Privacy Policy of every site You visit.</p>
 
-                        <p class="text-gray">We have no control over and assume no responsibility for the content,
+                        <p >We have no control over and assume no responsibility for the content,
                             privacy policies or practices of any third party sites or services.</p>
 
-                        <p class="text-gray">Changes to this Privacy Policy</p>
+                        <p >Changes to this Privacy Policy</p>
 
-                        <p class="text-gray">We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
+                        <p >We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.</p>
 
-                        <p class="text-gray">We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
+                        <p >We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
                         </p>
 
-                        <p class="text-gray">You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
+                        <p >You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
                         </p>
 
-                        <p class="text-gray">Contact Us
+                        <p >Contact Us
                         </p>
 
-                        <p class="text-gray">If you have any questions about this Privacy Policy, You can contact us:
+                        <p >If you have any questions about this Privacy Policy, You can contact us:
                         </p>
 
 
-                        <p class="text-gray"> By email : <a href="/"> info@linkpro.co.in</a></p>
+                        <p > By email : <a href="/"> info@linkpro.co.in</a></p>
 
-                        <p class="text-gray">By visiting this page on our website: https://linkpro.co.in/pages/contact-us.html
+                        <p >By visiting this page on our website: https://linkpro.co.in/pages/contact-us.html
                         </p>
         </div>
       </div>

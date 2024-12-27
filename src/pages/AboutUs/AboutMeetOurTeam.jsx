@@ -117,14 +117,14 @@ const AboutMeetOurTeam = () => {
             key={index}
             onClick={() => openModal(member)}
             style={{
-              "--member-image": `url(${member.image})`, // Dynamically set the background image via CSS variable
+              "--member-image": `url(${member.image})`, 
             }}
           >
             <div className="circle-image">
-              {/* The profile image will be here */}
+             
             </div>
             <div className="arrow">➔</div>{" "}
-            {/* Place the arrow outside of the .circle-image */}
+           
             <h3>{member.name}</h3>
             <p>{member.role}</p>
           </div>

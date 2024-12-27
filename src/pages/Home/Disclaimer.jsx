@@ -6,10 +6,10 @@ function Disclaimer() {
     <>
       <div className="Disclaimer">
         <div className="Disclaimer_heading">
-          <h2 class=" text-deep-gray">DISCLAIMER</h2>
-          <p class="text-gray">WEBSITE DISCLAIMER</p>
+          <h2 >DISCLAIMER</h2>
+          <p >WEBSITE DISCLAIMER</p>
 
-          <p class="  text-deep-gray">
+          <p >
             The information provided by Linkpro ("we," "us," or "our") on
             https://linkpro.co.in (the "Site") is for general informational
             purposes only. All information on the Site is provided in good
@@ -23,8 +23,8 @@ function Disclaimer() {
             SOLELY AT YOUR OWN RISK.
           </p>
 
-          <h class=" text-deep-gray">EXTERNAL LINKS DISCLAIMER</h>
-          <p class="text-gray">
+          <h1 >EXTERNAL LINKS DISCLAIMER</h1>
+          <p >
             The Site may contain (or you may be sent through the Site) links to
             other websites or content belonging to or originating from third
             parties or links to websites and features in banners or other
@@ -39,51 +39,51 @@ function Disclaimer() {
             PRODUCTS OR SERVICES.
           </p>
 
-          <h3 class=" text-deep-gray">AFFILIATES DISCLAIMER</h3>
-          <p class="text-deep-gray">
+          <h3 >AFFILIATES DISCLAIMER</h3>
+          <p >
             The Site may contain links to affiliate websites, and we receive an
             affiliate commission for any purchases made by you on the affiliate
             website using such links. Our affiliates include the following:
           </p>
 
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             Awin (Affiliate Window)
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             AvantLink
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             CJ Affiliate by Conversant
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             Clickbank
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             eBay Partner Network
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             FlexOffers
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             iDevAffiliate
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             MaxBounty
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             Rakuten Affiliate Network
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             ShareASale
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             RevenueWire
           </a>
-          <a href="/" class="text-decoration-none d-block">
+          <a href="/">
             Others
           </a>
 
-          <p class="text-deep-gray">
+          <p >
             We are a participant in the Amazon Services LLC Associates Program,
             an affiliate advertising program designed to provide a means for us
             to earn advertising fees by linking to Amazon.com and affiliated
