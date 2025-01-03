@@ -48,7 +48,7 @@
     width: auto;
     margin: 0;
     padding: 1rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
     .aboutus-link-pro__left {
       display: flex;
       width: 100%;
@@ -66,6 +66,11 @@
       }
     }
     .aboutus-link-pro__right {
+      .aboutus-link-pro__image{
+        width: 13rem;
+        padding: 1rem;
+        max-width: 30rem;
+      }
     }
   }
 }

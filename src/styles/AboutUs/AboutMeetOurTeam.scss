@@ -295,27 +295,32 @@ p {
   }
   .modal-overlay{
     .modal-content{
-      width: 23rem;
-      height: 23rem;
+      flex-direction: column;
+      width: 17rem;
+      height: 37rem;
       .modal-left{
+        width: 100%;
         .modal-image{
-          height: 18rem;
+          height: 16rem;
+          margin: 0;
         }
         .socials{
          .social-icon{
           font-size: 0.6rem;
+          margin: 1rem;
          }
         }
       }
       .modal-right{
+        width: 100%;
         padding: 0.5rem;
         margin: 0;
         h3,p{
           margin: 0.5rem;
         }
         .description{
-          height: 75%;
-          width: 100%;
+          height: 70%;
+          width: 95%;
           p{
             font-size: 0.9rem;}
         }

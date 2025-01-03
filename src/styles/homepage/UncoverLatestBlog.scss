@@ -64,11 +64,11 @@
 @media (max-width: 480px) {
   .uncover-latest-blog {
     padding: 1rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
     .left-side {
-      margin: 1rem;
+      margin: 0;
       h2, .description{
-        margin: 1rem;
+        margin: 0;
       }
       .read-more-btn{
         margin: 1rem;

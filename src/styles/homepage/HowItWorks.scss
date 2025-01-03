@@ -107,13 +107,26 @@
 }
 
 @media (max-width: 480px) {
-  .how-it-works .buttons{
-    display: flex;
-    flex-wrap: wrap;
-    .work-button{
-      width: 9rem;
-      min-width: 0;
-      font-size: 1rem;
+  .how-it-works {
+    padding: 1rem;
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      .work-button {
+        width: 9rem;
+        min-width: 0;
+        font-size: 1rem;
+      }
+    }
+    .description-box {
+      flex-direction: column-reverse;
+      gap: 0;
+      .left-side {
+        width: 100%;
+      }
+      .right-side {
+        width: 100%;
+      }
     }
   }
 }

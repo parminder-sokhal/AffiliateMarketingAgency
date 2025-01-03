@@ -1,10 +1,10 @@
 .footer {
   background-color: #f6f9ff;
-  background: url("./images/Rectangle10.png"), url("./images/Vector2.png"),
+  background:  url("./images/Vector2.png"),url("./images/Rectangle10.png"),
     url("./images/Vector1.png");
 
   background-position: top right, top right, bottom left;
-  background-size: 70vws 70vh, auto 20vh, auto 20vh;
+  background-size:  25% 55%,70% 110%, 20% 40%;
 
   background-repeat: no-repeat, no-repeat, no-repeat;
 

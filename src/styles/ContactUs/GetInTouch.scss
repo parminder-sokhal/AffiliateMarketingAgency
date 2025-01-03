@@ -87,15 +87,15 @@
 }
 @media (max-width: 480px) {
   .get-in-touch-container {
-    padding: 0.5rem;
+    padding: 1rem;
+    position: relative;
+    flex-wrap: wrap;
     .form-container {
-      padding: 0.5rem;
-      padding-left: 6rem;
-      width: 12rem;
+      width: 100%;
       height: auto;
-      h1 {
-        font-size: 1rem;
-      }
+      padding: 1rem;
+      margin: 1rem;
+      z-index: 0;
       form {
         input,
         textarea {
@@ -103,14 +103,16 @@
           height: auto;
         }
       }
-    }
-
+    } 
     .contact-info {
-      width: 9rem;
+      width: 100%;
       height: auto;
-      margin: 0;
-      padding: 0;
-      left: 0;
+      padding-bottom: 1rem;
+      z-index: 0;
+      left: unset;
+      top: unset;
+      transform: none;
+      position: unset;
 
       h2,
       p {
