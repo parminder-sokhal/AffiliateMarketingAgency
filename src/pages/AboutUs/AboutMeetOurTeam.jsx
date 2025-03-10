@@ -15,7 +15,7 @@ const AboutMeetOurTeam = () => {
       socials: ["twitter", "facebook", "instagram"],
     },
     {
-      name: "John Doee",
+      name: "John Doe",
       role: "Marketing Specialist",
       image: "./images/meetourteam2.png",
       description:
