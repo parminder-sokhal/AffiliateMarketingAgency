@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../styles/Header.scss";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -40,9 +41,9 @@ const Header = () => {
   return (
     <header className="header">
       <div className="header__logo">
-        <a href="/">
+        <Link to="/">
           <img src="./images/linkprowhite.png" alt="Logo" />
-        </a>
+        </Link>
       </div>
 
       <div 
@@ -66,19 +67,19 @@ const Header = () => {
         </div>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/aboutus">About Us</a>
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li>
-            <a href="/services">Services</a>
+            <Link to="/services">Services</Link>
           </li>
           <li>
-            <a href="/blogs">Blog</a>
+            <Link to="/blogs">Blog</Link>
           </li>
           <li className="header__contact">
-            <a href="/contactus">Contact Us</a>
+            <Link to="/contactus">Contact Us</Link>
           </li>
         </ul>
       </nav>
@@ -91,9 +92,9 @@ const Header = () => {
             We lead affiliate and partner management for the world's most
             renowned brands.
           </h5>
-          <a href="/services">
+          <Link to="/services">
             <button className="header__info-btn">Read More</button>
-          </a>
+          </Link>
         </div>
         <div className="header__info-right">
           <img

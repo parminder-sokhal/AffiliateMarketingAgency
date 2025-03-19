@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import "../styles/HeaderDefault.scss"; // Import the styles
+import { Link } from "react-router-dom";
 
 const HeaderDefault = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -45,9 +46,9 @@ const HeaderDefault = () => {
   return (
     <header className="header-default">
       <div className="header-default__logo">
-        <a href="/">
+        <Link to="/">
           <img src="./images/linkproblue.png" alt="Logo" />
-        </a>
+        </Link>
       </div>
 
       <div
@@ -71,19 +72,19 @@ const HeaderDefault = () => {
         </div>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/aboutus">About Us</a>
+            <Link to="/aboutus">About Us</Link>
           </li>
           <li>
-            <a href="/services">Services</a>
+            <Link to="/services">Services</Link>
           </li>
           <li>
-            <a href="/blogs">Blog</a>
+            <Link to="/blogs">Blog</Link>
           </li>
           <li className="header-default__contact">
-            <a href="/contactus">Contact Us</a>
+            <Link to="/contactus">Contact Us</Link>
           </li>
         </ul>
       </nav>

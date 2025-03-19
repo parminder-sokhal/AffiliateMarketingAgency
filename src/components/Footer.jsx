@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/footer.scss";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
   return (
@@ -26,16 +28,16 @@ const Footer = () => {
             <h4>Visit links</h4>
             <ul>
               <li>
-                <a href="/">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <a href="/aboutus">About Us</a>
+                <Link to="/aboutus">About Us</Link>
               </li>
               <li>
-                <a href="/services">Services</a>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <a href="/blog">Blog</a>
+                <Link to="/blog">Blog</ Link>
               </li>
             </ul>
           </div>
@@ -44,13 +46,13 @@ const Footer = () => {
             <h4>Quick links</h4>
             <ul>
               <li>
-                <a href="/privacypolicy">Privacy Policy</a>
+                <Link to="/privacypolicy">Privacy Policy</Link>
               </li>
               <li>
-                <a href="/Disclaimer">Disclaimer</a>
+                <Link to="/Disclaimer">Disclaimer</Link>
               </li>
               <li>
-                <a href="/TermCondition">T&C</a>
+                <Link to="/TermCondition">T&C</Link>
               </li>
             </ul>
           </div>
@@ -59,10 +61,10 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <ul>
               <li>
-                <a href="/contactus">Email</a>
+                <Link to="/contactus">Email</Link>
               </li>
               <li>
-                <a href="/contactus">Phone</a>
+                <Link to="/contactus">Phone</Link>
               </li>
             </ul>
           </div>
