@@ -19,22 +19,20 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import "./app.css";
 
 function App() {
-  const location = useLocation(); // Get current location from the router
+  const location = useLocation(); 
 
   return (
     <>
-      {/* Conditionally render Header or HeaderDefault based on the current path */}
       {location.pathname === "/" ? <Header /> : <HeaderDefault />}
 
       <Routes>
         <Route path="/" element={<HomePage />} />
-        <Route path="/aboutus" element={<AboutUs />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
         <Route path="/privacypolicy" element={<Privacypolicy />} />
         <Route path="/Disclaimer" element={<Disclaimer />} />
         <Route path="/TermCondition" element={<TermCondition />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-        {/* <Route path="/contact" element={<ContactPage />} /> */}
+        <Route path="/Contact-Us" element={<ContactUs />} />
       </Routes>
 
       <LetsDoWorkTogether />

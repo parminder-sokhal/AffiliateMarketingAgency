@@ -7,12 +7,10 @@ const Footer = () => {
   return (
     <>
       <footer className="footer">
-        {/* Logo Section */}
         <div className="footer__logo">
           <img src="./images/linkproblue.png" alt="Logo" />
         </div>
 
-        {/* Description Section */}
         <div className="footer__description">
           <p>
             LinkPro is your leading Affiliate Marketing Agency! LinkPro
@@ -22,7 +20,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Footer Links */}
         <div className="footer__links">
           <div className="footer__links-column">
             <h4>Visit links</h4>
@@ -31,7 +28,7 @@ const Footer = () => {
                 <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to="/aboutus">About Us</Link>
+                <Link to="/about-us">About Us</Link>
               </li>
               <li>
                 <Link to="/services">Services</Link>
@@ -61,10 +58,10 @@ const Footer = () => {
             <h4>Contact Us</h4>
             <ul>
               <li>
-                <Link to="/contactus">Email</Link>
+                <Link to="/contact-us">Email</Link>
               </li>
               <li>
-                <Link to="/contactus">Phone</Link>
+                <Link to="/contact-us">Phone</Link>
               </li>
             </ul>
           </div>

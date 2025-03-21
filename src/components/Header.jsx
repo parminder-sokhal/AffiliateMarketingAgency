@@ -70,7 +70,7 @@ const Header = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/aboutus">About Us</Link>
+            <Link to="/about-us">About Us</Link>
           </li>
           <li>
             <Link to="/services">Services</Link>
@@ -79,7 +79,7 @@ const Header = () => {
             <Link to="/blogs">Blog</Link>
           </li>
           <li className="header__contact">
-            <Link to="/contactus">Contact Us</Link>
+            <Link to="/contact-us">Contact Us</Link>
           </li>
         </ul>
       </nav>
