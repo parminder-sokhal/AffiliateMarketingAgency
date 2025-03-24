@@ -56,7 +56,7 @@ const HowItWorks = () => {
       <div className="description-box">
         <div className="left-side">
           <p>{content[selected].description}</p>
-          <a href="/contactus">
+          <a href="/contact-us">
             <button className="contact-btn">Contact Us</button>
           </a>
         </div>

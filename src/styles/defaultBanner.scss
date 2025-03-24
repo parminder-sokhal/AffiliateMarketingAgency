@@ -42,18 +42,11 @@
 .aboutus-banner__link:hover {
   color: #f24e1e; 
 }
-
-
-
 .aboutus-banner__arrow {
   margin: 0.625rem;
   color: #f24e1e; 
   font-size: 1.8rem;
   transition: transform 0.3s ease;
-}
-
-.aboutus-banner__link:hover {
-  transform: translatex(0.313rem); 
 }
 
 @media (max-width: 480px) {

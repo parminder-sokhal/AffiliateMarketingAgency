@@ -27,7 +27,7 @@ const GetInTouch = () => {
         <p>Phase Sector 59, Sahibzada Ajit Singh Nagar, Punjab</p>
         <p>Email: info@linkpro.com</p>
         <p>Phone: +91 8409120206</p>
-        <p>Monday - Friday 9:00 AM - 10:00 PM</p>
+        <p>Monday - Friday 10:00 AM - 6:00 PM</p>
       </div>
       <div className="form-container">
         <h1>Get In Touch</h1>

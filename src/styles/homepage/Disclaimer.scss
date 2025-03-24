@@ -8,12 +8,16 @@
 
 .Disclaimer_heading {
   text-align: left;
-  width: 90%;
+  width: 55%;
   flex-direction: column;
   align-items: center;
   h,h1,h2,h3,h4{
     color: #08378F;
     
+  }
+  a{
+   display: flex;
+   text-decoration: none;
   }
   
 }

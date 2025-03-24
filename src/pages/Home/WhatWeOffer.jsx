@@ -40,8 +40,8 @@ const WhatWeOffer = () => {
       <div className="heading">
         <h2>What We Offer</h2>
         <p>
-          We provide comprehensive affiliate marketing solutions tailored to
-          your business needs.
+          We give complete affiliate marketing solutions that are customized to
+          meet your company's requirements.
         </p>
       </div>
 

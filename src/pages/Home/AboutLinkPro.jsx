@@ -12,8 +12,7 @@ const AboutLinkPro = () => {
           business, and at LinkPro, we make it simple. Our comprehensive
           approach ensures that every aspect of your affiliate program is
           expertly managed — from strategy development and affiliate recruitment
-          to performance tracking and ongoing optimization. We handle the
-          complexities, so you can focus on running your business.
+          to performance tracking and ongoing optimization. We takes care of the details so you stay focused on managing your company.
         </h5>
         <a href="/aboutus">
           <button className="know-more-btn">Know More</button>

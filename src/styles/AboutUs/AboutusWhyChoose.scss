@@ -39,8 +39,9 @@
 }
 
 .aboutus-why-choose__box p {
-  font-size: 1rem;
-  color: #555;
+  font-size: 1.2rem;
+  color: #4d16f2;
+  font-weight: bold;
   text-align: center;
 }
 
@@ -51,6 +52,10 @@
 .aboutus-why-choose__right {
   width: 35%;
   padding-left: 1.25rem;
+  span{
+    font-weight: bold;
+
+  }
 }
 
 .aboutus-why-choose__subheading {
