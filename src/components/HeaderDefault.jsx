@@ -81,7 +81,7 @@ const HeaderDefault = () => {
             <Link to="/services">Services</Link>
           </li>
           <li>
-            <Link to="/blogs">Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li className="header-default__contact">
             <Link to="/contact-us">Contact Us</Link>
