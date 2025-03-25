@@ -323,8 +323,7 @@ function TermCondition() {
             further information regarding use of the Services, please contact us
             at:
           </p>
-          <h3>Linkpro</h3>
-          <h4> Phase Sector 59, Sahibzada Ajit Singh Nagar, Punjab India</h4>
+          <h4>Linkpro<br/> Phase Sector 59, Sahibzada Ajit Singh Nagar, Punjab India</h4>
         </div>
       </div>
     </>

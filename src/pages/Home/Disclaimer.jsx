@@ -6,8 +6,9 @@ function Disclaimer() {
     <>
       <div className="Disclaimer">
         <div className="Disclaimer_heading">
-          <h2>DISCLAIMER</h2>
-          <p>WEBSITE DISCLAIMER</p>
+          <h1>DISCLAIMER</h1>
+          <p>Last updated March 21, 2025</p>
+          <h3>WEBSITE DISCLAIMER</h3>
 
           <p>
             The information provided by Linkpro ("we," "us," or "our") on
@@ -23,7 +24,7 @@ function Disclaimer() {
             SOLELY AT YOUR OWN RISK.
           </p>
 
-          <h1>EXTERNAL LINKS DISCLAIMER</h1>
+          <h2>EXTERNAL LINKS DISCLAIMER</h2>
           <p>
             The Site may contain (or you may be sent through the Site) links to
             other websites or content belonging to or originating from third

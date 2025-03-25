@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/footer.scss";
-import { Link } from "react-router-dom";
+import { PiMapPinFill } from "react-icons/pi";
+import { IoMail } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -23,16 +25,16 @@ const Footer = () => {
             <h4>Visit links</h4>
             <ul>
               <li>
-                <Link to="/">Home</Link>
+                <a href="/">Home</a>
               </li>
               <li>
-                <Link to="/about-us">About Us</Link>
+                <a href="/about-us">About Us</a>
               </li>
               <li>
-                <Link to="/services">Services</Link>
+                <a href="/services">Services</a>
               </li>
               <li>
-                <Link to="/blog">Blog</Link>
+                <a href="/blog">Blog</a>
               </li>
             </ul>
           </div>
@@ -41,13 +43,13 @@ const Footer = () => {
             <h4>Quick links</h4>
             <ul>
               <li>
-                <Link to="/privacy-policy">Privacy Policy</Link>
+                <a href="/privacy-policy">Privacy Policy</a>
               </li>
               <li>
-                <Link to="/Disclaimer">Disclaimer</Link>
+                <a href="/Disclaimer">Disclaimer</a>
               </li>
               <li>
-                <Link to="/Term-Condition">T&C</Link>
+                <a href="/Term-Condition">T&C</a>
               </li>
             </ul>
           </div>
@@ -55,11 +57,16 @@ const Footer = () => {
           <div className="footer__links-column">
             <h4>Contact Us</h4>
             <ul>
-              <li>
-                <Link to="/contact-us">Email</Link>
+              <li><PiMapPinFill/>
+                <a href="/contact-us">&nbsp;Phase 5 Sector 59,
+                Sahibzada Ajit<br/>Singh Nagar, Punjab</a>
               </li>
-              <li>
-                <Link to="/contact-us">Phone</Link>
+              <li><IoMail />
+                <a href="/contact-us">&nbsp; info@linkpro.com</a>
+              </li>
+              
+              <li ><FaPhoneAlt />
+                <a href="/contact-us">&nbsp; +91 8409120206</a>
               </li>
             </ul>
           </div>

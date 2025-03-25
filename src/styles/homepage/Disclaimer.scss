@@ -27,3 +27,9 @@
 .d-block {
   display: block !important;
 }
+
+@media (max-width: 480px) {
+  .Disclaimer_heading {
+    width: 90%;
+  }
+}
