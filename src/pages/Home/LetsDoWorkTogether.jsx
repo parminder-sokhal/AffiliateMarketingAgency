@@ -5,7 +5,7 @@ const LetsDoWorkTogether = () => {
   return (
     <div className="lets-do-work-together">
       <h2>Let's Do Great Work Together</h2>
-      <a href='/contactus'>
+      <a href='/contact-us'>
       <button className="contact-us-btn">
         Contact us
         

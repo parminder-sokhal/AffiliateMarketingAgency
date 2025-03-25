@@ -5,8 +5,9 @@ import { Link } from "react-router-dom";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const menuRef = useRef(null);  // Ref to detect clicks outside the menu
-  const hamburgerRef = useRef(null);  // Ref to detect clicks on the hamburger button
+  const menuRef = useRef(null); // Ref to detect clicks outside the menu
+  const hamburgerRef = useRef(null); // Ref to detect clicks on the hamburger button
+  const closeHamburgerRef = useRef(null); // Ref to detect clicks on the hamburger-close button
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -15,7 +16,11 @@ const Header = () => {
   // Close menu when clicking outside
   useEffect(() => {
     const handleClickOutside = (event) => {
-      if (menuRef.current && !menuRef.current.contains(event.target) && !hamburgerRef.current.contains(event.target)) {
+      if (
+        menuRef.current &&
+        !menuRef.current.contains(event.target) &&
+        !hamburgerRef.current.contains(event.target)
+      ) {
         setIsMenuOpen(false); // Close the menu if clicked outside
       }
     };
@@ -38,6 +43,11 @@ const Header = () => {
     };
   }, [isMenuOpen]);
 
+  // Handle menu item click to close the menu
+  const handleMenuItemClick = () => {
+    setIsMenuOpen(false); // Close the menu when any item is clicked
+  };
+
   return (
     <header className="header">
       <div className="header__logo">
@@ -46,40 +56,44 @@ const Header = () => {
         </Link>
       </div>
 
-      <div 
-        className="hamburger" 
-        onClick={toggleMenu} 
-        ref={hamburgerRef}  // Attach ref to the hamburger button
+      <div
+        className={`hamburger ${isMenuOpen ? "change" : ""}`}
+        onClick={toggleMenu}
+        ref={hamburgerRef}
       >
-        <div className="line"></div>
-        <div className="line"></div>
-        <div className="line"></div>
+        <div className="bar1"></div>
+        <div className="bar2"></div>
+        <div className="bar3"></div>
       </div>
 
-      <nav 
-        className={`header__nav ${isMenuOpen ? "active" : ""}`} 
-        ref={menuRef}  // Attach ref to the navigation menu
+      <nav
+        className={`header__nav ${isMenuOpen ? "active" : ""}`}
+        ref={menuRef} // Attach ref to the navigation menu
       >
-        <div className="hamburger-close" onClick={toggleMenu}>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+        <div
+          className={`hamburger-close ${isMenuOpen ? "change" : ""}`} // Apply the effect to hamburger-close
+          onClick={toggleMenu}
+          ref={closeHamburgerRef} // Attach ref to the hamburger-close button
+        >
+          <div className="bar1"></div>
+          <div className="bar2"></div>
+          <div className="bar3"></div>
         </div>
         <ul>
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/" onClick={handleMenuItemClick}>Home</Link>
           </li>
           <li>
-            <Link to="/about-us">About Us</Link>
+            <Link to="/about-us" onClick={handleMenuItemClick}>About Us</Link>
           </li>
           <li>
-            <Link to="/services">Services</Link>
+            <Link to="/services" onClick={handleMenuItemClick}>Services</Link>
           </li>
           <li>
-            <Link to="/blog">Blog</Link>
+            <Link to="/blogs" onClick={handleMenuItemClick}>Blog</Link>
           </li>
           <li className="header__contact">
-            <Link to="/contact-us">Contact Us</Link>
+            <Link to="/contact-us" onClick={handleMenuItemClick}>Contact Us</Link>
           </li>
         </ul>
       </nav>

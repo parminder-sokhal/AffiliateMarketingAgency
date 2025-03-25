@@ -1,6 +1,36 @@
 import React from "react";
 import "../../styles/services/serviceswhychooseus.scss";
-import { FaCheck } from "react-icons/fa"; // Tick icon from react-icons
+import { GiCheckMark } from "react-icons/gi";
+const benefitsData = [
+  {
+    title: "Custom Solutions",
+    description: "We tailor our strategies to fit your business and goals.",
+  },
+  {
+    title: "Experienced Team",
+    description: "Our expert team has helped businesses of all sizes succeed.",
+  },
+  {
+    title: "Complete Management",
+    description:
+      "From setup to tracking results, we handle everything so you can focus on your business.",
+  },
+  {
+    title: "Data-Driven Results",
+    description:
+      "We use data to continuously improve, delivering measurable success.",
+  },
+  {
+    title: "Long-Term Partnerships",
+    description:
+      "We work with you for the long run, adapting as your business grows.",
+  },
+  {
+    title: "Transparency & Trust",
+    description:
+      "We operate with honesty and integrity, giving you full insight into your program.",
+  },
+];
 
 const ServicesWhyChooseUs = () => {
   return (
@@ -12,48 +42,14 @@ const ServicesWhyChooseUs = () => {
           should choose us:
         </p>
         <div className="benefits">
-          <div className="benefit-item">
-            <FaCheck className="tick-icon" />
-            <p className="benefit-description">
-              <span>Custom Solutions: </span>Custom Solutions: We tailor our
-              strategies to fit your business and goals.
-            </p>
-          </div>
-          <div className="benefit-item">
-            <FaCheck className="tick-icon" />
-            <p className="benefit-description">
-              <span>Experienced Team:</span> Our expert team has helped
-              businesses of all sizes succeed.
-            </p>
-          </div>
-          <div className="benefit-item">
-            <FaCheck className="tick-icon" />
-            <p className="benefit-description">
-              <span>Complete Management:</span> From setup to tracking results,
-              we handle everything so you can focus on your business.
-            </p>
-          </div>
-          <div className="benefit-item">
-            <FaCheck className="tick-icon" />
-            <p className="benefit-description">
-              <span>Data-Driven Results:</span> We use data to continuously
-              improve, delivering measurable success.
-            </p>
-          </div>
-          <div className="benefit-item">
-            <FaCheck className="tick-icon" />
-            <p className="benefit-description">
-              <span>Long-Term Partnerships:</span> We work with you for the long
-              run, adapting as your business grows.
-            </p>
-          </div>
-          <div className="benefit-item">
-            <FaCheck className="tick-icon" />
-            <p className="benefit-description">
-              <span>Transparency & Trust:</span> We operate with honesty and
-              integrity, giving you full insight into your program.
-            </p>
-          </div>
+          {benefitsData.map((benefit, index) => (
+            <div className="benefit-item" key={index}>
+              <GiCheckMark className="tick-icon" />
+              <p className="benefit-description">
+                <span>{benefit.title}: </span> {benefit.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
 

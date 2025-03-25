@@ -2,12 +2,12 @@
 html,
 body {
   width: 100%; /* Ensure the page takes up full width */
-  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow: auto;
   height: 100%; /* Make sure body takes full height */
   font-family: "Nunito", serif;
   background-color: #f9f9f9;
   scroll-behavior: smooth;
-  user-select: none;
+  
 }
 body {
   margin: 0;

@@ -33,6 +33,7 @@
 
     .footer__links-column {
       h4 {
+        text-align: left;
         font-size: 1.125rem;
         margin-bottom: 0.938rem;
         text-transform: uppercase;
@@ -44,6 +45,7 @@
         padding: 0;
 
         li {
+          text-align: left;
           margin: 0.625rem 0;
           display: flex;
           align-items: flex-start;
@@ -126,13 +128,19 @@
     }
     .footer__links {
       display: flex;
-      justify-content: space-evenly;
+      justify-content:space-around;
       gap: 0;
       flex-wrap: wrap;
-      align-items: flex-start;
+      flex-direction: column;
+      align-content: center;
       .footer__links-column{
         h4{
           font-size: 1rem;
+        }
+        ul{
+          li{
+            font-size: 0.8rem;
+          }
         }
       }
       .footer__subscribe {
@@ -143,6 +151,15 @@
         display: flex;
         gap: 0.5rem;
         flex-direction: row;
+        
+          .footer__subscribe-input {
+            width: 70%;
+            font-size: 0.8rem;
+          }
+          .footer__subscribe-btn {
+            padding: 0.5rem 0.938rem;
+            font-size: 0.8rem;
+        }
       }
     }
     }

@@ -1,5 +1,9 @@
 import React, { useState } from "react";
 import "../../styles/ContactUs/GetInTouch.scss";
+import { PiMapPinFill } from "react-icons/pi";
+import { IoMail } from "react-icons/io5";
+import { FaPhoneAlt } from "react-icons/fa";
+import { MdOutlineAccessTime } from "react-icons/md";
 
 const GetInTouch = () => {
   const [formData, setFormData] = useState({
@@ -16,7 +20,6 @@ const GetInTouch = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Send the formData to the backend here
     console.log("Form submitted:", formData);
   };
 
@@ -24,10 +27,22 @@ const GetInTouch = () => {
     <div className="get-in-touch-container">
       <div className="contact-info">
         <h1>Contact Us</h1>
-        <p>Phase Sector 59, Sahibzada Ajit Singh Nagar, Punjab</p>
-        <p>Email: info@linkpro.com</p>
-        <p>Phone: +91 8409120206</p>
-        <p>Monday - Friday 9:00 AM - 10:00 PM</p>
+        <p>
+          <PiMapPinFill />
+          &nbsp;Phase 5 Sector 59, Sahibzada Ajit Singh Nagar, Punjab
+        </p>
+        <p>
+          <IoMail />
+          &nbsp;info@linkpro.com
+        </p>
+        <p>
+          <FaPhoneAlt />
+          &nbsp;+91 8409120206
+        </p>
+        <p>
+          <MdOutlineAccessTime />
+          &nbsp;Monday - Friday 9:00 AM - 10:00 PM
+        </p>
       </div>
       <div className="form-container">
         <h1>Get In Touch</h1>

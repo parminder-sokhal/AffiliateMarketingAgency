@@ -5,22 +5,22 @@ const AboutTestimonials = () => {
   // Example testimonials data
   const testimonials = [
     {
-      name: "Sarah J",
-      image: "./images/women1.png",
+      name: "Anshul Rai",
+      image: "./images/women1.jpg",
       description:
         "LinkPro transformed our affiliate marketing program. Their strategic approach and hands-on management have significantly boosted our sales and visibility. We couldn’t be happier!",
       rating: 5, // Star rating (1 to 5)
     },
     {
-      name: "John D",
-      image: "./images/men1.png",
+      name: "Shivam",
+      image: "./images/men1.jpg",
       description:
         "Their personalized approach and clear communication set them apart from other agencies we’ve worked with. We’ve seen significant growth thanks to their efforts.",
       rating: 4,
     },
     {
-      name: "Emily R",
-      image: "./images/women2.png",
+      name: "Mohit Raj",
+      image: "./images/women2.jpg",
       description:
         "The team at LinkPro is incredible! Their ongoing support and transparent reporting have made a world of difference for our business. Highly recommend their services!",
       rating: 5,
