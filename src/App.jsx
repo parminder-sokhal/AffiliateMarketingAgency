@@ -16,7 +16,6 @@ import Disclaimer from "./pages/Home/Disclaimer";
 import TermCondition from "./pages/Home/TermCondition";
 import ContactUs from "./pages/ContactUs/ContactUs";
 import "./app.css";
-import Blog from "./pages/Blog/Blog";
 
 function App() {
   const location = useLocation();
@@ -32,7 +31,6 @@ function App() {
         <Route path="/Disclaimer" element={<Disclaimer />} />
         <Route path="/Term-Condition" element={<TermCondition />} />
         <Route path="/Contact-Us" element={<ContactUs />} />
-        <Route path="/blog" element={<Blog />} />
       </Routes>
 
       <LetsDoWorkTogether />
