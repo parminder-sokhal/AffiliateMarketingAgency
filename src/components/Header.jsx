@@ -90,7 +90,7 @@ const Header = () => {
             <Link to="/services" onClick={handleMenuItemClick}>Services</Link>
           </li>
           <li>
-            <Link to="/blogs" onClick={handleMenuItemClick}>Blog</Link>
+            <Link to="/blog" onClick={handleMenuItemClick}>Blog</Link>
           </li>
           <li className="header__contact">
             <Link to="/contact-us" onClick={handleMenuItemClick}>Contact Us</Link>

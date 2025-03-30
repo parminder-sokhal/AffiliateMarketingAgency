@@ -3,18 +3,23 @@
 }
 
 .header {
-  background: url("/images/Group98.png"), url("/images/Ellipse6.png"),
-    url("/images/Ellipse6.png"), url("/images/Ellipse7.png"),
-    url("/images/Ellipse8.png"), url("/images/Ellipse12.png"),
-    url("/images/Ellipse13.png"), url("/images/Ellipse11.png"),
-    url("/images/Vector5.png"), url("/images/Group33.png"),
-    url("/images/Ellipse5.png");
-  background-position: 28% 100%, 58% 70%, 12% 95%, 10% 87%, 0% 35%, 3% 42%,
-    5% 35%, 3% 31%, bottom left, top right, 26% 0%;
-  background-size: auto 70%, auto 8%, auto 8%, auto 5%, auto 100%, auto 5%,
-    auto 3%, auto 3%, 100% 100%, auto 45%, auto 8%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
-    no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  // background: url("/images/Group98.png"), url("/images/Ellipse6.png"),
+  //   url("/images/Ellipse6.png"), url("/images/Ellipse7.png"),
+  //   url("/images/Ellipse8.png"), url("/images/Ellipse12.png"),
+  //   url("/images/Ellipse13.png"), url("/images/Ellipse11.png"),
+  //   url("/images/Vector5.png"), url("/images/Group33.png"),
+  //   url("/images/Ellipse5.png");
+  // background-position: 28% 100%, 58% 70%, 12% 95%, 10% 87%, 0% 35%, 3% 42%,
+  //   5% 35%, 3% 31%, bottom left, top right, 26% 0%;
+  // background-size: auto 70%, auto 8%, auto 8%, auto 5%, auto 100%, auto 5%,
+  //   auto 3%, auto 3%, 100% 100%, auto 45%, auto 8%;
+  // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+  //   no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+
+    background: url("/images/Frame.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -162,6 +167,7 @@
     padding: 1rem;
     justify-content: space-between;
     position: relative;
+    background-size: auto;
   }
   .header__info{
     margin: 0;

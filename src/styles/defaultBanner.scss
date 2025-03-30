@@ -1,12 +1,14 @@
 .aboutus-banner {
-  background: url("/images/Vector.png"), url("/images/Vector22.png"),
-    url("/images/Vector3.png"), url("/images/Vector4.png"),
-    url("/images/vector55.png");
+  // background: url("/images/Vector.png"), url("/images/Vector22.png"),
+  //   url("/images/Vector3.png"), url("/images/Vector4.png"),
+  //   url("/images/vector55.png");
 
-  background-position: bottom right, bottom center, top center, left bottom,
-    left bottom;
-  background-size: auto 100%, auto 100%, auto 35%, auto 100%, auto 100%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  // background-position: bottom right, bottom center, top center, left bottom,
+  //   left bottom;
+  // background-size: auto 100%, auto 100%, auto 35%, auto 100%, auto 100%;
+  // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  background: url("/images/Herosection.png");
+  background-size: 100% 100%; 
   display: flex;
   justify-content: center;
   align-items: center;
