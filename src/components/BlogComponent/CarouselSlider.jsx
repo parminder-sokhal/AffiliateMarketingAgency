@@ -2,85 +2,92 @@ import React, { useState } from "react";
 import "../../styles/Blog/CarouselSlider.scss";
 import { useNavigate } from "react-router-dom";
 
+
 const CarouselSlider = () => {
-  const navigate= useNavigate()
+  const navigate = useNavigate();
   const slides = [
     {
-      id:1,
+      id: 1,
       image: "/images/blogCard.png",
       category: "Program Design",
       readTime: "2.3 min read",
-      title: "Program Design Strategies That\nDrive Affiliate Success",
-      // subtitle: "Discover how strategic program design can maximize your affiliate marketing results.",
+      title: "Program Design Strategies That Drive Affiliate Success",
     },
     {
-      id:2, 
-      image: "/img/slide2.jpg",
+      id: 2,
+      image: "/images/slide2.jpg",
       category: "AI Technology",
       readTime: "4.1 min read",
-      title: "AI in Action\nTransforming Industries",
-      // subtitle: "Learn how AI is revolutionizing business operations.",
+      title: "AI in Action Transforming Industries",
     },
     {
-      id:3,
-      image: "/img/slide3.jpg",
+      id: 3,
+      image: "/images/slide3.jpg",
       category: "Future Trends",
       readTime: "5 min read",
-      title: "The Future of\nDigital Marketing",
-      // subtitle: "Explore emerging trends in the marketing landscape.",
+      title: "The Future of Digital Marketing",
     },
   ];
 
   const [currentSlide, setCurrentSlide] = useState(0);
 
   const nextSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    setCurrentSlide((prev) => (prev + 1) % slides.length);
   };
 
   const prevSlide = () => {
-    setCurrentSlide((prevSlide) => (prevSlide - 1 + slides.length) % slides.length);
+    setCurrentSlide((prev) => (prev - 1 + slides.length) % slides.length);
   };
 
-  const handleSlideClick=(id)=>{
-    navigate(`/blog/${id}`)
-  }
-
   return (
-    <div className="carousel-container">
-      <div className="carousel">
-        <div className="carousel-slide"
-        onClick={()=>handleSlideClick(slides[currentSlide].id)}
-        >
-          <img
-            src={slides[currentSlide].image}
-            alt={slides[currentSlide].title}
-            className="carousel-image"
-          />
-          <div className="carousel-content">
-            <div className="carousel-meta">
-              <span className="category">{slides[currentSlide].category}</span>
-              <span className="read-time">{slides[currentSlide].readTime}</span>
+    <section className="carousel-container" aria-label="Featured blog posts">
+      <div
+        className="carousel"
+        style={{ transform: `translateX(-${currentSlide * 100}%)` }}
+      >
+        {slides.map((slide) => (
+          <article
+            key={slide.id}
+            className="carousel-slide"
+            onClick={() => navigate(`/blogs/${slide.id}`)}
+            tabIndex={0}
+            role="button"
+            aria-label={`Read more about ${slide.title}`}
+            onKeyDown={(e) => e.key === "Enter" && navigate(`/blogs/${slide.id}`)}
+          >
+            <picture>
+              <img
+                src={slide.image}
+                alt={slide.title}
+                className="carousel-image"
+                loading="lazy"
+              />
+            </picture>
+            <div className="carousel-content">
+              <div className="carousel-meta">
+                <span className="category">{slide.category}</span>
+                <span className="read-time">{slide.readTime}</span>
+              </div>
+              <h2 className="carousel-title">{slide.title}</h2>
             </div>
-            <h2 className="carousel-title">
-              {slides[currentSlide].title.split('\n').map((line, i) => (
-                <React.Fragment key={i}>
-                  {line}
-                  <br />
-                </React.Fragment>
-              ))}
-            </h2>
-            <p className="carousel-subtitle">{slides[currentSlide].subtitle}</p>
-          </div>
-        </div>
+          </article>
+        ))}
       </div>
-
-      <div className="carousel-arrow carousel-left" onClick={prevSlide}>
-        &#8249;
-      </div>
-      <div className="carousel-arrow carousel-right" onClick={nextSlide}>
-        &#8250;
-      </div>
-    </div>
+      <button
+        className="carousel-arrow carousel-left"
+        onClick={prevSlide}
+        aria-label="Previous slide"
+      >
+        ‹
+      </button>
+      <button
+        className="carousel-arrow carousel-right"
+        onClick={nextSlide}
+        aria-label="Next slide"
+      >
+        ›
+      </button>
+    </section>
   );
 };
 

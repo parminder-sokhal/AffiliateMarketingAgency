@@ -1,0 +1,133 @@
+.like-dislike-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1335px; // Base width
+    height: 114px; // Base height
+    padding: 20px 30px;
+    border: 1px none #ddd;
+    transition: all 0.3s ease; // Smooth transition for responsive changes
+  
+    button {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 12px 20px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 18px;
+      font-weight: 600;
+      color: #333;
+      transition: all 0.3s ease;
+      outline: none;
+      touch-action: manipulation; // Improve touch responsiveness on mobile
+  
+      &:focus {
+        outline: 2px solid #007bff;
+        outline-offset: 2px;
+      }
+  
+      &:hover {
+        transform: scale(1.05);
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+      }
+  
+      &:active {
+        transform: scale(0.98);
+      }
+  
+      svg {
+        transition: transform 0.3s ease;
+        width: 24px;
+        height: 24px;
+      }
+  
+      &:hover svg {
+        transform: scale(1.2);
+      }
+  
+      &.like-button {
+        background: linear-gradient(90deg, #4facfe, #00f2fe);
+        color: #fff;
+  
+        &:hover {
+          background: linear-gradient(90deg, #3d9bde, #00c4d6);
+        }
+      }
+  
+      &.dislike-button {
+        background: linear-gradient(90deg, #4facfe, #00f2fe);
+        color: #fff;
+  
+        &:hover {
+          background: linear-gradient(90deg, #3d9bde, #00c4d6);
+        }
+      }
+  
+      // Ensure buttons are accessible
+      &[aria-disabled="true"] {
+        opacity: 0.6;
+        cursor: not-allowed;
+        pointer-events: none;
+      }
+    }
+  
+    // Responsive design for different screen sizes
+    @media (max-width: 1400px) {
+      width: 100%;
+      padding: 15px 20px;
+    }
+  
+    @media (max-width: 1040px) {
+      height: auto;
+      flex-direction: column;
+      gap: 15px;
+      padding: 15px;
+  
+      button {
+        width: 100%;
+        justify-content: center;
+        font-size: 16px; // Slightly smaller font for mobile
+        padding: 10px 15px;
+  
+        svg {
+          width: 20px;
+          height: 20px;
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      padding: 10px;
+  
+      button {
+        font-size: 14px;
+        padding: 8px 12px;
+  
+        svg {
+          width: 18px;
+          height: 18px;
+        }
+      }
+    }
+  
+    @media (max-width: 480px) {
+      gap: 10px;
+  
+      button {
+        font-size: 12px;
+        padding: 6px 10px;
+  
+        svg {
+          width: 16px;
+          height: 16px;
+        }
+      }
+    }
+  }
+  
+  .like-icon,
+  .dislike-icon {
+    fill: currentColor; // Ensures the SVG inherits the button's text color
+  }

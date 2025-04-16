@@ -3,49 +3,51 @@ import { useNavigate } from "react-router-dom";
 import "../../styles/Blog/BlogLayout.scss";
 
 const BlogLatest = () => {
+  const navigate = useNavigate();
   const blogs = [
     {
       image: "/images/blogCard.png",
       category: "Data & Analysis",
       readTime: "5 min read",
-      title: "Unveiling Hidden\nOpportunities Through\nAffiliate Data Analysis",
-      // description: "Discover how affiliate data analysis can reveal untapped potential in your marketing strategies.",
+      title: "Unveiling Hidden Opportunities Through Affiliate Data Analysis",
+      id: 1,
     },
     {
       image: "/images/blogcard2.jpeg",
       category: "Data & Analysis",
       readTime: "5 min read",
-      title: "Unveiling Hidden\nOpportunities Through\nAffiliate Data Analysis",
-      // description: "Discover how affiliate data analysis can reveal untapped potential in your marketing strategies.",
+      title: "Unveiling Hidden Opportunities Through Affiliate Data Analysis",
+      id: 2,
     },
     {
       image: "/images/blogcard3.jpeg",
       category: "Data & Analysis",
       readTime: "5 min read",
-      title: "Unveiling Hidden\nOpportunities Through\nAffiliate Data Analysis",
-      // description: "Discover how affiliate data analysis can reveal untapped potential in your marketing strategies.",
+      title: "Unveiling Hidden Opportunities Through Affiliate Data Analysis",
+      id: 3,
     },
     {
       image: "/images/blogcard4.jpeg",
       category: "Data & Analysis",
       readTime: "5 min read",
-      title: "Unveiling Hidden\nOpportunities Through\nAffiliate Data Analysis",
-      // description: "Discover how affiliate data analysis can reveal untapped potential in your marketing strategies.",
+      title: "Unveiling Hidden Opportunities Through Affiliate Data Analysis",
+      id: 4,
     },
-    // ... other blog items
   ];
 
-  const navigate = useNavigate();
-
   return (
-    <div className="blog-latest-container">
+    <section className="blog-latest-container" aria-label="Latest blog posts">
       <div className="blog-cards-container">
-        {blogs.map((blog, index) => (
-          <div 
-            key={index} 
+        {blogs.map((blog) => (
+          <article
+            key={blog.id}
             className="blog-card"
             style={{ backgroundImage: `url(${blog.image})` }}
-            onClick={() => navigate("/blogs/details")}
+            onClick={() => navigate(`/blogs/${blog.id}`)}
+            tabIndex={0}
+            role="button"
+            aria-label={`Read more about ${blog.title}`}
+            onKeyDown={(e) => e.key === "Enter" && navigate(`/blogs/${blog.id}`)}
           >
             <div className="content-overlay">
               <div className="meta-info">
@@ -53,21 +55,13 @@ const BlogLatest = () => {
                 <span className="read-time">{blog.readTime}</span>
               </div>
               <div className="text-content">
-                <h3 className="title">
-                  {blog.title.split('\n').map((line, i) => (
-                    <React.Fragment key={i}>
-                      {line}
-                      <br />
-                    </React.Fragment>
-                  ))}
-                </h3>
-                {/* <p className="description">{blog.description}</p> */}
+                <h3 className="title">{blog.title}</h3>
               </div>
             </div>
-          </div>
+          </article>
         ))}
       </div>
-    </div>
+    </section>
   );
 };
 

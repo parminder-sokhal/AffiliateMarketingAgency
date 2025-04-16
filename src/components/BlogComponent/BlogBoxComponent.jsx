@@ -1,40 +1,38 @@
 import React from "react";
 import "../../styles/Blog/BlogBoxComponent.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faChevronLeft,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const BlogBoxComponent = () => {
-  const boxes = [
-    "Software Developer",
-    "Software Engineer",
-    "Backend Developer",
-    "Frontend Developer",
+  const categories = [
+    "Program Design",
+    "Data & Analysis",
+    "Compliance & Fraud Monitoring",
+    "Partnership Optimization",
+    "Partner Recruitment",
   ];
 
   return (
-    <div className="outer-box">
+    <nav className="outer-box" aria-label="Blog categories">
       <div className="inner-box-container">
-        {boxes.map((box , index) => (
-          <div key={index} className="inner-box">
-            <a href="#">{box}</a>
-            {index < boxes.length - 1 && (
-              <span className="divider"> | </span>
-            )}{" "}
+        {categories.map((category, index) => (
+          <div key={category} className="inner-box">
+            <a href={`#${category.toLowerCase().replace(/ & /g, "-").replace(/ /g, "-")}`}>
+              {category}
+            </a>
+            {index < categories.length - 1 && <span className="divider"> | </span>}
           </div>
         ))}
       </div>
       <div className="navbar-buttons">
-        <button>
+        <button aria-label="Previous categories">
           <FontAwesomeIcon icon={faChevronLeft} />
         </button>
-        <button>
+        <button aria-label="Next categories">
           <FontAwesomeIcon icon={faChevronRight} />
         </button>
       </div>
-    </div>
+    </nav>
   );
 };
 
