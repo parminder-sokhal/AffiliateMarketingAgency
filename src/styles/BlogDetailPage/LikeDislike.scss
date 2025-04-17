@@ -5,7 +5,7 @@
     width: 1335px; // Base width
     height: 114px; // Base height
     padding: 20px 30px;
-    border: 1px none #ddd;
+    border: 1px none black;
     transition: all 0.3s ease; // Smooth transition for responsive changes
   
     button {
@@ -48,20 +48,16 @@
       }
   
       &.like-button {
-        background: linear-gradient(90deg, #4facfe, #00f2fe);
-        color: #fff;
+        color: black;
   
         &:hover {
-          background: linear-gradient(90deg, #3d9bde, #00c4d6);
         }
       }
   
       &.dislike-button {
-        background: linear-gradient(90deg, #4facfe, #00f2fe);
-        color: #fff;
+        color: black;
   
         &:hover {
-          background: linear-gradient(90deg, #3d9bde, #00c4d6);
         }
       }
   

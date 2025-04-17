@@ -7,6 +7,7 @@ import Categories from "../../components/BlogDetailPages/Categories";
 import LikeDislike from "../../components/BlogDetailPages/LikeDislike";
 import SubscribeSection from "../../components/BlogComponent/SubscribeSection";
 import RelatedPosts from "../../components/BlogDetailPages/RelatedPosts";
+import Faq from "react-faq-component";
 
 const BlogDetailPage = () => {
   const { id } = useParams();
@@ -237,6 +238,31 @@ const BlogDetailPage = () => {
 
   if (!blog) return <div className="loading">Loading...</div>;
 
+  // Prepare FAQ data
+  const faqData = {
+    title: "FAQ ",
+    rows: blog.detailedContent
+      .find((section) => section.title === "FAQ")
+      .points.map((point) => ({
+        title: point,
+        content: `This is a placeholder answer for ${point}. Provide detailed response here.`,
+      })),
+  };
+
+  // Define styles
+  const styles = {
+    titleTextColor: "blue",
+    rowTitleColor: "blue",
+    rowContentTextSize: "16px",
+    rowContentPaddingBottom: "10px",
+    rowContentPaddingLeft: "50px",
+  };
+
+  // Define config
+  const config = {
+    animate: true,
+  };
+
   return (
     <div className="blog-detail-page">
       <div className="blog-header">
@@ -336,27 +362,35 @@ const BlogDetailPage = () => {
       </div>
       <div className="content-details-section">
         <div className="content-details">
-          {blog.detailedContent.map((section, index) => (
-            <div key={index} className="content-item" id={section.title.toLowerCase().replace(/ /g, "-")}>
-              <h2>{section.title}</h2>
-              <p>{section.content}</p>
-              {section.points && (
-                <ul>
-                  {section.points.map((point, pointIndex) => (
-                    <li key={pointIndex}>{point}</li>
-                  ))}
-                </ul>
-              )}
-              {section.image && (
-                <img
-                  src={section.image}
-                  alt={`${section.title} image`}
-                  onError={(e) => (e.target.src = `${import.meta.env.BASE_URL}images/default.jpg`)}
-                  className="detail-image"
-                />
-              )}
+          {blog.detailedContent
+            .filter((section) => section.title !== "FAQ")
+            .map((section, index) => (
+              <div key={index} className="content-item" id={section.title.toLowerCase().replace(/ /g, "-")}>
+                <h2>{section.title}</h2>
+                <p>{section.content}</p>
+                {section.points && (
+                  <ul>
+                    {section.points.map((point, pointIndex) => (
+                      <li key={pointIndex}>{point}</li>
+                    ))}
+                  </ul>
+                )}
+                {section.image && (
+                  <img
+                    src={section.image}
+                    alt={`${section.title} image`}
+                    onError={(e) => (e.target.src = `${import.meta.env.BASE_URL}images/default.jpg`)}
+                    className="detail-image"
+                  />
+                )}
+              </div>
+            ))}
+          {/* Render Faq component for the FAQ section */}
+          {blog.detailedContent.some((section) => section.title === "FAQ") && (
+            <div className="content-item" id="faq">
+              <Faq data={faqData} styles={styles} config={config} />
             </div>
-          ))}
+          )}
         </div>
       </div>
       <LikeDislike />

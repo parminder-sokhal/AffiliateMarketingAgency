@@ -3,7 +3,6 @@
   margin: 0 auto;
   padding: 20px;
   font-family: Arial, sans-serif;
-  background-color: #fff;
   color: #333;
   position: relative;
 }
@@ -505,7 +504,7 @@
       border-radius: 5px;
       position: relative;
       overflow: hidden;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
       .category-image {
@@ -537,11 +536,13 @@
   }
 }
 
+/* Existing SCSS remains unchanged up to .content-details-section */
+/* Existing SCSS remains unchanged up to .content-details-section */
+
 /* Content Details Section for Detailed Content */
 .content-details-section {
-  margin-top: 30px;
+  margin-top: 15px;
   padding: 20px;
-  background: #fff;
   border-radius: 8px;
   width: calc(100% - 420px); /* Matches table-of-content width (100% - 390px categories - 30px gap) */
 
@@ -593,11 +594,68 @@
   }
 }
 
+/* FAQ Section Styling */
+.content-details-section .content-item#faq {
+  margin-bottom: 30px;
+  background-color: transparent; /* Explicitly remove background color */
+
+  .faq-title {
+    font-size: 2rem; /* Matches h2 size in content-item */
+    color: #333;
+    margin-bottom: 15px;
+    font-weight: 700;
+    /* Override with styles.titleTextColor from JS */
+    color: blue; /* Matches styles.titleTextColor */
+  }
+
+  .faq-row {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+    background-color: transparent; /* Ensure no background on rows */
+
+    &:last-child {
+      margin-bottom: 0;
+      border-bottom: none;
+    }
+
+    .faq-question {
+      font-size: 1rem;
+      color: blue; /* Matches styles.rowTitleColor */
+      margin-bottom: 5px;
+      font-weight: 600; /* Adds emphasis similar to card titles */
+    }
+
+    .faq-answer {
+      font-size: 16px; /* Matches styles.rowContentTextSize */
+      color: #666; /* Consistent with other content */
+      line-height: 1.6;
+      padding-left: 50px; /* Matches styles.rowContentPaddingLeft */
+      padding-bottom: 10px; /* Matches styles.rowContentPaddingBottom */
+      background-color: transparent; /* Ensure no background on answers */
+    }
+  }
+}
+
 /* Responsive Adjustments for Content Details Section */
 @media (max-width: 1024px) {
   .content-details-section {
     width: 100%; /* Full width on tablet and below */
     margin-top: 0; /* Remove margin when stacked */
+  }
+
+  .content-details-section .content-item#faq .faq-title {
+    font-size: 1.5rem; /* Adjust for smaller screens */
+  }
+
+  .content-details-section .content-item#faq .faq-question {
+    font-size: 0.9rem;
+  }
+
+  .content-details-section .content-item#faq .faq-answer {
+    font-size: 14px; /* Slightly reduced for readability */
+    padding-left: 30px; /* Reduced padding on smaller screens */
+    padding-bottom: 8px;
   }
 }
 
@@ -621,6 +679,20 @@
   .content-details-section .content-item ul li {
     font-size: 0.85rem;
   }
+
+  .content-details-section .content-item#faq .faq-title {
+    font-size: 1.2rem;
+  }
+
+  .content-details-section .content-item#faq .faq-question {
+    font-size: 0.85rem;
+  }
+
+  .content-details-section .content-item#faq .faq-answer {
+    font-size: 13px;
+    padding-left: 20px;
+    padding-bottom: 6px;
+  }
 }
 
 @media (max-width: 480px) {
@@ -642,5 +714,19 @@
 
   .content-details-section .content-item ul li {
     font-size: 0.75rem;
+  }
+
+  .content-details-section .content-item#faq .faq-title {
+    font-size: 1rem;
+  }
+
+  .content-details-section .content-item#faq .faq-question {
+    font-size: 0.75rem;
+  }
+
+  .content-details-section .content-item#faq .faq-answer {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-bottom: 5px;
   }
 }
