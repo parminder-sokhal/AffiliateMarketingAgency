@@ -5,9 +5,9 @@ const SubscribeSection = () => {
   return (
     <section className="subscribe-section" aria-label="Subscribe to newsletter">
       <div className="subscribe-content">
-        <h2 className="subscribe-title">
+        <h3 className="subscribe-title">
           Subscribe for the Latest Updates!
-        </h2>
+        </h3>
         <div className="subscribe-form">
           <div className="email-input-container">
             <input

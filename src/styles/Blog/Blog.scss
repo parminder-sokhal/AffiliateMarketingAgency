@@ -36,7 +36,7 @@
   width: 100%;
   gap: clamp(0.5rem, 1.5vw, 1rem);
   position: relative;
-  flex-wrap: nowrap; /* Keep elements on the same line */
+  flex-wrap: nowrap; 
 }
 
 .searchbar {
@@ -134,13 +134,11 @@
   padding: clamp(0.5rem, 1vw, 0.75rem) 0;
   max-height: 200px;
   overflow-y: auto;
-  /* Ensure it stays within the viewport */
-  transform: translateX(0); /* Reset any previous transform */
-  left: auto; /* Allow right alignment but constrain within bounds */
-  max-width: calc(100vw - 20px); /* Limit to viewport width minus some padding */
+  transform: translateX(0); 
+  left: auto; 
+  max-width: calc(100vw - 20px);
 }
 
-/* Ensure dropdown fits within the row/container */
 .dropdown-options ul {
   list-style: none;
   padding: 0;
@@ -175,7 +173,7 @@
     width: clamp(120px, 20vw, 180px);
     right: 0;
     left: auto;
-    max-width: calc(100vw - 40px); /* Adjust for padding on smaller screens */
+    max-width: calc(100vw - 40px); 
   }
 }
 
@@ -201,12 +199,12 @@
   .dropdown-options {
     position: absolute;
     top: 100%;
-    left: 0; /* Align to the left of the dropdown button */
-    right: 0; /* Stretch to the right edge */
+    left: 0;
+    right: 0; 
     width: auto;
     min-width: 120px;
-    max-width: calc(100vw - 20px); /* Ensure it fits within viewport */
-    margin: 0 auto; /* Center if space allows */
+    max-width: calc(100vw - 20px); 
+    margin: 0 auto; 
     transform: none;
   }
 }
@@ -238,7 +236,7 @@
   .dropdown-options {
     width: clamp(90px, 20vw, 120px);
     max-height: 150px;
-    max-width: calc(100vw - 10px); /* Tighter constraint for small screens */
+    max-width: calc(100vw - 10px);
   }
 
   .dropdown-options li {
@@ -274,7 +272,7 @@
   .dropdown-options {
     width: clamp(80px, 20vw, 100px);
     max-height: 120px;
-    max-width: calc(100vw - 5px); /* Minimal padding for very small screens */
+    max-width: calc(100vw - 5px); 
   }
 
   .dropdown-options li {
