@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { FaEye, FaHeart, FaComment, FaUser } from 'react-icons/fa'
 import '../../styles/Blog/BlogDetailPage.scss'
 import TableOfContent from '../../components/BlogDetailPages/TableOfContent'
-import LikeDislike from '../../components/BlogDetailPages/LikeDislike'
+import LikeDislike from '../../components/BlogDetailPages/NavigationControls'
 import RelatedPosts from '../../components/BlogDetailPages/RelatedPosts'
 import FaqAccordion from '../../components/BlogComponent/FaqAccordion'
 
