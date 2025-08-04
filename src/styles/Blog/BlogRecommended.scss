@@ -1,8 +1,9 @@
 .blog-recommended {
   width: 100%;
   padding: 20px;
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
+  box-sizing: border-box;
 
   &__wrapper {
     display: flex;
@@ -38,7 +39,7 @@
 
   &__additional-featured {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); // 2 cards per row
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     width: 100%;
   }
@@ -53,12 +54,17 @@
     height: 458px;
     margin-bottom: 20px;
     overflow: hidden;
+    border-radius: 6px;
 
     img {
       width: 100%;
       height: 100%;
       object-fit: cover;
-      border-radius: 6px;
+      transition: transform 0.3s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.05);
     }
   }
 
@@ -80,7 +86,7 @@
   }
 
   &__title {
-    font-size: 24px;
+    font-size: 30px;
     font-weight: bold;
     color: #333;
     margin: 10px 0;
@@ -88,9 +94,8 @@
   }
 
   &__description {
-    font-size: 16px;
+    font-size: 24px;
     color: #555;
-    line-height: 1.5;
   }
 }
 
@@ -102,6 +107,12 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
 
   &__meta {
     display: flex;
@@ -117,7 +128,7 @@
   }
 
   &__title {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     color: #333;
     margin: 10px 0;
@@ -125,20 +136,54 @@
   }
 
   &__description {
-    font-size: 16px;
+    font-size: 24px;
     color: #555;
     line-height: 1.5;
+    flex-grow: 1;
+  }
+}
+
+// Responsive Design
+@media (max-width: 1200px) {
+  .blog-recommended__container {
+    gap: 30px;
+  }
+
+  .blog-recommended__featured {
+    width: 50%;
+  }
+
+  .blog-recommended__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-recommended__additional-featured {
+    grid-template-columns: 1fr;
+  }
+
+  .featured-post__image {
+    height: 350px;
+  }
+
+  .post-card__title,
+  .featured-post__title {
+    font-size: 22px;
   }
 }
 
 @media (max-width: 768px) {
+  .blog-recommended {
+    padding: 15px;
+  }
+
   .blog-recommended__container {
     flex-direction: column;
+    gap: 20px;
   }
 
   .blog-recommended__featured {
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 
     .featured-post__image {
       height: auto;
@@ -151,11 +196,107 @@
   }
 
   .blog-recommended__additional-featured {
-    grid-template-columns: 1fr; // Stack cards vertically on small screens
+    grid-template-columns: 1fr;
   }
 
-  .post-card__title,
+  .blog-recommended__title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+
   .featured-post__title {
     font-size: 20px;
+  }
+
+  .post-card__title {
+    font-size: 18px;
+  }
+
+  .featured-post__description,
+  .post-card__description {
+    font-size: 14px;
+  }
+
+  .featured-post__image {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-recommended {
+    padding: 10px;
+  }
+
+  .blog-recommended__wrapper {
+    gap: 20px;
+  }
+
+  .blog-recommended__title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .blog-recommended__featured .featured-post__image {
+    height: 200px;
+  }
+
+  .featured-post__title {
+    font-size: 18px;
+  }
+
+  .post-card__title {
+    font-size: 16px;
+  }
+
+  .featured-post__description,
+  .post-card__description {
+    font-size: 13px;
+  }
+
+  .featured-post__meta,
+  .post-card__meta {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 320px) {
+  .blog-recommended {
+    padding: 5px;
+  }
+
+  .blog-recommended__wrapper {
+    gap: 15px;
+  }
+
+  .blog-recommended__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .blog-recommended__featured .featured-post__image {
+    height: 150px;
+  }
+
+  .featured-post__title {
+    font-size: 16px;
+  }
+
+  .post-card__title {
+    font-size: 14px;
+  }
+
+  .featured-post__description,
+  .post-card__description {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .featured-post__meta,
+  .post-card__meta {
+    font-size: 10px;
+  }
+
+  .post-card {
+    padding: 10px;
   }
 }

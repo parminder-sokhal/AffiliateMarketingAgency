@@ -1,4 +1,95 @@
+:root {
+  --primary-color: #000;
+  --white: #fff;
+  --hover-color: #ccc;
+}
+
 .outer-box {
+  display: flex;
+  justify-content: space-between; /* push arrows to right */
+  align-items: center;
+  background: var(--primary-color);
+  padding: 0.5rem 1rem;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.inner-box-container {
+  flex: 1;
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.inner-box {
+  display: inline-flex;
+  align-items: center;
+  scroll-snap-align: start; /* snap each item to the start */
+}
+
+.inner-box a {
+  color: var(--white);
+  text-decoration: none;
+  font-size: clamp(0.875rem, 1.5vw, 1rem);
+  padding: 0.25rem 0.5rem;
+  transition: color 0.3s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--hover-color);
+    text-decoration: underline;
+    outline: none;
+  }
+}
+
+.divider {
+  color: var(--white);
+  margin: 0 clamp(0.25rem, 0.5vw, 0.5rem);
+  font-weight: bold;
+}
+
+.navbar-buttons-right {
+  display: flex;
+  gap: 0.5rem;
+
+  button {
+    background: none;
+    border: none;
+    color: var(--white);
+    font-size: 1rem;
+    cursor: pointer;
+
+    &:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    &:hover {
+      color: var(--hover-color);
+    }
+  }
+}
+
+.inner-box-container::-webkit-scrollbar {
+  display: none;
+}
+.inner-box-container {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .outer-box {
+    padding: clamp(0.25rem, 1vw, 0.5rem) 0.5rem;
+  }
+
    
     height: 50px;
     top: 1230px;
@@ -12,40 +103,22 @@
   }
   
   .inner-box-container {
-    display: flex;
-    gap: 16px;
+    gap: 0.5rem;
   }
-  
-  .inner-box {
-    display: flex;
-    align-items: center;
-  }
-  
-  .inner-box a {
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-  }
-  
-  .divider {
-    width: 18px;
-    border-left: 1px solid white;
-    margin: 12px;
-  }
-  
+
   .navbar-buttons {
-    display: flex;
-    gap: 8px;
-    margin-left: 100px; 
-    
-    button {
-      background: none;
-      border: none;
-      color: white;
-      cursor: pointer;
-      font-size: 16px;
-    }
+    margin: 0; /* keep tight on small screens */
   }
-  
+}
+
+@media (max-width: 480px) {
+  .inner-box a {
+    font-size: clamp(0.75rem, 3.2vw, 0.875rem);
+    padding: 0.2rem 0.4rem;
+  }
+
+  .navbar-buttons button {
+    font-size: clamp(0.75rem, 3.2vw, 0.875rem);
+    padding: 0.2rem;
+  }
+}

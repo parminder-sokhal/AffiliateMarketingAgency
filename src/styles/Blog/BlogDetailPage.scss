@@ -1,0 +1,246 @@
+/* Blog Detail Page Container */
+.blog-detail-page {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #111;
+}
+
+/* Blog Header Section */
+.blog-header {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+
+  .header-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    .author-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #666;
+
+      svg {
+        font-size: 1rem;
+      }
+
+      .author-name {
+        font-weight: 500;
+      }
+
+      .read-time {
+        color: #999;
+      }
+    }
+
+    .blog-stats {
+      display: flex;
+      gap: 15px;
+
+      .stat-item {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: #666;
+        cursor: pointer;
+        transition: color 0.3s;
+
+        svg {
+          font-size: 1rem;
+        }
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
+
+/* Content Wrapper Section */
+.content-wrapper {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: flex;
+  gap: 30px;
+
+  .content-left {
+    flex: 1;
+
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    .blog-body {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #111;
+
+      p {
+        margin: 0 0 15px;
+      }
+    }
+  }
+}
+
+/* Loading State */
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: #666;
+}
+
+/* Sidebar Section for Table of Content */
+.sidebar-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+/* Content Details Section */
+.content-details-section {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px 0;
+
+  .content-details {
+    width: 100%;
+    margin: 0;
+
+    .content-item {
+      margin-bottom: 30px;
+
+      h2 {
+        font-size: 2rem;
+        color: #333;
+        margin-bottom: 15px;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 1rem;
+        color: #444;
+        line-height: 1.6;
+        margin-bottom: 15px;
+      }
+
+      ul {
+        list-style-type: disc;
+        padding-left: 20px;
+        margin-bottom: 15px;
+
+        li {
+          font-size: 0.95rem;
+          color: #666;
+          margin-bottom: 8px;
+        }
+      }
+
+      .detail-image {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        margin-top: 15px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      }
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+
+  .sidebar-section {
+    flex-direction: column;
+  }
+
+  .blog-detail-page,
+  .blog-header,
+  .content-wrapper,
+  .sidebar-section,
+  .content-details-section {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .blog-detail-page {
+    padding: 10px;
+  }
+
+  .blog-header h1 {
+    font-size: 1.5rem;
+  }
+
+  .content-details-section .content-item h2 {
+    font-size: 1.5rem;
+  }
+
+  .content-details-section .content-item p {
+    font-size: 0.9rem;
+  }
+
+  .content-details-section .content-item ul {
+    padding-left: 15px;
+  }
+
+  .content-details-section .content-item ul li {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .blog-header {
+    padding: 10px 0;
+  }
+
+  .blog-header .header-meta {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .content-wrapper .content-left img {
+    margin-bottom: 15px;
+  }
+
+  .content-details-section .content-item h2 {
+    font-size: 1.2rem;
+  }
+
+  .content-details-section .content-item p {
+    font-size: 0.8rem;
+  }
+
+  .content-details-section .content-item ul {
+    padding-left: 10px;
+  }
+
+  .content-details-section .content-item ul li {
+    font-size: 0.75rem;
+  }
+}

@@ -5,7 +5,7 @@ const BlogRecommended = () => {
   const featuredPost = {
     category: 'Program Design',
     readTime: '5 min read',
-    title: 'How to Build a High-Performing Affiliate Program from Scratch',
+    title: 'Essential Metrics to Monitor in Your Affiliate Program A guide to the key performance metrics........',
     description: 'A step-by-step guide on...',
     imageUrl: '/images/blogreco.jpeg',
   };

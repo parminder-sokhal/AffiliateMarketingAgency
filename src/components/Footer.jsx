@@ -1,8 +1,10 @@
 import React from "react";
 import "../styles/footer.scss";
+import { Link } from "react-router-dom";
 import { PiMapPinFill } from "react-icons/pi";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
+
 
 const Footer = () => {
   return (
@@ -34,7 +36,11 @@ const Footer = () => {
                 <a href="/services">Services</a>
               </li>
               <li>
+
+                <Link to="/blog">Blog</Link>
+
                 <a href="/blog">Blog</a>
+
               </li>
             </ul>
           </div>

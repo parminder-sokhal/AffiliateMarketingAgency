@@ -1,5 +1,5 @@
-import React from "react";
-import "../../styles/Blog/SubscribeSection.scss";
+import React from 'react'
+import '../../styles/Blog/SubscribeSection.scss'
 
 const SubscribeSection = () => {
   return (
@@ -31,17 +31,18 @@ const SubscribeSection = () => {
 
             {/* Disclaimer  */}
             <p className="disclaimer">
-              By subscribing, I agree to receive newsletters via email. Check our{" "}
+              By subscribing, I agree to receive newsletters via email. Check
+              our{' '}
               <a href="/privacy-policy" className="policy-link">
                 Privacy Policy
-              </a>{" "}
+              </a>{' '}
               for more details.
             </p>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SubscribeSection;
+export default SubscribeSection

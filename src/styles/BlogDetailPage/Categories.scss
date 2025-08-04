@@ -1,0 +1,42 @@
+// // Categories.scss
+// .categories {
+//     .category-card {
+//       display: flex;
+//       flex-direction: column;
+//       align-items: center;
+//       width: 100%;
+//       height: 88px;
+//       background-color: #fff;
+//       border-radius: 5px;
+//       position: relative;
+//       overflow: hidden;
+//       margin-bottom: 15px;
+//       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+//       .category-image {
+//         position: absolute;
+//         top: 0;
+//         left: 0;
+//         width: 100%;
+//         height: 100%;
+//         object-fit: cover;
+//         z-index: 1;
+//       }
+  
+//       .category-content {
+//         position: relative;
+//         z-index: 2;
+//         padding: 15px;
+//         color: #fff;
+//         text-align: center;
+//         width: 100%;
+  
+//         h3 {
+//           font-size: 1rem;
+//           font-weight: 600;
+//           margin: 0;
+//           text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+//         }
+//       }
+//     }
+//   }
