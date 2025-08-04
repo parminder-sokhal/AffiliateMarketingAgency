@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import { PiMapPinFill } from "react-icons/pi";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -79,13 +82,27 @@ const Footer = () => {
           </div>
 
           <div className="footer__subscribe">
-            <h4>Subscribe Now</h4>
-            <div className="footer__subscribe-form">
-              <input type="email" className="footer__subscribe-input" />
-              <button type="submit" className="footer__subscribe-btn">
-                Subscribe
-              </button>
-            </div>
+            <h4>Follow Us</h4>
+            <ul>
+              <li>
+                <a
+                  href="https://www.instagram.com/official_linkpro"
+                  target="_blank"
+                >
+                  <FaInstagram />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <FaFacebook />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/" target="_blank">
+                  <FaXTwitter />
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
       </footer>

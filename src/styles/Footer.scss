@@ -1,10 +1,10 @@
 .footer {
   background-color: #f6f9ff;
-  background:  url("/images/Vector2.png"),url("/images/Rectangle10.png"),
+  background: url("/images/Vector2.png"), url("/images/Rectangle10.png"),
     url("/images/Vector1.png");
 
   background-position: top right, top right, bottom left;
-  background-size:  25% 55%,70% 110%, 20% 40%;
+  background-size: 25% 55%, 70% 110%, 20% 40%;
 
   background-repeat: no-repeat, no-repeat, no-repeat;
 
@@ -71,6 +71,25 @@
         text-transform: uppercase;
         font-weight: bold;
       }
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-direction: row;
+        gap: 1.2rem;
+        justify-content: center;
+        li{
+          a{
+            color: black;
+            text-decoration: none;
+            transition: color 0.3s ease;
+
+            &:hover {
+              color: #f5a623;
+            }
+          }
+        }
+      }
 
       .footer__subscribe-form {
         display: flex;
@@ -128,30 +147,35 @@
     }
     .footer__links {
       display: flex;
-      justify-content:space-around;
+      justify-content: space-around;
       gap: 0;
       flex-wrap: wrap;
       flex-direction: column;
       align-content: center;
-      .footer__links-column{
-        h4{
+      .footer__links-column {
+        h4 {
           font-size: 1rem;
         }
-        ul{
-          li{
+        ul {
+          li {
             font-size: 0.8rem;
           }
         }
       }
       .footer__subscribe {
-      h4{
-        margin: 0;
-      }
-      .footer__subscribe-form {
-        display: flex;
-        gap: 0.5rem;
-        flex-direction: row;
-        
+        h4 {
+          margin: 0;
+        }
+        ul {
+          align-items: left;
+          justify-content: left;
+          
+        }
+        .footer__subscribe-form {
+          display: flex;
+          gap: 0.5rem;
+          flex-direction: row;
+
           .footer__subscribe-input {
             width: 70%;
             font-size: 0.8rem;
@@ -159,12 +183,12 @@
           .footer__subscribe-btn {
             padding: 0.5rem 0.938rem;
             font-size: 0.8rem;
+          }
         }
       }
     }
-    }
   }
-  .copyright p{
+  .copyright p {
     font-size: 0.8rem;
   }
 }
