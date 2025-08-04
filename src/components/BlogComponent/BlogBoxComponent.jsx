@@ -12,7 +12,6 @@ const BlogBoxComponent = () => {
     'Data & Analysis',
     'Compliance & Fraud Monitoring',
     'Partnership Optimization',
-    'Partner Recruitment',
   ]
 
   const containerRef = useRef(null)

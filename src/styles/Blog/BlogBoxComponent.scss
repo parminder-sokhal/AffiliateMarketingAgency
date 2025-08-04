@@ -88,10 +88,8 @@
 @media (max-width: 768px) {
   .outer-box {
     padding: clamp(0.25rem, 1vw, 0.5rem) 0.5rem;
-  }
-
-   
-    height: 50px;
+    flex-direction: column;
+    align-items: flex-start;
     top: 1230px;
     padding: 0 16px;
     border-radius: 0;
@@ -99,9 +97,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position:static; 
+    position: static;
+    width: 100%; 
+    max-width: 1400px;
+    overflow-x: hidden; // ✅ Prevent overflow
+    box-sizing: border-box; // ✅ Ensure padding doesn't add to width
   }
-  
+
   .inner-box-container {
     gap: 0.5rem;
   }
@@ -113,7 +115,7 @@
 
 @media (max-width: 480px) {
   .inner-box a {
-    font-size: clamp(0.75rem, 3.2vw, 0.875rem);
+    font-size: clamp(0.5rem, 3.2vw, 0.875rem);
     padding: 0.2rem 0.4rem;
   }
 

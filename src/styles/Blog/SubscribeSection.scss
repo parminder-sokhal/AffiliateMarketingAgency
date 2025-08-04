@@ -1,8 +1,9 @@
 .subscribe-section {
-  width: 1220px;
+  width: 100%;
+  max-width: 1220px;
   height: 218px;
   padding: 20px;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: #ecebeb;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   border-radius: 6px;
@@ -11,6 +12,7 @@
   align-items: center;
   justify-content: center;
   margin: 0 auto;
+  box-sizing: border-box;
 
   .subscribe-content {
     display: flex;

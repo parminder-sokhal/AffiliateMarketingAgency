@@ -5,7 +5,6 @@ import { PiMapPinFill } from "react-icons/pi";
 import { IoMail } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 const Footer = () => {
   return (
     <>
@@ -36,11 +35,7 @@ const Footer = () => {
                 <a href="/services">Services</a>
               </li>
               <li>
-
-                <Link to="/blog">Blog</Link>
-
                 <a href="/blog">Blog</a>
-
               </li>
             </ul>
           </div>
@@ -63,15 +58,21 @@ const Footer = () => {
           <div className="footer__links-column">
             <h4>Contact Us</h4>
             <ul>
-              <li><PiMapPinFill/>
-                <a href="/contact-us">&nbsp;Phase 5 Sector 59,
-                Sahibzada Ajit<br/>Singh Nagar, Punjab</a>
+              <li>
+                <PiMapPinFill />
+                <a href="/contact-us">
+                  &nbsp;Phase 5 Sector 59, Sahibzada Ajit
+                  <br />
+                  Singh Nagar, Punjab
+                </a>
               </li>
-              <li><IoMail />
+              <li>
+                <IoMail />
                 <a href="/contact-us">&nbsp; info@linkpro.com</a>
               </li>
-              
-              <li ><FaPhoneAlt />
+
+              <li>
+                <FaPhoneAlt />
                 <a href="/contact-us">&nbsp; +91 8409120206</a>
               </li>
             </ul>
