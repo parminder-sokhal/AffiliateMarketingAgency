@@ -90,6 +90,18 @@
     padding: clamp(0.25rem, 1vw, 0.5rem) 0.5rem;
   }
 
+   
+    height: 50px;
+    top: 1230px;
+    padding: 0 16px;
+    border-radius: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:static; 
+  }
+  
   .inner-box-container {
     gap: 0.5rem;
   }

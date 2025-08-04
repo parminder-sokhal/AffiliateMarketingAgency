@@ -2,7 +2,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
   padding: 5rem;
   background-color: white;
   border-radius: 0.625rem;
@@ -10,7 +9,7 @@
 }
 
 .aboutus-link-pro__left {
-  width: 34%;
+  width: 45%;
   padding: 0 12rem 0 0;
 }
 
@@ -35,10 +34,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .aboutus-link-pro__image {
-  max-width: 100%;
   height: auto;
   border-radius: 0.625rem;
 }

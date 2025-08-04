@@ -1,22 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
-
-
 .no-scroll {
   overflow: hidden;
 }
+
 .header {
-  background: url("/images/Group98.png"), url("/images/Ellipse6.png"),
-    url("/images/Ellipse6.png"), url("/images/Ellipse7.png"),
-    url("/images/Ellipse8.png"), url("/images/Ellipse12.png"),
-    url("/images/Ellipse13.png"), url("/images/Ellipse11.png"),
-    url("/images/Vector5.png"), url("/images/Group33.png"),
-    url("/images/Ellipse5.png");
-  background-position: 28% 100%, 58% 70%, 12% 95%, 10% 87%, 0% 35%, 3% 42%,
-    5% 35%, 3% 31%, bottom left, top right, 26% 0%;
-  background-size: auto 70%, auto 8%, auto 8%, auto 5%, auto 100%, auto 5%,
-    auto 3%, auto 3%, 100% 100%, auto 45%, auto 8%;
-  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
-    no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+  // background: url("/images/Group98.png"), url("/images/Ellipse6.png"),
+  //   url("/images/Ellipse6.png"), url("/images/Ellipse7.png"),
+  //   url("/images/Ellipse8.png"), url("/images/Ellipse12.png"),
+  //   url("/images/Ellipse13.png"), url("/images/Ellipse11.png"),
+  //   url("/images/Vector5.png"), url("/images/Group33.png"),
+  //   url("/images/Ellipse5.png");
+  // background-position: 28% 100%, 58% 70%, 12% 95%, 10% 87%, 0% 35%, 3% 42%,
+  //   5% 35%, 3% 31%, bottom left, top right, 26% 0%;
+  // background-size: auto 70%, auto 8%, auto 8%, auto 5%, auto 100%, auto 5%,
+  //   auto 3%, auto 3%, 100% 100%, auto 45%, auto 8%;
+  // background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat,
+  //   no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+
+    background: url("/images/Frame.png");
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -70,7 +73,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin:2rem 4rem 5rem 4rem;
+  margin: 2rem 4rem 5rem 4rem;
 }
 
 .header__info-left {
@@ -133,13 +136,30 @@
   cursor: pointer;
 }
 
-.hamburger .line,
-.hamburger-close .line {
+.hamburger .bar1,
+.hamburger .bar2,
+.hamburger .bar3,
+.hamburger-close .bar1,
+.hamburger-close .bar2,
+.hamburger-close .bar3 {
   margin: auto;
   width: 30px;
   height: 5px;
   background-color: white;
   border-radius: 5px;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  transform: translate(0, 0.55rem) rotate(-45deg);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  transform: translate(0, -0.55rem) rotate(45deg);
 }
 
 @media (max-width: 480px) {
@@ -147,52 +167,27 @@
     padding: 1rem;
     justify-content: space-between;
     position: relative;
+    background-size: auto;
   }
   .header__info{
     margin: 0;
   }
 
-  // .header__nav {
-  //   display: none;
-  // }
-  // .header__info-left{
-  //   font-size: 85%;
-  // }
-
-  // .hamburger {
-  //   display: flex;
-  // }
-
-  // .header__nav.active {
-  //   display: block;
-  //   position: absolute;
-  //   top: 0;
-  //   right: 0;
-  //   background-color: #08378f;
-  //   width: 50%; 
-  //   height: 100vh;
-  //   padding: 2rem;
-  //   display: flex;
-  //   flex-direction: column;
-  //   gap: 2rem;
-  //   align-items: flex-start;
-  // }
-
   .header__nav {
-    display: flex; 
+    display: flex;
     flex-direction: column;
     gap: 1.5rem;
-    position: fixed; 
+    position: fixed;
     top: 0;
     right: 0;
     background-color: #08378f;
-    width: 50%; 
+    width: 50%;
     height: 100vh;
     padding: 2rem;
-    transform: translateX(100%);  
-    opacity: 0; 
-    pointer-events: none;  
-    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;  
+    transform: translateX(100%);
+    opacity: 0;
+    pointer-events: none;
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
   }
 
   .header__info-left {
@@ -200,13 +195,13 @@
   }
 
   .hamburger {
-    display: flex;  
+    display: flex;
   }
 
   .header__nav.active {
-    transform: translateX(0);  
-    opacity: 1;  
-    pointer-events: all; 
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: all;
   }
 
   .header__nav ul {

@@ -17,7 +17,7 @@ function AboutUs() {
     <AboutUsWhatWeDo/>
     <AboutOurValues/>
     <AboutTestimonials/>
-    <AboutMeetOurTeam/>
+    {/* <AboutMeetOurTeam/> */}
     
     </>
   )

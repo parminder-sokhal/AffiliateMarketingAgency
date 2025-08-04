@@ -1,4 +1,3 @@
-import React from "react";
 import {
   BrowserRouter as Router,
   Route,
@@ -23,7 +22,6 @@ import BlogDetailPage from "./pages/Blog/BlogDetailPage";
 
 function App() {
   const location = useLocation();
-
   return (
     <>
       {location.pathname === "/" ? <Header /> : <HeaderDefault />}
@@ -32,9 +30,9 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/services" element={<Services />} />
-        <Route path="/privacypolicy" element={<Privacypolicy />} />
+        <Route path="/privacy-policy" element={<Privacypolicy />} />
         <Route path="/Disclaimer" element={<Disclaimer />} />
-        <Route path="/TermCondition" element={<TermCondition />} />
+        <Route path="/Term-Condition" element={<TermCondition />} />
         <Route path="/Contact-Us" element={<ContactUs />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogs/:id" element={<BlogDetailPage/>} />

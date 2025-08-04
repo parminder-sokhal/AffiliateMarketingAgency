@@ -6,425 +6,324 @@ function TermCondition() {
     <>
       <div className="TermCondition">
         <div className="TermCondition_heading">
-          <h2 >Terms and Conditions</h2>
-          <p >
-            Please read these terms and conditions carefully before using Our
-            Service.
+          <h1>TERMS AND CONDITIONS</h1>
+          <p>Last updated March 21, 2025</p>
+          <h2>AGREEMENT TO OUR LEGAL TERMS</h2>
+          <p>
+            We are Linkpro ("Company," "we," "us," "our"). We operate the
+            website <a href="https://linkpro.co.in/">https://linkpro.co.in/</a>{" "}
+            (the "Site"), as well as any other related products and services
+            that refer or link to these legal terms (the "Legal Terms")
+            (collectively, the "Services").
+          </p>
+          <p>
+            You can contact us by email at{" "}
+            <a href="mailto:info@linkpro.co.in">info@linkpro.co.in</a> or by
+            mail to Phase Sector 59, Sahibzada Ajit Singh Nagar, Punjab, India.
+          </p>
+          <p>
+            These Legal Terms constitute a legally binding agreement made
+            between you, whether personally or on behalf of an entity ("you"),
+            and Linkpro, concerning your access to and use of the Services. You
+            agree that by accessing the Services, you have read, understood, and
+            agreed to be bound by all of these Legal Terms. IF YOU DO NOT AGREE
+            WITH ALL OF THESE LEGAL TERMS, THEN YOU ARE EXPRESSLY PROHIBITED
+            FROM USING THE SERVICES AND YOU MUST DISCONTINUE USE IMMEDIATELY.
           </p>
 
-          <p >Interpretation and Definitions</p>
-
-          <h1>Interpretation</h1>
-          <p >
-            The words of which the initial letter is capitalized have meanings
-            defined under the following conditions. The following definitions
-            shall have the same meaning regardless of whether they appear in
-            singular or in plural.
+          <h3>1. OUR SERVICES</h3>
+          <p>
+            The information provided when using the Services is not intended for
+            distribution to or use by any person or entity in any jurisdiction
+            or country where such distribution or use would be contrary to law
+            or regulation or which would subject us to any registration
+            requirement within such jurisdiction or country. Accordingly, those
+            persons who choose to access the Services from other locations do so
+            on their own initiative and are solely responsible for compliance
+            with local laws, if and to the extent local laws are applicable.
           </p>
 
-          <h3 >Definitions</h3>
-          <p >For the purposes of this Privacy Policy:</p>
-          <p >
-            Account means a unique account created for You to access our Service
-            or parts of our Service.
-          </p>
-          <p >
-            Affiliate means an entity that controls, is controlled by or is
-            under common control with a party, where "control" means ownership
-            of 50% or more of the shares, equity interest or other securities
-            entitled to vote for election of directors or other managing
-            authority.
+          <h3>2. INTELLECTUAL PROPERTY RIGHTS</h3>
+          <p>
+            We are the owner or the licensee of all intellectual property rights
+            in our Services, including all source code, databases,
+            functionality, software, website designs, audio, video, text,
+            photographs, and graphics in the Services (collectively, the
+            "Content"), as well as the trademarks, service marks, and logos
+            contained therein (the "Marks").
           </p>
 
-          <h3 >
-            Company (referred to as either "the Company", "We", "Us" or "Our" in
-            this Agreement) refers to Linkpro.
-          </h3>
-
-          <h4 >Country refers to: Delhi, India</h4>
-
-          <p >
-            {" "}
-            Device means any device that can access the Service such as a
-            computer, a cellphone or a digital tablet.
+          <h3>3. USER REPRESENTATIONS</h3>
+          <p>
+            By using the Services, you represent and warrant that: (1) you have
+            the legal capacity and you agree to comply with these Legal Terms;
+            (2) you are not a minor in the jurisdiction in which you reside; (3)
+            you will not access the Services through automated or non-human
+            means, whether through a bot, script, or otherwise; (4) you will not
+            use the Services for any illegal or unauthorized purpose; and (5)
+            your use of the Services will not violate any applicable law or
+            regulation.
           </p>
 
-          <h4 >Service refers to the Website.</h4>
-
-          <p >
-            Terms and Conditions (also referred as "Terms") mean these Terms and
-            Conditions that form the entire agreement between You and the
-            Company regarding the use of the Service. This Terms and Conditions
-            agreement has been created with the help of the Terms and Conditions
-            Generator. Third-party Social Media Service means any services or
-            content (including data, information, products or services) provided
-            by a third-party that may be displayed, included or made available
-            by the Service.
+          <h3>4. PROHIBITED ACTIVITIES</h3>
+          <p>
+            You may not access or use the Services for any purpose other than
+            that for which we make the Services available. The Services may not
+            be used in connection with any commercial endeavors except those
+            that are specifically endorsed or approved by us.
           </p>
 
-          <h3 >
-            {" "}
-            Website refers to Linkpro, accessible from linkpro.co.in
-          </h3>
-
-          <p >
-            {" "}
-            You means the individual accessing or using the Service, or the
-            company, or other legal entity on behalf of which such individual is
-            accessing or using the Service, as applicable.
-          </p>
-          <p >Acknowledgment</p>
-
-          <p >
-            These are the Terms and Conditions governing the use of this Service
-            and the agreement that operates between You and the Company. These
-            Terms and Conditions set out the rights and obligations of all users
-            regarding the use of the Service.
+          <h3>5. USER GENERATED CONTRIBUTIONS</h3>
+          <p>
+            The Services does not offer users to submit or post content. We may
+            provide you with the opportunity to create, submit, post, display,
+            transmit, perform, publish, distribute, or broadcast content and
+            materials to us or on the Services, including but not limited to
+            text, writings, video, audio, photographs, graphics, comments,
+            suggestions, or personal information or other material
+            (collectively, "Contributions").
           </p>
 
-          <p >
-            Your access to and use of the Service is conditioned on Your
-            acceptance of and compliance with these Terms and Conditions. These
-            Terms and Conditions apply to all visitors, users and others who
-            access or use the Service.
+          <h3>6. CONTRIBUTION LICENSE</h3>
+          <p>
+            By submitting suggestions or other feedback regarding the Services,
+            you agree that we can use and share such feedback for any purpose
+            without compensation to you.
           </p>
 
-          <p >
-            By accessing or using the Service You agree to be bound by these
-            Terms and Conditions. If You disagree with any part of these Terms
-            and Conditions then You may not access the Service.
+          <h3>7. SERVICES MANAGEMENT</h3>
+          <p>
+            We reserve the right, but not the obligation, to: (1) monitor the
+            Services for violations of these Legal Terms; (2) take appropriate
+            legal action against anyone who, in our sole discretion, violates
+            the law or these Legal Terms.
           </p>
 
-          <p >
-            You represent that you are over the age of 18. The Company does not
-            permit those under 18 to use the Service.
+          <h3>8. PRIVACY POLICY</h3>
+          <p>
+            We care about data privacy and security. Please review our{" "}
+            <a href="https://linkpro.co.in/privac-ypolicy">Privacy Policy</a>.
+            By using the Services, you agree to be bound by our Privacy Policy,
+            which is incorporated into these Legal Terms.
           </p>
 
-          <p >
-            Your access to and use of the Service is also conditioned on Your
-            acceptance of and compliance with the Privacy Policy of the Company.
-            Our Privacy Policy describes Our policies and procedures on the
-            collection, use and disclosure of Your personal information when You
-            use the Application or the Website and tells You about Your privacy
-            rights and how the law protects You. Please read Our Privacy Policy
-            carefully before using Our Service.
-          </p>
-          <p >Links to Other Websites</p>
-
-          <p >
-            Our Service may contain links to third-party web sites or services
-            that are not owned or controlled by the Company.
+          <h3>9. TERM AND TERMINATION</h3>
+          <p>
+            These Legal Terms shall remain in full force and effect while you
+            use the Services. WITHOUT LIMITING ANY OTHER PROVISION OF THESE
+            LEGAL TERMS, WE RESERVE THE RIGHT TO, IN OUR SOLE DISCRETION AND
+            WITHOUT NOTICE OR LIABILITY, DENY ACCESS TO AND USE OF THE SERVICES.
           </p>
 
-          <p >
-            The Company has no control over, and assumes no responsibility for,
-            the content, privacy policies, or practices of any third party web
-            sites or services. You further acknowledge and agree that the
-            Company shall not be responsible or liable, directly or indirectly,
-            for any damage or loss caused or alleged to be caused by or in
-            connection with the use of or reliance on any such content, goods or
-            services available on or through any such web sites or services.
+          <h3>10. MODIFICATIONS AND INTERRUPTIONS</h3>
+          <p>
+            We reserve the right to change, modify, or remove the contents of
+            the Services at any time or for any reason at our sole discretion
+            without notice.
           </p>
 
-          <h4 >
-            We strongly advise You to read the terms and conditions and privacy
-            policies of any third-party web sites or services that You visit.
-          </h4>
-
-          <p >Termination</p>
-
-          <p >
-            We may terminate or suspend Your access immediately, without prior
-            notice or liability, for any reason whatsoever, including without
-            limitation if You breach these Terms and Conditions.
+          <h3>11. GOVERNING LAW</h3>
+          <p>
+            These Legal Terms shall be governed by and defined following the
+            laws of India. Linkpro and yourself irrevocably consent that the
+            courts of India shall have exclusive jurisdiction to resolve any
+            dispute which may arise in connection with these Legal Terms.
           </p>
 
-          <p >
-            Upon termination, Your right to use the Service will cease
-            immediately.
+          <h3>12. DISPUTE RESOLUTION</h3>
+          <p>
+            <strong>Informal Negotiations</strong>
+          </p>
+          <p>
+            To expedite resolution and control the cost of any dispute,
+            controversy, or claim related to these Legal Terms (each a "Dispute"
+            and collectively, the "Disputes") brought by either you or us
+            (individually, a "Party" and collectively, the "Parties"), the
+            Parties agree to first attempt to negotiate any Dispute (except
+            those Disputes expressly provided below) informally for at least 10
+            days before initiating arbitration. Such informal negotiations
+            commence upon written notice from one Party to the other Party.
           </p>
 
-          <p >Limitation of Liability</p>
-
-          <p >
-            Notwithstanding any damages that You might incur, the entire
-            liability of the Company and any of its suppliers under any
-            provision of this Terms and Your exclusive remedy for all of the
-            foregoing shall be limited to the amount actually paid by You
-            through the Service or 100 USD if You haven't purchased anything
-            through the Service.
+          <p>
+            <strong>Restrictions</strong>
+          </p>
+          <p>
+            The Parties agree that any arbitration shall be limited to the
+            Dispute between the Parties individually. To the full extent
+            permitted by law, (a) no arbitration shall be joined with any other
+            proceeding; (b) there is no right or authority for any Dispute to be
+            arbitrated on a class-action basis or to utilize class action
+            procedures; and (c) there is no right or authority for any Dispute
+            to be brought in a purported representative capacity on behalf of
+            the general public or any other persons.
           </p>
 
-          <p >
-            To the maximum extent permitted by applicable law, in no event shall
-            the Company or its suppliers be liable for any special, incidental,
-            indirect, or consequential damages whatsoever (including, but not
-            limited to, damages for loss of profits, loss of data or other
-            information, for business interruption, for personal injury, loss of
-            privacy arising out of or in any way related to the use of or
-            inability to use the Service, third-party software and/or
-            third-party hardware used with the Service, or otherwise in
-            connection with any provision of this Terms), even if the Company or
-            any supplier has been advised of the possibility of such damages and
-            even if the remedy fails of its essential purpose.
+          <p>
+            <strong>Exceptions to Informal Negotiations and Arbitration</strong>
           </p>
-          <p >
-            Some states do not allow the exclusion of implied warranties or
-            limitation of liability for incidental or consequential damages,
-            which means that some of the above limitations may not apply. In
-            these states, each party's liability will be limited to the greatest
-            extent permitted by law.
-          </p>
-          <p >
-            "AS IS" and "AS AVAILABLE" Disclaimer The Service is provided to You
-            "AS IS" and "AS AVAILABLE" and with all faults and defects without
-            warranty of any kind. To the maximum extent permitted under
-            applicable law, the Company, on its own behalf and on behalf of its
-            Affiliates and its and their respective licensors and service
-            providers, expressly disclaims all warranties, whether express,
-            implied, statutory or otherwise, with respect to the Service,
-            including all implied warranties of merchantability, fitness for a
-            particular purpose, title and non-infringement, and warranties that
-            may arise out of course of dealing, course of performance, usage or
-            trade practice. Without limitation to the foregoing, the Company
-            provides no warranty or undertaking, and makes no representation of
-            any kind that the Service will meet Your requirements, achieve any
-            intended results, be compatible or work with any other software,
-            applications, systems or services, operate without interruption,
-            meet any performance or reliability standards or be error free or
-            that any errors or defects can or will be corrected.
-          </p>
-          <p >
-            Without limiting the foregoing, neither the Company nor any of the
-            company's provider makes any representation or warranty of any kind,
-            express or implied: (i) as to the operation or availability of the
-            Service, or the information, content, and materials or products
-            included thereon; (ii) that the Service will be uninterrupted or
-            error-free; (iii) as to the accuracy, reliability, or currency of
-            any information or content provided through the Service; or (iv)
-            that the Service, its servers, the content, or e-mails sent from or
-            on behalf of the Company are free of viruses, scripts, trojan
-            horses, worms, malware, timebombs or other harmful components.
-          </p>
-          <p >
-            Governing Law The laws of the Country, excluding its conflicts of
-            law rules, shall govern this Terms and Your use of the Service. Your
-            use of the Application may also be subject to other local, state,
-            national, or international laws.
+          <p>
+            The Parties agree that the following Disputes are not subject to the
+            above provisions concerning informal negotiations binding
+            arbitration: (a) any Disputes seeking to enforce or protect, or
+            concerning the validity of, any of the intellectual property rights
+            of a Party; (b) any Dispute related to, or arising from, allegations
+            of theft, piracy, invasion of privacy, or unauthorized use; and (c)
+            any claim for injunctive relief. If this provision is found to be
+            illegal or unenforceable, then neither Party will elect to arbitrate
+            any Dispute falling within that portion of this provision found to
+            be illegal or unenforceable and such Dispute shall be decided by a
+            court of competent jurisdiction within the courts listed for
+            jurisdiction above, and the Parties agree to submit to the personal
+            jurisdiction of that court.
           </p>
 
-          <p >
-            Disputes Resolution If You have any concern or dispute about the
-            Service, You agree to first try to resolve the dispute informally by
-            contacting the Company.
-          </p>
-          <p >For European Union (EU) Users</p>
-
-          <p >
-            If You are a European Union consumer, you will benefit from any
-            mandatory provisions of the law of the country in which You are
-            resident.
+          <h3>13. CORRECTIONS</h3>
+          <p>
+            There may be information on the Services that contains typographical
+            errors, inaccuracies, or omissions, including descriptions, pricing,
+            availability, and various other information. We reserve the right to
+            correct any errors, inaccuracies, or omissions and to change or
+            update the information on the Services at any time, without prior
+            notice.
           </p>
 
-          <p >
-            United States Legal Compliance You represent and warrant that (i)
-            You are not located in a country that is subject to the United
-            States government embargo, or that has been designated by the United
-            States government as a "terrorist supporting" country, and (ii) You
-            are not listed on any United States government list of prohibited or
-            restricted parties.
-          </p>
-          <p >
-            Severability and Waiver Severability If any provision of these Terms
-            is held to be unenforceable or invalid, such provision will be
-            changed and interpreted to accomplish the objectives of such
-            provision to the greatest extent possible under applicable law and
-            the remaining provisions will continue in full force and effect.
-          </p>
-          <p >
-            To manage Your Account: to manage Your registration as a user of the
-            Service. The Personal Data You provide can give You access to
-            different functionalities of the Service that are available to You
-            as a registered user.
-          </p>
-          <p >
-            For the performance of a contract: the development, compliance and
-            undertaking of the purchase contract for the products, items or
-            services You have purchased or of any other contract with Us through
-            the Service.
-          </p>
-          <p >
-            To contact You: To contact You by email, telephone calls, SMS, or
-            other equivalent forms of electronic communication, such as a mobile
-            application's push notifications regarding updates or informative
-            communications related to the functionalities, products or
-            contracted services, including the security updates, when necessary
-            or reasonable for their implementation.
-          </p>
-          <p >
-            To provide You with news, special offers and general information
-            about other goods, services and events which we offer that are
-            similar to those that you have already purchased or enquired about
-            unless You have opted not to receive such information.
-          </p>
-          <p >
-            To manage Your requests: To attend and manage Your requests to Us.
-          </p>
-          <p >
-            To manage Your requests: To attend and manage Your requests to Us.
-          </p>
-          <p >
-            For business transfers: We may use Your information to evaluate or
-            conduct a merger, divestiture, restructuring, reorganization,
-            dissolution, or other sale or transfer of some or all of Our assets,
-            whether as a going concern or as part of bankruptcy, liquidation, or
-            similar proceeding, in which Personal Data held by Us about our
-            Service users is among the assets transferred.
-          </p>
-          <p >
-            For other purposes: We may use Your information for other purposes,
-            such as data analysis, identifying usage trends, determining the
-            effectiveness of our promotional campaigns and to evaluate and
-            improve our Service, products, services, marketing and your
-            experience.
-          </p>
-          <p >
-            With Service Providers: We may share Your personal information with
-            Service Providers to monitor and analyze the use of our Service, to
-            contact You. For business transfers: We may share or transfer Your
-            personal information in connection with, or during negotiations of,
-            any merger, sale of Company assets, financing, or acquisition of all
-            or a portion of Our business to another company. With Affiliates: We
-            may share Your information with Our affiliates, in which case we
-            will require those affiliates to honor this Privacy Policy.
-            Affiliates include Our parent company and any other subsidiaries,
-            joint venture partners or other companies that We control or that
-            are under common control with Us. With business partners: We may
-            share Your information with Our business partners to offer You
-            certain products, services or promotions.
-          </p>
-          <p >
-            With other users: when You share personal information or otherwise
-            interact in the public areas with other users, such information may
-            be viewed by all users and may be publicly distributed outside.
-          </p>
-          <p >
-            With Your consent: We may disclose Your personal information for any
-            other purpose with Your consent.
-          </p>
-          <p >
-            Retention of Your Personal Data The Company will retain Your
-            Personal Data only for as long as is necessary for the purposes set
-            out in this Privacy Policy. We will retain and use Your Personal
-            Data to the extent necessary to comply with our legal obligations
-            (for example, if we are required to retain your data to comply with
-            applicable laws), resolve disputes, and enforce our legal agreements
-            and policies.
-          </p>
-          <p >
-            The Company will also retain Usage Data for internal analysis
-            purposes. Usage Data is generally retained for a shorter period of
-            time, except when this data is used to strengthen the security or to
-            improve the functionality of Our Service, or We are legally
-            obligated to retain this data for longer time periods.
+          <h3>14. DISCLAIMER</h3>
+          <p>
+            THE SERVICES ARE PROVIDED ON AN AS-IS AND AS-AVAILABLE BASIS. YOU
+            AGREE THAT YOUR USE OF THE SERVICES WILL BE AT YOUR SOLE RISK. TO
+            THE FULLEST EXTENT PERMITTED BY LAW, WE DISCLAIM ALL WARRANTIES,
+            EXPRESS OR IMPLIED, IN CONNECTION WITH THE SERVICES AND YOUR USE
+            THEREOF, INCLUDING, WITHOUT LIMITATION, THE IMPLIED WARRANTIES OF
+            MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND
+            NON-INFRINGEMENT. WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE
+            ACCURACY OR COMPLETENESS OF THE SERVICES' CONTENT OR THE CONTENT OF
+            ANY WEBSITES OR MOBILE APPLICATIONS LINKED TO THE SERVICES AND WE
+            WILL ASSUME NO LIABILITY OR RESPONSIBILITY FOR ANY (1) ERRORS,
+            MISTAKES, OR INACCURACIES OF CONTENT AND MATERIALS, (2) PERSONAL
+            INJURY OR PROPERTY DAMAGE, OF ANY NATURE WHATSOEVER, RESULTING FROM
+            YOUR ACCESS TO AND USE OF THE SERVICES, (3) ANY UNAUTHORIZED ACCESS
+            TO OR USE OF OUR SECURE SERVERS AND/OR ANY AND ALL PERSONAL
+            INFORMATION AND/OR FINANCIAL INFORMATION STORED THEREIN, (4) ANY
+            INTERRUPTION OR CESSATION OF TRANSMISSION TO OR FROM THE SERVICES,
+            (5) ANY BUGS, VIRUSES, TROJAN HORSES, OR THE LIKE WHICH MAY BE
+            TRANSMITTED TO OR THROUGH THE SERVICES BY ANY THIRD PARTY, AND/OR
+            (6) ANY ERRORS OR OMISSIONS IN ANY CONTENT AND MATERIALS OR FOR ANY
+            LOSS OR DAMAGE OF ANY KIND INCURRED AS A RESULT OF THE USE OF ANY
+            CONTENT POSTED, TRANSMITTED, OR OTHERWISE MADE AVAILABLE VIA THE
+            SERVICES. WE DO NOT WARRANT, ENDORSE, GUARANTEE, OR ASSUME
+            RESPONSIBILITY FOR ANY PRODUCT OR SERVICE ADVERTISED OR OFFERED BY A
+            THIRD PARTY THROUGH THE SERVICES, ANY HYPERLINKED WEBSITE, OR ANY
+            WEBSITE OR MOBILE APPLICATION FEATURED IN ANY BANNER OR OTHER
+            ADVERTISING, AND WE WILL NOT BE A PARTY TO OR IN ANY WAY BE
+            RESPONSIBLE FOR MONITORING ANY TRANSACTION BETWEEN YOU AND ANY
+            THIRD-PARTY PROVIDERS OF PRODUCTS OR SERVICES. AS WITH THE PURCHASE
+            OF A PRODUCT OR SERVICE THROUGH ANY MEDIUM OR IN ANY ENVIRONMENT,
+            YOU SHOULD USE YOUR BEST JUDGMENT AND EXERCISE CAUTION WHERE
+            APPROPRIATE.
           </p>
 
-          <p >
-            Transfer of Your Personal Data Your information, including Personal
-            Data, is processed at the Company's operating offices and in any
-            other places where the parties involved in the processing are
-            located. It means that this information may be transferred to — and
-            maintained on — computers located outside of Your state, province,
-            country or other governmental jurisdiction where the data protection
-            laws may differ than those from Your jurisdiction.
-          </p>
-          <p >
-            Your consent to this Privacy Policy followed by Your submission of
-            such information represents Your agreement to that transfer.
-          </p>
-
-          <p >
-            The Company will take all steps reasonably necessary to ensure that
-            Your data is treated securely and in accordance with this Privacy
-            Policy and no transfer of Your Personal Data will take place to an
-            organization or a country unless there are adequate controls in
-            place including the security of Your data and other personal
-            information.
-          </p>
-          <p >
-            Our Service may give You the ability to delete certain information
-            about You from within the Service.
-          </p>
-          <p >
-            You may update, amend, or delete Your information at any time by
-            signing in to Your Account, if you have one, and visiting the
-            account settings section that allows you to manage Your personal
-            information. You may also contact Us to request access to, correct,
-            or delete any personal information that You have provided to Us.
-          </p>
-          <p >
-            Please note, however, that We may need to retain certain information
-            when we have a legal obligation or lawful basis to do so.
+          <h3>15. LIMITATIONS OF LIABILITY</h3>
+          <p>
+            IN NO EVENT WILL WE OR OUR DIRECTORS, EMPLOYEES, OR AGENTS BE LIABLE
+            TO YOU OR ANY THIRD PARTY FOR ANY DIRECT, INDIRECT, CONSEQUENTIAL,
+            EXEMPLARY, INCIDENTAL, SPECIAL, OR PUNITIVE DAMAGES, INCLUDING LOST
+            PROFIT, LOST REVENUE, LOSS OF DATA, OR OTHER DAMAGES ARISING FROM
+            YOUR USE OF THE SERVICES, EVEN IF WE HAVE BEEN ADVISED OF THE
+            POSSIBILITY OF SUCH DAMAGES. NOTWITHSTANDING ANYTHING TO THE
+            CONTRARY CONTAINED HEREIN, OUR LIABILITY TO YOU FOR ANY CAUSE
+            WHATSOEVER AND REGARDLESS OF THE FORM OF THE ACTION, WILL AT ALL
+            TIMES BE LIMITED TO THE LESSER OF THE AMOUNT PAID, IF ANY, BY YOU TO
+            US OR. CERTAIN US STATE LAWS AND INTERNATIONAL LAWS DO NOT ALLOW
+            LIMITATIONS ON IMPLIED WARRANTIES OR THE EXCLUSION OR LIMITATION OF
+            CERTAIN DAMAGES. IF THESE LAWS APPLY TO YOU, SOME OR ALL OF THE
+            ABOVE DISCLAIMERS OR LIMITATIONS MAY NOT APPLY TO YOU, AND YOU MAY
+            HAVE ADDITIONAL RIGHTS.
           </p>
 
-          <p >Disclosure of Your Personal Data</p>
-          <p>Business Transactions</p>
-
-          <p >
-            If the Company is involved in a merger, acquisition or asset sale,
-            Your Personal Data may be transferred. We will provide notice before
-            Your Personal Data is transferred and becomes subject to a different
-            Privacy Policy.
-          </p>
-          <p >Severability and Waiver</p>
-
-          <p >
-            Severability If any provision of these Terms is held to be
-            unenforceable or invalid, such provision will be changed and
-            interpreted to accomplish the objectives of such provision to the
-            greatest extent possible under applicable law and the remaining
-            provisions will continue in full force and effect.
-          </p>
-          <p >Waiver</p>
-
-          <p >
-            Except as provided herein, the failure to exercise a right or to
-            require performance of an obligation under these Terms shall not
-            affect a party's ability to exercise such right or require such
-            performance at any time thereafter nor shall the waiver of a breach
-            constitute a waiver of any subsequent breach.
-          </p>
-          <p >Translation Interpretation</p>
-
-          <p >
-            These Terms and Conditions may have been translated if We have made
-            them available to You on our Service. You agree that the original
-            English text shall prevail in the case of a dispute.
-          </p>
-          <p >Changes to These Terms and Conditions</p>
-
-          <p >
-            By continuing to access or use Our Service after those revisions
-            become effective, You agree to be bound by the revised terms. If You
-            do not agree to the new terms, in whole or in part, please stop
-            using the website and the Service.
+          <h3>16. INDEMNIFICATION</h3>
+          <p>
+            You agree to defend, indemnify, and hold us harmless, including our
+            subsidiaries, affiliates, and all of our respective officers,
+            agents, partners, and employees, from and against any loss, damage,
+            liability, claim, or demand, including reasonable attorneys’ fees
+            and expenses, made by any third party due to or arising out of: (1)
+            use of the Services; (2) breach of these Legal Terms; (3) any breach
+            of your representations and warranties set forth in these Legal
+            Terms; (4) your violation of the rights of a third party, including
+            but not limited to intellectual property rights; or (5) any overt
+            harmful act toward any other user of the Services with whom you
+            connected via the Services. Notwithstanding the foregoing, we
+            reserve the right, at your expense, to assume the exclusive defense
+            and control of any matter for which you are required to indemnify
+            us, and you agree to cooperate, at your expense, with our defense of
+            such claims. We will use reasonable efforts to notify you of any
+            such claim, action, or proceeding which is subject to this
+            indemnification upon becoming aware of it.
           </p>
 
-          <p >Contact Us</p>
-
-          <p >
-            If you have any questions about these Terms and Conditions, You can
-            contact us:
+          <h3>17. USER DATA</h3>
+          <p>
+            We will maintain certain data that you transmit to the Services for
+            the purpose of managing the performance of the Services, as well as
+            data relating to your use of the Services. Although we perform
+            regular routine backups of data, you are solely responsible for all
+            data that you transmit or that relates to any activity you have
+            undertaken using the Services. You agree that we shall have no
+            liability to you for any loss or corruption of any such data, and
+            you hereby waive any right of action against us arising from any
+            such loss or corruption of such data.
           </p>
 
-          <p >By email: info@linkpro.co.in</p>
-
-          <p >
-            By visiting this page on our website:
-            <a href=" https://linkpro.co.in/pages/contact-us.html">
-              https://linkpro.co.in/pages/contact-us.html
-            </a>
+          <h3>18. ELECTRONIC COMMUNICATIONS, TRANSACTIONS, AND SIGNATURES</h3>
+          <p>
+            Visiting the Services, sending us emails, and completing online
+            forms constitute electronic communications. You consent to receive
+            electronic communications, and you agree that all agreements,
+            notices, disclosures, and other communications we provide to you
+            electronically, via email and on the Services, satisfy any legal
+            requirement that such communication be in writing. YOU HEREBY AGREE
+            TO THE USE OF ELECTRONIC SIGNATURES, CONTRACTS, ORDERS, AND OTHER
+            RECORDS, AND TO ELECTRONIC DELIVERY OF NOTICES, POLICIES, AND
+            RECORDS OF TRANSACTIONS INITIATED OR COMPLETED BY US OR VIA THE
+            SERVICES. You hereby waive any rights or requirements under any
+            statutes, regulations, rules, ordinances, or other laws in any
+            jurisdiction which require an original signature or delivery or
+            retention of non-electronic records, or to payments or the granting
+            of credits by any means other than electronic means.
           </p>
+
+          <h3>19. MISCELLANEOUS</h3>
+          <p>
+            These Legal Terms and any policies or operating rules posted by us
+            on the Services or in respect to the Services constitute the entire
+            agreement and understanding between you and us. Our failure to
+            exercise or enforce any right or provision of these Legal Terms
+            shall not operate as a waiver of such right or provision. These
+            Legal Terms operate to the fullest extent permissible by law. We may
+            assign any or all of our rights and obligations to others at any
+            time. We shall not be responsible or liable for any loss, damage,
+            delay, or failure to act caused by any cause beyond our reasonable
+            control. If any provision or part of a provision of these Legal
+            Terms is determined to be unlawful, void, or unenforceable, that
+            provision or part of the provision is deemed severable from these
+            Legal Terms and does not affect the validity and enforceability of
+            any remaining provisions. There is no joint venture, partnership,
+            employment or agency relationship created between you and us as a
+            result of these Legal Terms or use of the Services. You agree that
+            these Legal Terms will not be construed against us by virtue of
+            having drafted them. You hereby waive any and all defenses you may
+            have based on the electronic form of these Legal Terms and the lack
+            of signing by the parties hereto to execute these Legal Terms.
+          </p>
+
+          <h3>20. CONTACT US</h3>
+          <p>
+            In order to resolve a complaint regarding the Services or to receive
+            further information regarding use of the Services, please contact us
+            at:
+          </p>
+          <h4>Linkpro<br/> Phase Sector 59, Sahibzada Ajit Singh Nagar, Punjab India</h4>
         </div>
       </div>
     </>

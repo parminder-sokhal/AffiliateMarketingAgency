@@ -29,7 +29,7 @@ const AboutusWhyChoose = () => {
           Specialist In Affiliate Marketing Services
         </h2>
         <p className="aboutus-why-choose__description">
-          We are dedicated to helping businesses excel in the digital world.
+        The purpose of our team is to help businesses in being successful in the world of digital.
         </p>
         <span>First Working Process</span>
         <p>
