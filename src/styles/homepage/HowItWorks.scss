@@ -15,16 +15,16 @@
   .buttons {
     display: flex;
     justify-content: center; // Align buttons horizontally and center them
-    gap: 1.25rem; // Space between buttons
+    gap: 2.25rem; // Space between buttons
     margin-bottom: 1.875rem;
 
     .work-button {
       background-color: white;
       color: black;
       border: 0.125rem solid black;
-      padding: 0.75rem 1.25rem; // Adjust padding to give the text more space
+      padding: 1rem 3rem; // Adjust padding to give the text more space
       font-size: 1.2rem;
-      border-radius: 0.625rem;
+      border-radius: 1rem;
       cursor: pointer;
       min-width: 11.25rem; // Ensure enough space for text to fit inside button
       text-align: center; // Center text horizontally
@@ -49,15 +49,15 @@
     justify-content: center;
     align-items: center;
     gap: 1.875rem;
-    max-width: 56.25rem;
+    max-width: 58rem;
     margin: 0 auto;
     border-radius: 0.938rem;
     border: 0.063rem solid black;
-    padding: 1.25rem;
+    padding: 1.25rem ;
     background-color: #fff;
 
     .left-side {
-      width: 45%;
+      width: 55%;
       text-align: left;
 
       h3 {
@@ -91,7 +91,7 @@
     }
 
     .right-side {
-      width: 45%;
+      width: 40%;
       display: flex;
       justify-content: center;
       align-items: center;
