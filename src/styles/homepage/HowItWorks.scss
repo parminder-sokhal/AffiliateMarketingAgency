@@ -53,7 +53,7 @@
     margin: 0 auto;
     border-radius: 0.938rem;
     border: 0.063rem solid black;
-    padding: 1.25rem ;
+    padding: 1.25rem;
     background-color: #fff;
 
     .left-side {
@@ -110,14 +110,19 @@
   .how-it-works {
     padding: 1rem;
     .buttons {
-      display: flex;
-      flex-wrap: wrap;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+
       .work-button {
-        width: 9rem;
-        min-width: 0;
-        font-size: 1rem;
+        width: 100%; // Fills the grid cell
+        padding: 0.5rem 0.75rem; // Smaller padding
+        font-size: 0.95rem; // Slightly smaller text
+        border-radius: 0.5rem; // Slightly smaller rounded corners if needed
+        min-width: auto; // Removes any fixed min-widths
       }
     }
+
     .description-box {
       flex-direction: column-reverse;
       gap: 0;
