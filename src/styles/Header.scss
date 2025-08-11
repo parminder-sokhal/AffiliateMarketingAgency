@@ -1,117 +1,53 @@
-.no-scroll {
-  overflow: hidden;
-}
-
-.header {
-  background: url("/images/Frame.png");
-  background-position: center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1rem 3rem;
-  background-color: #08378f;
-  position: relative;
-  flex-wrap: wrap;
-}
-
-.header__logo img {
-  width: auto;
-  height: 4rem;
-}
-
-.header__nav ul {
-  display: flex;
-  justify-content: center;
-  gap: 3rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.header__nav a {
-  text-decoration: none;
-  color: white;
-  font-weight: bold;
-  transition: color 0.3s ease;
-}
-
-.header__nav a:hover {
-  color: #f24e1e;
-}
-
-.header__contact button {
-  background-color: white;
-  color: black;
-  border: none;
-  padding: 0.6rem 1.25rem;
-  border-radius: 0.313rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.header__contact button:hover {
-  background-color: #f24e1e;
-}
-
-.header__info {
+/* Reusable layout container */
+.container {
   width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem; // Left/right spacing
+}
+.container nav-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 2rem 4rem 5rem 4rem;
+  justify-content: space-between;
 }
-
-.header__info-left {
-  flex: 1;
-  text-align: left;
-  font-family: "Nunito", sans-serif;
-  font-size: 130%;
-}
-
-.header__info-left h3 {
-  color: #ff7e0d;
-}
-
-.header__info-left h1,
-.header__info-left h5 {
-  color: white;
-}
-
-.header__info-left h2,
-.header__info-left h1 {
-  margin: 0.625rem 0;
-}
-
-.header__info-btn {
-  background-color: #093890;
-  color: white;
-  border: none;
-  border: 0.063rem solid white;
-  border-radius: 0.4rem;
-  padding: 0.625rem 1.25rem;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.header__info-btn:hover {
-  background-color: #f24e1e;
-}
-
-.header__info-right {
-  flex: 1;
+/* Header Wrapper (logo + nav/hamburger) */
+.header-wrapper {
+  background-color: transparent;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  top: 0;
   display: flex;
+  transition: background-color 0.3s ease;
+
+  &.scrolled {
+    background-color: #08378f; // or any other style you want when scrolled
+    transition: background-color 0.3s ease;
+  }
+}
+
+/* Flex layout between logo and nav */
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: flex-end;
 }
 
-.header__circle-img {
-  width: 21vw;
-  height: auto;
-  border-radius: 50%;
-  object-fit: cover;
+/* Logo */
+.header__logo {
+  display: flex;
+  align-items: center;
+
+  img {
+    height: 4rem;
+    width: auto;
+  }
 }
 
+/* Hamburger styling (already good) */
 .hamburger,
 .hamburger-close {
   display: none;
@@ -121,8 +57,17 @@
   width: 30px;
   height: 25px;
   cursor: pointer;
-}
 
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+  }
+}
 .hamburger .bar1,
 .hamburger .bar2,
 .hamburger .bar3,
@@ -149,21 +94,119 @@
   transform: translate(0, -0.55rem) rotate(45deg);
 }
 
-@media (max-width: 480px) {
-  .header {
-    padding: 1rem;
-    justify-content: space-between;
-    position: relative;
-    background-size: auto;
-  }
-  .header__info {
-  flex-direction: column;
-  align-items: left;
-  text-align: left;
-  margin:1rem; // optional adjustment for spacing
-  gap:1rem;
+/* Header main content section */
+.header {
+  background: url("/images/Frame.png");
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #08378f;
+  min-height: 80vh;
+  padding: 1rem ;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
+/* Inner header info content */
+.header__info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 4rem 5rem 4rem;
+  gap: 2rem;
+}
+
+.header__info-left {
+  flex: 1;
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  font-size: 130%;
+}
+
+.header__info-left h3 {
+  color: #ff7e0d;
+}
+.header__info-left h1,
+.header__info-left h5 {
+  color: white;
+}
+.header__info-btn {
+  background-color: #093890;
+  color: white;
+  border: 0.063rem solid white;
+  border-radius: 0.4rem;
+  padding: 0.625rem 1.25rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.header__info-btn:hover {
+  background-color: #f24e1e;
+}
+
+.header__info-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header__circle-img {
+  width: 21vw;
+  height: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Navigation menu */
+.header__nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.header__nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+.header__nav a:hover {
+  color: #f24e1e;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 480px) {
+  .header {
+    background-image: none;
+    min-height: 90vh;
+    padding: 0 ;
+  }
+  .header-wrapper{
+    margin: 0;
+    padding: 0.5rem 0;
+  }
+  
+  .container {
+    padding: 0.5rem !important;
+  }
+
+  .nav-wrapper {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .container nav-wrapper {
+    background-image: none;
+  }
+
+  .hamburger {
+    display: flex;
+    margin-left: auto;
+  }
 
   .header__nav {
     display: flex;
@@ -173,21 +216,14 @@
     top: 0;
     right: 0;
     background-color: #08378f;
-    width: 50%;
+    width: 70%;
     height: 100vh;
     padding: 2rem;
     transform: translateX(100%);
     opacity: 0;
     pointer-events: none;
     transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-  }
-
-  .header__info-left {
-  font-size: 90%;
- 
-}
-  .hamburger {
-    display: flex;
+    z-index: 1000;
   }
 
   .header__nav.active {
@@ -197,24 +233,14 @@
   }
 
   .header__nav ul {
-    display: flex;
     flex-direction: column;
     gap: 1.5rem;
   }
-
-  .header__logo img {
-    width: auto;
-    height: 3rem;
-  }
-
-  .header__contact a {
-    width: 1rem;
-    height: auto;
-  }
-
-  .header__circle-img {
-    width: 11rem;
-    height: auto;
+  .header__logo {
+    img {
+      width: auto;
+      height: 3rem;
+    }
   }
 
   .hamburger-close {
@@ -223,5 +249,22 @@
     align-items: center;
     margin-bottom: 2rem;
     cursor: pointer;
+  }
+
+  .header__info {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin: 1rem;
+    gap: 1rem;
+  }
+
+  .header__info-left {
+    font-size: 90%;
+  }
+
+  .header__circle-img {
+    width: 11rem;
+    height: auto;
   }
 }

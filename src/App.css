@@ -4,7 +4,7 @@ body {
   width: 100%; /* Ensure the page takes up full width */
   overflow: auto;
   height: 100%; /* Make sure body takes full height */
-  font-family: "Nunito", serif;
+  font-family: "Nunito", sans-serif;
   background-color: #f9f9f9;
   scroll-behavior: smooth;
   

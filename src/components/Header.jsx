@@ -8,6 +8,8 @@ const Header = () => {
   const menuRef = useRef(null); // Ref to detect clicks outside the menu
   const hamburgerRef = useRef(null); // Ref to detect clicks on the hamburger button
   const closeHamburgerRef = useRef(null); // Ref to detect clicks on the hamburger-close button
+  const headerRef = useRef(null); // The element to observe for scroll
+  const mainHeaderRef = useRef(null); // The element to apply the class to
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -43,81 +45,124 @@ const Header = () => {
     };
   }, [isMenuOpen]);
 
+  useEffect(() => {
+    const headerEl = headerRef.current;
+    const mainHeaderEl = mainHeaderRef.current;
+    if (!headerEl || !mainHeaderEl) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (!entry.isIntersecting) {
+          mainHeaderEl.classList.add("scrolled");
+        } else {
+          mainHeaderEl.classList.remove("scrolled");
+        }
+      },
+      { threshold: 0 }
+    );
+
+    observer.observe(headerEl);
+
+    return () => {
+      observer.unobserve(headerEl);
+    };
+  }, []);
+
   // Handle menu item click to close the menu
   const handleMenuItemClick = () => {
     setIsMenuOpen(false); // Close the menu when any item is clicked
   };
 
   return (
-    <header className="header">
-      <div className="header__logo">
-        <Link to="/">
-          <img src="./images/linkprowhite.png" alt="Logo" />
-        </Link>
-      </div>
+    <>
+      {/* Header Wrapper (logo + nav/hamburger) */}
+      <div className="header-wrapper" ref={mainHeaderRef}>
+        <div className="container nav-wrapper">
+          <div className="header__logo">
+            <Link to="/">
+              <img src="./images/linkprowhite.png" alt="Logo" />
+            </Link>
+          </div>
+          <div className="nav-wrapper">
+            <div
+              className={`hamburger ${isMenuOpen ? "change" : ""}`}
+              onClick={toggleMenu}
+              ref={hamburgerRef}
+            >
+              <div className="bar1"></div>
+              <div className="bar2"></div>
+              <div className="bar3"></div>
+            </div>
 
-      <div
-        className={`hamburger ${isMenuOpen ? "change" : ""}`}
-        onClick={toggleMenu}
-        ref={hamburgerRef}
-      >
-        <div className="bar1"></div>
-        <div className="bar2"></div>
-        <div className="bar3"></div>
-      </div>
-
-      <nav
-        className={`header__nav ${isMenuOpen ? "active" : ""}`}
-        ref={menuRef} // Attach ref to the navigation menu
-      >
-        <div
-          className={`hamburger-close ${isMenuOpen ? "change" : ""}`} // Apply the effect to hamburger-close
-          onClick={toggleMenu}
-          ref={closeHamburgerRef} // Attach ref to the hamburger-close button
-        >
-          <div className="bar1"></div>
-          <div className="bar2"></div>
-          <div className="bar3"></div>
-        </div>
-        <ul>
-          <li>
-            <Link to="/" onClick={handleMenuItemClick}>Home</Link>
-          </li>
-          <li>
-            <Link to="/about-us" onClick={handleMenuItemClick}>About Us</Link>
-          </li>
-          <li>
-            <Link to="/services" onClick={handleMenuItemClick}>Services</Link>
-          </li>
-          <li>
-            <Link to="/blog" onClick={handleMenuItemClick}>Blog</Link>
-          </li>
-          <li className="header__contact">
-            <Link to="/contact-us" onClick={handleMenuItemClick}>Contact Us</Link>
-          </li>
-        </ul>
-      </nav>
-
-      <div className="header__info">
-        <div className="header__info-left">
-          <h3>Affiliate Marketing Agency</h3>
-          <h1>High-Performance Affiliate Marketing for Quick Value</h1>
-          <h5>
-            We lead affiliate and partner management for the world's most
-            renowned brands.
-          </h5>
-          <Link to="/services">
-            <button className="header__info-btn">Read More</button>
-          </Link>
-        </div>
-        <div className="header__info-right">
-          <img
-            className="header__circle-img"
-            src="./images/malefemaleofficeworkers.png"
-          />
+            <nav
+              className={`header__nav ${isMenuOpen ? "active" : ""}`}
+              ref={menuRef} // Attach ref to the navigation menu
+            >
+              <div
+                className={`hamburger-close ${isMenuOpen ? "change" : ""}`} // Apply the effect to hamburger-close
+                onClick={toggleMenu}
+                ref={closeHamburgerRef} // Attach ref to the hamburger-close button
+              >
+                <div className="bar1"></div>
+                <div className="bar2"></div>
+                <div className="bar3"></div>
+              </div>
+              <ul>
+                <li>
+                  <Link to="/" onClick={handleMenuItemClick}>
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about-us" onClick={handleMenuItemClick}>
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/services" onClick={handleMenuItemClick}>
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/blog" onClick={handleMenuItemClick}>
+                    Blog
+                  </Link>
+                </li>
+                <li className="header__contact">
+                  <Link to="/contact-us" onClick={handleMenuItemClick}>
+                    Contact Us
+                  </Link>
+                </li>
+              </ul>
+            </nav>
+          </div>
         </div>
       </div>
-    </header>
+
+      <header className="header" ref={headerRef}>
+        <div className="container">
+          <div className="header__info">
+            <div className="header__info-left">
+              <h3>Affiliate Marketing Agency</h3>
+              <h1>High-Performance Affiliate Marketing for Quick Value</h1>
+              <h5>
+                We lead affiliate and partner management for the world's most
+                renowned brands.
+              </h5>
+              <Link to="/services">
+                <button className="header__info-btn">Read More</button>
+              </Link>
+            </div>
+            <div className="header__info-right">
+              <img
+                className="header__circle-img"
+                src="./images/malefemaleofficeworkers.png"
+              />
+            </div>
+          </div>
+        </div>
+      </header>
+    </>
   );
 };
 
