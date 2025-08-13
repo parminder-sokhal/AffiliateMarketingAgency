@@ -37,7 +37,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .lets-do-work-together {
     margin: 1rem;
     padding: 1rem;
@@ -50,4 +50,20 @@
     }
   }
   
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .lets-do-work-together {
+    margin: 2rem;
+    padding: 2rem;
+
+    h2 {
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .contact-us-btn {
+      padding: 0.6rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
 }

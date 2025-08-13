@@ -64,24 +64,48 @@
     }
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .what-we-offer {
-  padding: 1rem;
-  .boxes{
-    grid-template-columns: auto;
-    //gap: 2rem;
     padding: 1rem;
-    justify-content: center;
-    .box{
-      padding: 4rem 0;
-      margin: 0;
+    .boxes {
+      grid-template-columns: auto;
+      //gap: 2rem;
+      padding: 1rem;
+      justify-content: center;
+      .box {
+        padding: 4rem 0;
+        margin: 0;
 
-      p,span{
-        width: 85%;
-        font-family: 1rem;
+        p,
+        span {
+          width: 85%;
+          font-size: 1rem;
+        }
       }
-      
     }
   }
 }
+
+@media (min-width: 768px) and (max-width: 1080px) {
+  .what-we-offer {
+    padding: 2rem;
+
+    .boxes {
+      grid-template-columns: repeat(2, 1fr); // 2 columns for tablets
+      gap: 1.5rem;
+      padding: 1rem;
+      justify-content: center;
+
+      .box {
+        padding: 2.5rem 1rem;
+        margin: 0 auto;
+
+        span,
+        p {
+          width: 90%;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
 }

@@ -4,42 +4,94 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
-import HeaderDefault from "./components/HeaderDefault";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import HomePage from "./pages/Home/HomePage";
 import AboutUs from "./pages/AboutUs/AboutUs";
 import Services from "./pages/Services/Services";
-import LetsDoWorkTogether from "./pages/Home/LetsDoWorkTogether";
 import Privacypolicy from "./pages/Home/privacypolicy";
 import Disclaimer from "./pages/Home/Disclaimer";
 import TermCondition from "./pages/Home/TermCondition";
 import ContactUs from "./pages/ContactUs/ContactUs";
-import "./app.css";
 import Blog from "./pages/Blog/Blog";
 import BlogDetailPage from "./pages/Blog/BlogDetailPage";
+import MainLayout from "./layouts/MainLayout";
+import './app.css';
 
 function App() {
-  const location = useLocation();
   return (
-    <>
-      {location.pathname === "/" ? <Header /> : <HeaderDefault />}
-
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about-us" element={<AboutUs />} />
-        <Route path="/services" element={<Services />} />
-        <Route path="/privacy-policy" element={<Privacypolicy />} />
-        <Route path="/Disclaimer" element={<Disclaimer />} />
-        <Route path="/Term-Condition" element={<TermCondition />} />
-        <Route path="/Contact-Us" element={<ContactUs />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blogs/:id" element={<BlogDetailPage />} />
-      </Routes>
-
-      <LetsDoWorkTogether />
-      <Footer />
-    </>
+    <Routes>
+      <Route
+        path="/"
+        element={
+          <MainLayout>
+            <HomePage />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/about-us"
+        element={
+          <MainLayout>
+            <AboutUs />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/services"
+        element={
+          <MainLayout>
+            <Services />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/privacy-policy"
+        element={
+          <MainLayout>
+            <Privacypolicy />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/Disclaimer"
+        element={
+          <MainLayout>
+            <Disclaimer />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/Term-Condition"
+        element={
+          <MainLayout>
+            <TermCondition />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/Contact-Us"
+        element={
+          <MainLayout>
+            <ContactUs />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/blog"
+        element={
+          <MainLayout>
+            <Blog />
+          </MainLayout>
+        }
+      />
+      <Route
+        path="/blogs/:id"
+        element={
+          <MainLayout>
+            <BlogDetailPage />
+          </MainLayout>
+        }
+      />
+    </Routes>
   );
 }
 

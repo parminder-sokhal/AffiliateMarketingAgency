@@ -58,33 +58,125 @@
   }
 }
 
-@media (max-width: 480px) {
+// @media (max-width: 768px) {
+//   .why-choose-link {
+//     padding: 1rem;
+//     flex-direction: column-reverse;
+//     .image-container {
+//       width: 60%;
+//       height: auto;
+//       margin: 1px;
+//       display: flex;
+//       justify-content: center;
+//       img {
+//         width: 15rem;
+//         height: auto;
+//       }
+//     }
+//     .content {
+//       width: 100%;
+//       padding: 1rem;
+//       margin: 0;
+//       h2,
+//       .description {
+//         margin: 0.5rem;
+//         font-size: 1rem;
+//       }
+//       .features li {
+//         padding: 0;
+//         font-size: 1rem;
+//       }
+//     }
+//   }
+// }
+
+@media (max-width: 768px) {
   .why-choose-link {
-    padding: 1rem;
     flex-direction: column-reverse;
+    padding: 1rem;
+
     .image-container {
-      width: 60%;
-      height: auto;
-      margin: 1px;
+      width: 80%;
+      margin: 1rem auto 0;
       display: flex;
       justify-content: center;
+
       img {
-        width: 15rem;
+        width: 100%;
+        max-width: 16rem;
         height: auto;
       }
     }
+
     .content {
       width: 100%;
       padding: 1rem;
       margin: 0;
-      h2,
-      .description {
-        margin: 0.5rem;
-        font-size: 1rem;
+
+      h2 {
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
       }
-      .features li {
-        padding: 0;
+
+      .description {
         font-size: 1rem;
+        margin-bottom: 0.75rem;
+      }
+
+      .features {
+        padding-left: 1rem;
+
+        li {
+          font-size: 0.95rem;
+          padding-right: 0;
+          margin-bottom: 0.5rem;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .why-choose-link {
+    flex-direction: column-reverse;
+    align-items:center;
+    padding: 2rem;
+
+    .image-container {
+      width: 70%;
+      margin: 0 auto 2rem;
+      display: flex;
+      justify-content: center;
+
+      img {
+        width: 100%;
+        max-width: 20rem;
+        height: auto;
+      }
+    }
+
+    .content {
+      width: 90%;
+      padding: 1rem 2rem;
+      
+
+      h2 {
+        font-size: 2rem;
+      }
+
+      .description {
+        font-size: 1.1rem;
+        margin-bottom: 1rem;
+      }
+
+      .features {
+        padding-left: 0;
+
+        li {
+          font-size: 1rem;
+          padding-right: 0;
+          margin-bottom: 0.75rem;
+        }
       }
     }
   }

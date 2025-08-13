@@ -20,7 +20,7 @@ const AboutLinkPro = () => {
       </div>
 
       <div className="right-side">
-        <img src="./images/bro.png" alt="About Us" />
+        <img title="about us" src="./images/bro.png" alt="About Us" />
       </div>
     </div>
   );
