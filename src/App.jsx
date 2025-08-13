@@ -5,7 +5,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage";
-import AboutUs from "./pages/AboutUs/AboutUs";
+import AboutPage from "./pages/AboutUs/AboutPage";
 import Services from "./pages/Services/Services";
 import Privacypolicy from "./pages/Home/privacypolicy";
 import Disclaimer from "./pages/Home/Disclaimer";
@@ -31,7 +31,7 @@ function App() {
         path="/about-us"
         element={
           <MainLayout>
-            <AboutUs />
+            <AboutPage />
           </MainLayout>
         }
       />

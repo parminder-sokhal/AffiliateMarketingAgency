@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/DefaultBanner.scss";
 
-const DefaultBanner = ({ componentName, ...props }) => {
+const DefBanner = ({ componentName, ...props }) => {
   return (
     <div className="aboutus-banner" {...props}>
       <div className="aboutus-banner__content">
@@ -17,4 +17,4 @@ const DefaultBanner = ({ componentName, ...props }) => {
   );
 };
 
-export default DefaultBanner;
+export default DefBanner;
