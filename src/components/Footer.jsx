@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/footer.scss";
+import "../styles/Footer.scss";
 import { Link } from "react-router-dom";
 import { PiMapPinFill } from "react-icons/pi";
 import { IoMail } from "react-icons/io5";

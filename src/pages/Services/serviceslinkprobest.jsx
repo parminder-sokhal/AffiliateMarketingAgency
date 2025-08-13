@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/services/ServicesLinkProBest.scss";
+import "../../styles/services/serviceslinkprobest.scss";
 
 const ServicesLinkProBest = () => {
   return (
