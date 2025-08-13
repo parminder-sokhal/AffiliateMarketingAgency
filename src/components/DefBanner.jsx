@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/DefaultBanner.scss";
+import "../styles/defaultBanner.scss";
 
 const DefBanner = ({ componentName, ...props }) => {
   return (
