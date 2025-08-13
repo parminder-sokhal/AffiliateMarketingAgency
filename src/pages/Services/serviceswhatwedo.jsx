@@ -1,5 +1,5 @@
 import React from "react";
-import "../../styles/services/serviceswhatwedo.scss";
+import "../../styles/services/ServicesWhatWeDo.scss";
 
 const servicesData = [
   {
