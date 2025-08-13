@@ -1,10 +1,10 @@
 import React from "react";
-import DefaultBanner from "../../components/DefaultBanner";
 import AboutusLinkPro from "./AboutusLinkPro";
 import AboutusWhyChoose from "./AboutusWhyChoose";
 import AboutUsWhatWeDo from "./AboutUsWhatWeDo";
 import AboutOurValues from "./AboutOurValues";
 import AboutTestimonials from "./AboutTestimonials";
+import DefaultBanner from "../../components/DefaultBanner.jsx";
 // import AboutMeetOurTeam from './AboutMeetOurTeam'
 
 function AboutUs() {
