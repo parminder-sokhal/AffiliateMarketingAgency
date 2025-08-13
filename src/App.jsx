@@ -14,7 +14,7 @@ import ContactUs from "./pages/ContactUs/ContactUs";
 import Blog from "./pages/Blog/Blog";
 import BlogDetailPage from "./pages/Blog/BlogDetailPage";
 import MainLayout from "./layouts/MainLayout";
-import './app.css';
+import './App.css';
 
 function App() {
   return (
