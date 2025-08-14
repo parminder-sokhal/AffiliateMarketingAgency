@@ -17,10 +17,10 @@
 }
 
 .testimonials-header p {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   color: black;
   margin-top: 0;
-  width: 44%;
+  width: 75%;
   margin: 0 auto;
 }
 
@@ -113,10 +113,7 @@
       gap: 1rem;
 
       .testimonial-box {
-        width: 8.5rem;
         height: auto;
-        margin: 0;
-        padding: 0.5rem;
 
         .testimonial-header {
           .testimonial-image {
@@ -129,6 +126,7 @@
         }
         .testimonial-description {
           font-size: 0.85rem;
+          width: 100%;
         }
         .testimonial-rating {
           font-size: 1rem;
@@ -137,3 +135,4 @@
     }
   }
 }
+
