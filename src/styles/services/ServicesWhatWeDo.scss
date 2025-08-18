@@ -6,11 +6,12 @@
   .heading {
     text-align: center;
     margin-bottom: 30px;
+    flex-direction: column;
 
     h2 {
       font-size: 2rem;
       color: #08378f;
-      margin-bottom: 10px;
+      margin: 0;
     }
 
     p {
@@ -23,20 +24,19 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); // 3 columns for larger screens
     gap: 2rem;
-    max-width: 900px;
+    max-width: 56.25rem;
     justify-content: center;
     margin: 0 auto;
 
     .box {
       background-color: white;
       padding: 3.5rem 1rem 3rem 1rem;
-      border-radius: 10px;
+      border-radius: 0.625rem;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       color: black;
       transition: background 0.4s ease, box-shadow 0.4s ease,
         transform 0.3s ease;
       cursor: pointer;
-      gap: 0;
       text-align: center;
       display: flex;
       flex-direction: column;
@@ -68,27 +68,48 @@
       }
     }
   }
-
- 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .services-what-we-do {
-    margin: 0;
     padding: 1rem;
-    .boxes{
+    .boxes {
       grid-template-columns: auto;
       //gap: 2rem;
       padding: 1rem;
       justify-content: center;
-      .box{
-        padding: 0.625rem;
+      .box {
+        padding: 1rem 0;
         margin: 0;
-  
-        p,span{
-          font-family: 1rem;
+
+        p,
+        span {
+          width: 85%;
+          font-size: 1rem;
         }
-        
+      }
+    }
+  }
+}
+@media (min-width: 768px) and (max-width: 1080px) {
+  .services-what-we-do {
+    padding: 2rem;
+
+    .boxes {
+      grid-template-columns: repeat(2, 1fr); // 2 columns for tablets
+      gap: 1.5rem;
+      padding: 1rem;
+      justify-content: center;
+
+      .box {
+        padding: 2.5rem 1rem;
+        margin: 0 auto;
+
+        span,
+        p {
+          width: 90%;
+          font-size: 1rem;
+        }
       }
     }
   }

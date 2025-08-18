@@ -4,6 +4,10 @@
   align-items: center;
   padding: 20px;
   text-align: center;
+  h1{
+  text-align: center;
+
+  }
 }
 
 .heading {
@@ -11,6 +15,7 @@
   font-weight: bold;
   margin-bottom: 20px;
   color: #08378f;
+  display: flex;
 }
 
 .description {

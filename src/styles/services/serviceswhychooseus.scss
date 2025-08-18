@@ -1,6 +1,6 @@
 .why-choose-us-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 40px;
   gap: 40px;
@@ -25,7 +25,6 @@
 }
 
 .benefits {
-  width: 80%;
   display: flex;
   flex-direction: column;
 }
@@ -60,11 +59,11 @@
   height: auto;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 768px) {
   .why-choose-us-container{
-    padding: 1rem;
+    padding: 3rem;
     gap: 1rem;
-    flex-direction: column-reverse;
+    flex-direction: column;
     .left-div{
       width: auto;
       .heading{
@@ -91,7 +90,7 @@
       }
     }
     .right-div{
-      width: auto;
+      width: fit-content;
     }
   }
 }
