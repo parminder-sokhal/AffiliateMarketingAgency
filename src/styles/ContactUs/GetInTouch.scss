@@ -1,10 +1,11 @@
 .get-in-touch-container {
   position: relative;
-  background-color: #f5f5f5;
+  // background-color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  min-height: 60vh;
+  scale: 0.8;
 
   .form-wrapper {
     position: relative;
@@ -80,23 +81,28 @@
     }
 
     p {
-      color: white;
       display: flex;
-
+      align-items: center; // ✅ vertically center icon and text
+      gap: 0.5rem; // ✅ consistent spacing instead of margin-right
       margin: 1.2rem 0;
+      color: white;
+      font-size: 0.95rem; // optional: consistent size across icons/text
 
       svg {
-        margin-right: 0.5rem;
+        flex-shrink: 0; // ✅ prevents icon from shrinking
+        width: 1.25rem; // ✅ optional: force consistent icon size
+        height: 1.25rem;
       }
     }
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 1024px) {
   .get-in-touch-container {
-    padding: 4rem;
+    padding: 2.5rem;
     position: relative;
     flex-wrap: wrap;
+    scale: 1;
 
     .form-wrapper {
       flex-direction: column;
@@ -104,9 +110,11 @@
     }
 
     .form-container {
-      width: 100%;
+      position: relative;
+      top: -2rem;
+      width: 60vw;
       height: auto;
-      padding: 1rem 3rem;
+      padding: 1rem 2rem;
       margin: 1rem;
       z-index: 0;
       form {
@@ -119,8 +127,9 @@
     }
     .contact-info {
       width: 75vw;
+      padding-inline: 1rem;
       height: auto;
-      padding-bottom: 1rem;
+      padding-bottom: 2rem;
       z-index: 0;
       left: unset;
       top: unset;

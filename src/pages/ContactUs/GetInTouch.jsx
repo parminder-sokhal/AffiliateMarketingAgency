@@ -28,10 +28,10 @@ const GetInTouch = () => {
   <div className="form-wrapper">
     <div className="contact-info">
       <h1>Contact Us</h1>
-      <p><PiMapPinFill size={30} />&nbsp;Phase 5 Sector 59, Sahibzada Ajit Singh Nagar, Punjab</p>
-      <p><IoMail size={20}/>&nbsp;info@linkpro.com</p>
-      <p><FaPhoneAlt size={20}/>&nbsp;+91 8409120206</p>
-      <p><MdOutlineAccessTime size={25}/>&nbsp;Mon - Fri 9:00 AM - 10:00 PM</p>
+      <p><PiMapPinFill size={30} />Phase 5 Sector 59, Sahibzada Ajit Singh Nagar, Punjab</p>
+      <p><IoMail size={20}/>info@linkpro.com</p>
+      <p><FaPhoneAlt size={20}/>+91 8409120206</p>
+      <p><MdOutlineAccessTime size={25}/>Mon - Fri 9:00 AM - 10:00 PM</p>
     </div>
 
     <div className="form-container">

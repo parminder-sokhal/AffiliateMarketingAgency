@@ -64,19 +64,19 @@ const Footer = () => {
               <li>
                 <PiMapPinFill />
                 <a href="/contact-us">
-                  &nbsp;Phase 5 Sector 59, Sahibzada Ajit
+                  Phase 5 Sector 59, Sahibzada Ajit
                   <br />
                   Singh Nagar, Punjab
                 </a>
               </li>
               <li>
                 <IoMail />
-                <a href="/contact-us">&nbsp; info@linkpro.com</a>
+                <a href="/contact-us"> info@linkpro.com</a>
               </li>
 
               <li>
                 <FaPhoneAlt />
-                <a href="/contact-us">&nbsp; +91 8409120206</a>
+                <a href="/contact-us">+91 8409120206</a>
               </li>
             </ul>
           </div>

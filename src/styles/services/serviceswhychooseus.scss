@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 40px;
+  padding: 2rem;
   gap: 40px;
 }
 
@@ -61,7 +61,7 @@
 
 @media (max-width: 768px) {
   .why-choose-us-container{
-    padding: 3rem;
+    padding: 2rem;
     gap: 1rem;
     flex-direction: column;
     .left-div{
@@ -91,6 +91,9 @@
     }
     .right-div{
       width: fit-content;
+    }
+    .image {
+      min-width: 40vh;
     }
   }
 }
