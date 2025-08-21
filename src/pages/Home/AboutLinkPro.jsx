@@ -14,7 +14,7 @@ const AboutLinkPro = () => {
           expertly managed — from strategy development and affiliate recruitment
           to performance tracking and ongoing optimization. We takes care of the details so you stay focused on managing your company.
         </h5>
-        <a href="/aboutus">
+        <a href="/about-us">
           <button className="know-more-btn">Know More</button>
         </a>
       </div>

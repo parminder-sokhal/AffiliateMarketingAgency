@@ -16,7 +16,7 @@ const BlogDetailPage = () => {
       const baseUrl = import.meta.env.BASE_URL || '/'
       const detailBlog = {
         id,
-        image: `${baseUrl}images/blogcard2.jpeg`,
+        image: `${baseUrl}images/blogcardimg.jpeg`,
         title: 'Program Design Strategies That Drive Affiliate Success',
         author: 'John Thomas',
         readTime: '3 min read',
@@ -93,7 +93,7 @@ const BlogDetailPage = () => {
             content:
               'Use advanced tracking tools to monitor performance and optimize your affiliate program in real-time.',
             points: ['Install tracking pixels.', 'Analyze conversion rates.'],
-            image: `${baseUrl}images/blogcard3.jpeg`,
+            image: `${baseUrl}images/blogcardimg1.jpeg`,
           },
           {
             title: 'Focusing on User Experience',
